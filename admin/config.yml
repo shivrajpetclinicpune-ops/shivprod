@@ -2,7 +2,7 @@ backend:
   name: github
   repo: shivrajpetclinicpune-ops/shivprod
   branch: main
-  base_url: https://cms-auth.shivrajpetclinicpune.workers.dev/
+  base_url: https://cms-auth.shivrajpetclinicpune.workers.dev
   auth_endpoint: auth
 
 media_folder: "images/uploads"
