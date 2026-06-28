@@ -1,9 +1,10 @@
 backend:
   name: github
-  repo: shivrajpetclinicpune-ops/shivfinal
+  repo: shivrajpetclinicpune-ops/shivprod
   branch: main
-  auth_type: pkce
-  app_id: REPLACE_WITH_GITHUB_OAUTH_CLIENT_ID
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  site_id: shivfinal.netlify.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
