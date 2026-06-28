@@ -1,9 +1,9 @@
 backend:
   name: github
-  repo: shivrajpetclinicpune-ops/shivprod
+  repo: shivrajpetclinicpune-ops/shivfinal
   branch: main
-  base_url: https://cms-auth.shivrajpetclinicpune.workers.dev
-  auth_endpoint: auth
+  auth_type: pkce
+  app_id: REPLACE_WITH_GITHUB_OAUTH_CLIENT_ID
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
