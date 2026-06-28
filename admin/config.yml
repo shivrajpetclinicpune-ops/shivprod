@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: shivrajpetclinicpune-ops/shivprod
+  branch: main
+  auth_type: pkce
+  app_id: REPLACE_WITH_GITHUB_OAUTH_CLIENT_ID
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string", hint: "This becomes the post headline" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true }
+      - label: "Category"
+        name: "cat"
+        widget: "select"
+        hint: "Choose the closest match — this controls which filter tab shows the post"
+        options:
+          - { label: "🐕 Dogs", value: "dog" }
+          - { label: "🐈 Cats", value: "cat" }
+          - { label: "🐰 Exotic Animals", value: "exotic" }
+          - { label: "🔬 Surgery & Lab", value: "surgery" }
+          - { label: "💉 Vaccination & Health", value: "health" }
+      - { label: "Summary (1-2 lines shown on blog homepage)", name: "summary", widget: "text" }
+      - { label: "Read Time (minutes)", name: "read", widget: "number", default: 3, value_type: "int" }
+      - { label: "Cover Image URL", name: "img", widget: "string", hint: "Paste an image link (e.g. from Google Drive, Imgur, or upload via the media button below)", required: false }
+      - label: "Full Article"
+        name: "body"
+        widget: "markdown"
+        hint: "Write the full article here. Use headings (##) for sections."
+
+  - name: "gallery"
+    label: "Gallery Photos"
+    folder: "images/gallery-data"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Caption", name: "title", widget: "string", hint: "Short description of the photo" }
+      - { label: "Photo", name: "image", widget: "image", hint: "Upload a photo from your phone or computer" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "🐕 Dogs", value: "dogs" }
+          - { label: "🐈 Cats", value: "cats" }
+          - { label: "🐰 Rabbits", value: "rabbits" }
+          - { label: "🐦 Birds", value: "birds" }
+          - { label: "🐢 Turtles & Reptiles", value: "reptiles" }
+          - { label: "🔬 Lab & Equipment", value: "lab" }
+          - { label: "🏥 Surgery", value: "surgery" }
+          - { label: "😊 Recovery & Happy Patients", value: "recovery" }
+          - { label: "👥 Team & Clinic", value: "team" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true }
