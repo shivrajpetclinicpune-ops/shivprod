@@ -2,7 +2,8 @@ backend:
   name: github
   repo: shivrajpetclinicpune-ops/shivprod
   branch: main
-  auth_type: implicit
+  auth_type: pkce
+  app_id: Ov23lih5RHpJdah8LSMB
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
@@ -31,7 +32,7 @@ collections:
           - { label: "💉 Vaccination & Health", value: "health" }
       - { label: "Summary (1-2 lines shown on blog homepage)", name: "summary", widget: "text" }
       - { label: "Read Time (minutes)", name: "read", widget: "number", default: 3, value_type: "int" }
-      - { label: "Cover Image URL", name: "img", widget: "string", hint: "Paste an image link (e.g. from Google Drive, Imgur, or upload via the media button below)", required: false }
+      - { label: "Cover Image URL", name: "img", widget: "string", hint: "Paste an image link or upload via the media button", required: false }
       - label: "Full Article"
         name: "body"
         widget: "markdown"
