@@ -1,11 +1,11 @@
 ---
-title: "High-Rise Syndrome in Cats — What Happens When Cats Fall from Heights"
-date: "2025-08-18"
-cat: "cat"
-catLabel: "🐈 Cats"
-img: "/images/gallery/dr-pritesh-cat.jpg"
-summary: "Cats can survive falls from great heights — but not without injury. Learn what high-rise syndrome is, why cats fall, what injuries result, and what to do if your cat falls from a balcony in Pune."
-read: "4"
+title: What Happens When Cats Fall from Heights
+date: 2025-08-18
+cat: cat
+summary: Cats can survive falls from great heights — but not without injury. Learn what high-rise syndrome is, why cats fall, what injuries result, and what to do if your cat falls from a balcony in Pune.
+read: 4
+img: /images/gallery/dr-pritesh-cat.jpg
+catLabel: 🐈 Cats
 ---
 
 Pune's growing skyline means more cats are living in high-rise apartments with access to balconies and windows. At **Shivraj Pet Clinic & Lab**, we treat high-rise syndrome cases regularly — and the injuries, while survivable, are often serious and require immediate care.
