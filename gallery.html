@@ -137,8 +137,18 @@ nav.scrolled{box-shadow:var(--sh)}
 .cta-band p{opacity:.85;margin-bottom:24px}
 .cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 
-footer{background:#0a1628;color:rgba(255,255,255,.6);padding:40px 24px 24px;text-align:center;font-size:.82rem}
-footer strong{color:#fff;font-family:'Instrument Serif',serif}
+footer{background:#0a1628;color:rgba(255,255,255,.6);padding:48px 24px 28px;font-size:.82rem}
+footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;display:block;margin-bottom:10px}
+.footer-inner{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;text-align:left;max-width:960px;margin:0 auto}
+.footer-brand p{margin:0;line-height:1.7}
+.footer-links ul{list-style:none;padding:0;margin:8px 0 0}
+.footer-links li{margin-bottom:6px}
+.footer-links a{color:rgba(255,255,255,.6);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:#fff}
+@media(max-width:768px){
+  .footer-inner{grid-template-columns:1fr;gap:28px;text-align:center}
+  .footer-links ul{margin:6px 0}
+}
 
 /* Gallery specific */
 .page-hero{background:linear-gradient(140deg,#163e57 0%,#1e5f8c 45%,#2f8fc7 100%);padding:130px 0 60px;text-align:center;color:#fff}
