@@ -9,7 +9,7 @@
 <meta name="description" content="Pet health articles by Dr. Pritesh Vidhate. Dog, cat, bird, rabbit and exotic pet care tips from Shivraj Pet Clinic, Pimple Nilakh Pune.">
 <meta property="og:title" content="The Paw-spective | Shivraj Pet Clinic Pune">
 <meta property="og:description" content="Expert veterinary articles from Dr. Pritesh Vidhate. Dogs, cats, rabbits, birds, exotic animals.">
-<meta property="og:image" content="https://www.shivrajpetclinicpune.com/images/gallery/dr-pritesh-turtle.jpg">
+<meta property="og:image" content="https://www.shivrajpetclinicpune.com/images/gallery/dr-pritesh-turtle.jpg">>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -400,7 +400,7 @@ function boot(remoteData) {
   if (hash && POSTS[hash]) openPost(hash);
 }
 
-fetch('posts.json', { cache: 'no-store' })
+fetch('/posts.json', { cache: 'no-store' })
   .then(function(res) { return res.ok ? res.json() : null; })
   .then(function(data) { boot(data); })
   .catch(function() { boot(null); });
