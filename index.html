@@ -97,7 +97,7 @@ nav.scrolled{box-shadow:var(--sh)}
 #hero h1 em{font-style:italic;color:#a9d6f5}
 #hero .hero-desc{font-size:1.05rem;color:rgba(255,255,255,.82);max-width:500px;margin-bottom:34px;animation:fadeUp .6s .16s ease both}
 #hero .hero-btns{display:flex;gap:12px;flex-wrap:wrap;animation:fadeUp .6s .24s ease both}
-@media(max-width:768px){#hero .hero-btns{justify-content:flex-start}}
+@media(max-width:768px){#hero .hero-btns{justify-content:center}#hero h1,#hero .hero-desc,#hero .hero-badge{text-align:center}#hero .hero-desc{margin-left:auto;margin-right:auto}}
 #hero .hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,.12);border-radius:var(--r-lg);overflow:hidden;margin-top:48px;animation:fadeUp .6s .32s ease both}
 .h-stat{background:rgba(0,0,0,.08);padding:20px 16px;text-align:center}
 .h-stat strong{display:block;font-family:'Instrument Serif',serif;font-size:2rem;color:#a9d6f5;line-height:1}
@@ -133,15 +133,15 @@ nav.scrolled{box-shadow:var(--sh)}
 /* ── SERVICES ── */
 #services{background:#fff}
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
-.svc-card{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:28px 24px;transition:all .3s;position:relative;overflow:hidden;cursor:default}
+.svc-card{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:28px 24px;transition:all .3s;position:relative;overflow:hidden;cursor:default;display:flex;flex-direction:column}
 .svc-card::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:var(--green);transform:scaleX(0);transition:transform .3s;transform-origin:left}
 .svc-card:hover{box-shadow:var(--sh-lg);transform:translateY(-4px);border-color:transparent}
 .svc-card:hover::after{transform:scaleX(1)}
-.svc-icon{width:52px;height:52px;background:var(--green-lite);border-radius:13px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;transition:background .3s}
+.svc-icon{width:46px;height:46px;min-width:46px;background:var(--green-lite);border-radius:11px;display:flex;align-items:center;justify-content:center;transition:background .3s;margin-right:14px}
 .svc-icon svg{width:24px;height:24px;stroke:var(--green)}
 .svc-card:hover .svc-icon{background:var(--green)}
 .svc-card:hover .svc-icon svg{stroke:#fff}
-.svc-card h3{font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:8px}
+.svc-icon-row{display:flex;align-items:center;margin-bottom:14px}.svc-card h3{font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0;line-height:1.3}
 .svc-card p{font-size:.85rem;color:var(--muted);line-height:1.6}
 .svc-link{display:inline-flex;align-items:center;gap:4px;font-size:.78rem;font-weight:600;color:var(--green);margin-top:14px;text-decoration:none}
 .svc-link svg{width:13px;height:13px;stroke:var(--green);transition:transform .2s}
@@ -366,7 +366,7 @@ footer ul a:hover{color:var(--green-mid)}
 
 /* ── RESPONSIVE ── */
 @media(max-width:1024px){
-  #hero .hero-grid{grid-template-columns:1fr;gap:36px}
+  #hero .hero-grid{grid-template-columns:1fr;gap:36px;text-align:center}  #hero .hero-btns{justify-content:center}
   #hero .hero-card{display:none}
   .svc-grid{grid-template-columns:1fr 1fr}
   .footer-grid{grid-template-columns:1fr 1fr}
@@ -612,15 +612,15 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
         <h1>Two Generations.<br>One Mission — <em>Healthier, Happier Pets.</em></h1>
         <p class="hero-desc">A leading multispecies veterinary clinic in PCMC delivering diagnostics, treatment & surgery under one roof. From loyal dogs to exotic turtles — every animal, every need, expert care.</p>
         <div class="hero-btns">
-          <a href="tel:+917756965169" class="btn btn-white" style="background:#fff;color:var(--green)">
+          <a href="tel:+917756965169" class="btn btn-white" style="background:#fff;color:var(--green);font-weight:700">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
             Call Now
           </a>
-          <a href="https://wa.me/917756965169?text=Hi%20Shivraj%20Pet%20Clinic%2C%20I%20need%20an%20appointment" class="btn btn-outline" target="_blank">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <a href="https://wa.me/917756965169?text=Hi%20Shivraj%20Pet%20Clinic%2C%20I%20need%20an%20appointment" class="btn" style="background:#25d366;color:#fff;font-weight:700" target="_blank">
+            <svg width="16" height="16" viewBox="0 0 32 32" fill="#fff"><path d="M16 0C7.164 0 0 7.163 0 16c0 2.833.737 5.486 2.028 7.793L0 32l8.418-2.005A15.934 15.934 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.005 22.452c-.334.94-1.942 1.795-2.683 1.91-.684.106-1.545.15-2.495-.157-.575-.186-1.313-.434-2.252-.851-3.963-1.71-6.553-5.696-6.752-5.96-.197-.262-1.614-2.147-1.614-4.095s1.02-2.906 1.382-3.304c.362-.398.789-.497 1.052-.497.263 0 .526.002.757.014.243.012.569-.092.89.679.334.8 1.136 2.748 1.237 2.946.1.197.165.428.033.69-.134.263-.2.428-.398.66-.197.231-.415.516-.593.693-.197.197-.403.41-.173.804.23.394 1.021 1.685 2.192 2.729 1.505 1.342 2.774 1.758 3.167 1.956.394.197.624.165.856-.1.23-.263.99-1.154 1.254-1.55.262-.395.526-.33.889-.198.362.132 2.308 1.088 2.703 1.286.394.197.657.296.756.46.1.165.1.956-.233 1.895z"/></svg>
             WhatsApp
           </a>
-          <a href="#book" class="btn btn-outline">
+          <a href="#book" class="btn" style="background:rgba(255,255,255,.14);color:#fff;border:2px solid rgba(255,255,255,.55);font-weight:600">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
             Book Appointment
           </a>
@@ -677,7 +677,7 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
   <div class="qc-inner">
     <a href="tel:+917756965169" class="qc-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3 15.69a19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 1.91 5H5a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L6.09 12.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 20 20h2.08a2 2 0 0 1 2 2.18z"/></svg>077569 65169</a>
     <a href="https://wa.me/917756965169" class="qc-item" target="_blank"><svg width="16" height="16" viewBox="0 0 32 32" fill="currentColor" style="flex-shrink:0"><path d="M16 0C7.164 0 0 7.163 0 16c0 2.833.737 5.486 2.028 7.793L0 32l8.418-2.005A15.934 15.934 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.005 22.452c-.334.94-1.942 1.795-2.683 1.91-.684.106-1.545.15-2.495-.157-.575-.186-1.313-.434-2.252-.851-3.963-1.71-6.553-5.696-6.752-5.96-.197-.262-1.614-2.147-1.614-4.095s1.02-2.906 1.382-3.304c.362-.398.789-.497 1.052-.497.263 0 .526.002.757.014.243.012.569-.092.89.679.334.8 1.136 2.748 1.237 2.946.1.197.165.428.033.69-.134.263-.2.428-.398.66-.197.231-.415.516-.593.693-.197.197-.403.41-.173.804.23.394 1.021 1.685 2.192 2.729 1.505 1.342 2.774 1.758 3.167 1.956.394.197.624.165.856-.1.23-.263.99-1.154 1.254-1.55.262-.395.526-.33.889-.198.362.132 2.308 1.088 2.703 1.286.394.197.657.296.756.46.1.165.1.956-.233 1.895z"/></svg>WhatsApp</a>
-    <a href="https://www.google.com/maps/dir/?api=1&destination=Shivraj+Pet+Clinic+%26+lab&destination_place_id=ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank" class="qc-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" style="flex-shrink:0"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Shop B-4, Alpine Ave, Pimple Nilakh, Pune 411027</a>
+    <a href="https://www.google.com/maps/place/?q=place_id:ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank" class="qc-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" style="flex-shrink:0"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Shop B-4, Alpine Ave, Pimple Nilakh, Pune 411027</a>
     <div class="qc-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Mon–Tue & Thu–Sun: 10:30AM–8:30PM (Wednesday Closed)</div>
     <a href="https://www.instagram.com/shivraj_petclinic_pune" class="qc-item" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke-width="2" style="flex-shrink:0"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>@shivraj_petclinic_pune</a>
   </div>
@@ -692,50 +692,43 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
     <div class="svc-grid">
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M18 2l4 4"/><path d="m17 7 1-5"/><path d="m3 21 9-9"/><path d="m14.5 4.5-10 10 3 3 1.5 1.5 10-10-4.5-4.5z"/><path d="m10 10 1.5 1.5"/><path d="m12.5 7.5 1.5 1.5"/></svg></div>
-        <h3>Preventive Medicine</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M18 2l4 4"/><path d="m17 7 1-5"/><path d="m3 21 9-9"/><path d="m14.5 4.5-10 10 3 3 1.5 1.5 10-10-4.5-4.5z"/><path d="m10 10 1.5 1.5"/><path d="m12.5 7.5 1.5 1.5"/></svg></div><h3>Preventive Medicine</h3></div>
         <p>Vaccinations, deworming, parasite prevention & health screenings designed for long, healthy lives.</p>
         <a href="services/preventive-medicine.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="6.5" cy="15.5" r="2"/><path d="M12 21a5 5 0 0 0 5-5c0-3-2.5-5.5-5-8-2.5 2.5-5 5-5 8a5 5 0 0 0 5 5z"/></svg></div>
-        <h3>Exotic Animal Centre</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="4" cy="8" r="2"/><circle cx="6.5" cy="15.5" r="2"/><path d="M12 21a5 5 0 0 0 5-5c0-3-2.5-5.5-5-8-2.5 2.5-5 5-5 8a5 5 0 0 0 5 5z"/></svg></div><h3>Exotic Animal Centre</h3></div>
         <p>Specialized care for birds, rabbits, turtles, guinea pigs, hamsters & reptiles. Rare expertise in PCMC.</p>
         <a href="services/exotic-animal-centre.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M6 18h8"/><path d="M3 21h18"/><path d="M14 21v-3a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v3"/><path d="M9 3h1v9H9z"/><path d="m13.196 6.196-1.414 1.414 3.182 3.182 1.414-1.414-3.182-3.182z"/><path d="M16 9c1.1 0 2 .9 2 2s-.9 2-2 2"/></svg></div>
-        <h3>In-House Pathology Lab</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M6 18h8"/><path d="M3 21h18"/><path d="M14 21v-3a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v3"/><path d="M9 3h1v9H9z"/><path d="m13.196 6.196-1.414 1.414 3.182 3.182 1.414-1.414-3.182-3.182z"/><path d="M16 9c1.1 0 2 .9 2 2s-.9 2-2 2"/></svg></div><h3>In-House Pathology Lab</h3></div>
         <p>CBC, biochemistry, urinalysis — all processed on-site. Same-visit reports mean faster treatment starts.</p>
         <a href="services/pathology-lab.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div>
-        <h3>Clinical Medicine</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div><h3>Clinical Medicine</h3></div>
         <p>Expert consultation for all health conditions — thorough examination, accurate diagnosis, clear treatment plans.</p>
         <a href="services/clinical-medicine.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="2" width="18" height="20" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/><path d="M9 7h1m4 0h1M9 17h1m4 0h1"/><path d="M7 4h1m8 0h1M7 20h1m8 0h1"/></svg></div>
-        <h3>Digital X-Ray</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="2" width="18" height="20" rx="2"/><path d="M9 12h6"/><path d="M12 9v6"/><path d="M9 7h1m4 0h1M9 17h1m4 0h1"/><path d="M7 4h1m8 0h1M7 20h1m8 0h1"/></svg></div><h3>Digital X-Ray</h3></div>
         <p>High-resolution digital radiography for bone, chest and abdominal imaging. Instant results on-site.</p>
         <a href="services/digital-xray.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4.5 12.5c0-4.14 3.36-7.5 7.5-7.5s7.5 3.36 7.5 7.5"/><path d="M7 12.5a5 5 0 0 1 10 0"/><path d="M9.5 12.5a2.5 2.5 0 0 1 5 0"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M9 21h6"/></svg></div>
-        <h3>In-House Sonography</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4.5 12.5c0-4.14 3.36-7.5 7.5-7.5s7.5 3.36 7.5 7.5"/><path d="M7 12.5a5 5 0 0 1 10 0"/><path d="M9.5 12.5a2.5 2.5 0 0 1 5 0"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M9 21h6"/></svg></div><h3>In-House Sonography</h3></div>
         <p>Ultrasound imaging for pregnancy monitoring, organ assessment and soft-tissue diagnosis.</p>
         <a href="services/sonography.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card" style="grid-column:span 2">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20 7.5c0 2.76-5 10.5-8 10.5S4 10.26 4 7.5a8 8 0 0 1 16 0z"/><path d="M12 18v3"/><path d="M9 21h6"/><path d="M8 7.5c0 2.2 1.8 4 4 4s4-1.8 4-4"/><line x1="12" y1="3" x2="12" y2="7.5"/></svg></div>
-        <h3>Veterinary Surgery</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20 7.5c0 2.76-5 10.5-8 10.5S4 10.26 4 7.5a8 8 0 0 1 16 0z"/><path d="M12 18v3"/><path d="M9 21h6"/><path d="M8 7.5c0 2.2 1.8 4 4 4s4-1.8 4-4"/><line x1="12" y1="3" x2="12" y2="7.5"/></svg></div><h3>Veterinary Surgery</h3></div>
         <p>Fully equipped surgical suite with gas anaesthesia for elective &amp; emergency procedures.</p>
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin:14px 0">
           <a href="services/dog-neutering.html" style="background:var(--green-lite);color:var(--green);padding:6px 13px;border-radius:50px;font-size:.78rem;font-weight:600;text-decoration:none">Dog Neutering</a>
@@ -749,15 +742,13 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="3" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="21" y2="12"/><path d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M3 12h2m14 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div>
-        <h3>Advanced Imaging</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="3" y1="12" x2="8" y2="12"/><line x1="16" y1="12" x2="21" y2="12"/><path d="M12 3v2m0 14v2M4.22 4.22l1.42 1.42m12.72 12.72 1.42 1.42M3 12h2m14 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></div><h3>Advanced Imaging</h3></div>
         <p>CT and MRI arranged through trusted referral facilities when required for complex or neurological cases.</p>
         <a href="services/ct-scan-mri.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
 
       <div class="svc-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg></div>
-        <h3>Vet Pharmacy</h3>
+        <div class="svc-icon-row"><div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/><path d="m8.5 8.5 7 7"/></svg></div><h3>Vet Pharmacy</h3></div>
         <p>Complete in-house pharmacy stocked with all essential medicines — treatment starts immediately after diagnosis.</p>
         <a href="services/vet-pharmacy.html" class="svc-link">Learn more <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
       </div>
@@ -869,7 +860,7 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
 <section style="background:#fff;padding:64px 0">
   <div class="container">
     <div class="tag" style="font-size:.72rem;letter-spacing:.08em">MEET THE DOCTORS</div>
-    <h2 class="ttl">Your Pet's Care Starts With Our Doctors</h2>
+    <h2 class="ttl" style="font-size:clamp(1.4rem,2.8vw,2rem)">Your Pet's Care Starts With Our Doctors</h2>
     <p class="sub" style="margin-bottom:36px">A father-son team with 33+ combined years of veterinary excellence — the same doctors, every visit.</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px">
       <a href="gallery.html#team" style="background:var(--green-xlt);border-radius:16px;overflow:hidden;border:1px solid var(--line);display:block;text-decoration:none;transition:transform .25s,box-shadow .25s;cursor:pointer" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 28px rgba(30,95,140,.15)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
@@ -1003,7 +994,7 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
     <h2 class="ttl">Visit The Clinic</h2>
     <div class="loc-grid">
       <div class="loc-info">
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Shivraj+Pet+Clinic+%26+lab&destination_place_id=ChIJ7-6uGT25wjsRlqwLOgoUQbs" class="info-card" target="_blank">
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJ7-6uGT25wjsRlqwLOgoUQbs" class="info-card" target="_blank">
           <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
           <div><div class="info-label">Address</div><div class="info-val">Shop B-4, Alpine Avenue, Aundh-Wakad Rd, Vishal Nagar, Pimple Nilakh, Pimpri-Chinchwad 411027</div></div>
         </a>
@@ -1019,7 +1010,7 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
           <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
           <div><div class="info-label">Hours</div><div class="info-val">Mon–Tue, Thu–Sun: 10:30AM–1:30PM & 3–8:30PM<br><span style="color:#ef4444">Wednesday: Closed</span></div></div>
         </div>
-        <a href="https://www.google.com/maps/dir/?api=1&destination=Shivraj+Pet+Clinic+%26+lab&destination_place_id=ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank" class="btn btn-green" style="margin-top:6px">
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank" class="btn btn-green" style="margin-top:6px">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
           Get Directions on Google Maps
         </a>
@@ -1160,7 +1151,7 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
         <ul>
           <li><a href="tel:+917756965169"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>+91 77569 65169</a></li>
           <li><a href="https://wa.me/917756965169" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>WhatsApp Us</a></li>
-          <li><a href="https://www.google.com/maps/dir/?api=1&destination=Shivraj+Pet+Clinic+%26+lab&destination_place_id=ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>Get Directions</a></li>
+          <li><a href="https://www.google.com/maps/place/?q=place_id:ChIJ7-6uGT25wjsRlqwLOgoUQbs" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>Get Directions</a></li>
           <li><a href="https://www.practo.com/pune/clinic/shivraj-pet-clinic-and-lab-pimple-nilakh" target="_blank"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>Book on Practo</a></li>
           <li><a href="blog.html"><svg width="16" height="16" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>The Paw-spective Blog</a></li>
         </ul>
