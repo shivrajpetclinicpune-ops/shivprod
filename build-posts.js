@@ -1,6 +1,6 @@
 // build-posts.js
 // Reads all markdown files in _posts/, converts to posts.json
-// Runs automatically on every Netlify build (see netlify.toml)
+// Run this before deploying (Cloudflare Pages build command: npm run build)
 
 const fs = require('fs');
 const path = require('path');
@@ -74,6 +74,30 @@ function main() {
   fs.writeFileSync(OUT_FILE, JSON.stringify(posts, null, 2));
   console.log(`Built posts.json with ${sorted.length} posts:`);
   sorted.forEach(p => console.log(`  - ${p.dateISO}  ${p.slug}`));
+
+  // Keep blog.html's FALLBACK_POSTS in sync automatically — this used to be
+  // hand-maintained and silently went stale (10 posts vs 30+ actual).
+  // Now it's regenerated from the same source of truth on every build.
+  const BLOG_HTML = path.join(__dirname, 'blog.html');
+  if (fs.existsSync(BLOG_HTML)) {
+    let blogHtml = fs.readFileSync(BLOG_HTML, 'utf8');
+    const marker = 'var FALLBACK_POSTS = ';
+    const start = blogHtml.indexOf(marker);
+    // NOTE: do not use indexOf(';') to find the end of this block — post content
+    // frequently contains semicolons (e.g. "80–95%; without treatment...") which
+    // truncates the object mid-string and corrupts the file. Anchor on the next
+    // known statement instead, which is stable regardless of post content.
+    const resumeAnchor = 'var POSTS = {};';
+    const resumeIdx = blogHtml.indexOf(resumeAnchor, start);
+    if (start !== -1 && resumeIdx !== -1) {
+      const newBlock = marker + JSON.stringify(posts) + ';\n';
+      blogHtml = blogHtml.slice(0, start) + newBlock + blogHtml.slice(resumeIdx);
+      fs.writeFileSync(BLOG_HTML, blogHtml);
+      console.log(`Synced FALLBACK_POSTS in blog.html with all ${sorted.length} posts.`);
+    } else {
+      console.log('WARNING: FALLBACK_POSTS marker or resume anchor not found in blog.html — skipped sync.');
+    }
+  }
 }
 
 main();
