@@ -169,7 +169,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </div>
 
 <article class="post-page-wrap">
-  <nav class="breadcrumb-nav"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / ${escapeHtml(p.title)}</nav>
+  <div class="breadcrumb-nav"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / ${escapeHtml(p.title)}</div>
   <div class="post-cat-tag">${p.catLabel}</div>
   <h1 class="post-h1">${escapeHtml(p.title)}</h1>
   <div class="post-meta-full"><span>${p.date}</span><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
