@@ -3,7 +3,7 @@ title: "Home Cooked Food for Dogs — What Is Safe, What to Avoid, and How to Ba
 date: "2025-09-22"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-1.jpg"
+img: "https://images.pexels.com/photos/19782029/pexels-photo-19782029.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Home cooked food is popular among Indian pet parents, but unbalanced diets cause nutritional deficiencies over time. Learn what to include, what to avoid, and how to balance home cooking for dogs."
 read: "5"
 ---

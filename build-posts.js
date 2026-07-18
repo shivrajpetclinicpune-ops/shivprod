@@ -128,7 +128,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
 .related-card{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:box-shadow .2s;background:#fff}
 .related-card:hover{box-shadow:var(--sh)}
-.related-card img{width:100%;height:110px;object-fit:cover;display:block}
+.related-card img{width:100%;height:110px;object-fit:cover;object-position:center 20%;display:block}
 .related-card .rc-body{padding:12px 14px}
 .related-card h4{font-size:.85rem;line-height:1.35;color:var(--ink);font-weight:600}
 .back-link{display:inline-block;margin-top:8px;color:var(--teal);font-weight:600;text-decoration:none;font-size:.88rem}

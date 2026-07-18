@@ -3,7 +3,7 @@ title: "Noise Phobia in Pets — Managing Thunder and Firecracker Anxiety in Dog
 date: "2025-08-27"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-2.jpg"
+img: "https://images.pexels.com/photos/4423596/pexels-photo-4423596.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Diwali firecrackers and monsoon thunder cause real distress in pets. Learn how to recognise and manage noise phobia in dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic Pune."
 read: "4"
 ---

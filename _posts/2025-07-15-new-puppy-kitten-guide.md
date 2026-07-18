@@ -3,7 +3,7 @@ title: "New Puppy and Kitten Guide — First 6 Months Care Tips from Shivraj Pet
 date: "2025-07-15"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-1.jpg"
+img: "https://images.pexels.com/photos/755834/pexels-photo-755834.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Just brought home a puppy or kitten? This complete guide covers vaccination schedule, deworming, feeding, socialisation, and first vet visit — from Dr. Pritesh Vidhate, Pimple Nilakh Pune."
 read: "5"
 ---

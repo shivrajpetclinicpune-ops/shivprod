@@ -3,7 +3,7 @@ title: "Care of Pet Birds — Common Mistakes to Avoid"
 date: "2025-07-15"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "/images/gallery/dr-shivaji-parrot.jpg"
+img: "https://images.pexels.com/photos/22813870/pexels-photo-22813870.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Pet birds bring joy and intelligence into our homes — but caring for them properly requires more than a cage and seeds. Learn the top bird care mistakes to avoid from Shivraj Pet Clinic, Pune."
 read: "4"
 ---
