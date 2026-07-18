@@ -3,7 +3,7 @@ title: "Exotic Pet Care in Pune — Trusted Veterinary Support at Shivraj Pet Cl
 date: "2025-07-18"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "/images/gallery/exotic-1.jpg"
+img: "/images/gallery/exotic-2.jpg"
 summary: "Looking for a rabbit, bird, or reptile vet in Pune? Learn how Shivraj Pet Clinic offers expert care for exotic pets including parrots, turtles, hamsters, and more in Pimple Nilakh."
 read: "4"
 ---
