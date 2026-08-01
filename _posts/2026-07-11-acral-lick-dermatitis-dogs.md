@@ -9,7 +9,7 @@ read: "4"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>If your dog keeps returning to the same spot on a paw or leg to lick, chew, or gnaw — sometimes for hours a day — you may be watching the early stages of <strong>acral lick dermatitis</strong>, also called a lick granuloma. At <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong>, this is one of the more frustrating conditions we treat, because the licking itself becomes part of the problem, not just a symptom of it.</p>
+<p>If your dog keeps returning to the same spot on a paw or leg to lick, chew, or gnaw — sometimes for hours a day — you may be watching the early stages of <strong>acral lick dermatitis</strong>, also called a lick granuloma. At <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong>, this is one of the more frustrating conditions we treat, because the licking itself becomes part of the problem, not just a symptom of it.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -79,4 +79,4 @@ read: "4"
 
 <p>If allergies are suspected, our <a href="services/clinical-medicine.html" class="internal-link">clinical medicine</a> team can help identify triggers. For dogs with joint-related licking, read about <a href="javascript:void(0)" onclick="openPost('hip-dysplasia-dogs')" class="internal-link">hip dysplasia and joint pain in dogs</a>.</p>
 
-<p>Visit Shivraj Pet Clinic, Pimple Nilakh, Pune if your dog is excessively licking its paws — <a href="index.html#book" class="internal-link">book a consultation</a> or call 077569 65169.</p>
+<p>Visit Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune if your dog is excessively licking its paws — <a href="index.html#book" class="internal-link">book a consultation</a> or call 077569 65169.</p>

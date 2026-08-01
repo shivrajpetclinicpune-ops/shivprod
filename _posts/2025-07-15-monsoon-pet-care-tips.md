@@ -3,7 +3,7 @@ title: "Monsoon Pet Care Tips for Dogs and Cats in Pune"
 date: "2025-07-15"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-1.jpg"
+img: "https://images.pexels.com/photos/8499252/pexels-photo-8499252.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Monsoon brings ticks, fungal infections, and leptospirosis risks for Pune pets. Here are 8 essential monsoon care tips for dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic."
 read: "4"
 ---
@@ -46,4 +46,4 @@ Thunder and lightning cause genuine fear in many dogs. Create a safe, enclosed s
 
 With reduced outdoor exercise during heavy rains, slightly reduce caloric intake to prevent weight gain. Increase indoor play and mental stimulation — puzzle feeders, hide-and-seek games, and training sessions are excellent during monsoon confinement.
 
-If your pet develops vomiting, diarrhoea, lethargy, or fever during monsoon season, do not wait. Call **077569 65169** — we are open Mon–Tue and Thu–Sun at Pimple Nilakh.
+If your pet develops vomiting, diarrhoea, lethargy, or fever during monsoon season, do not wait. Call **077569 65169** — we are open Mon–Tue and Thu–Sun at our Wakad & Pimple Saudagar area clinic.

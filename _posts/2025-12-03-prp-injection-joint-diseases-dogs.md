@@ -49,4 +49,4 @@ Mild soreness at the injection site for 2–3 days is normal — this is part of
 
 PRP is most effective as part of a comprehensive arthritis management programme that includes weight control, appropriate exercise, and physiotherapy.
 
-To discuss whether PRP therapy is appropriate for your dog's joint condition, call **077569 65169** and book a consultation at Shivraj Pet Clinic, Pimple Nilakh.
+To discuss whether PRP therapy is appropriate for your dog's joint condition, call **077569 65169** and book a consultation at Shivraj Pet Clinic, Wakad & Pimple Saudagar.

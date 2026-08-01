@@ -4,7 +4,7 @@ date: "2025-07-16"
 cat: "dog"
 catLabel: "🐕 Dogs"
 img: "/images/gallery/dog-2.jpg"
-summary: "Hip dysplasia causes chronic pain and mobility problems in dogs. Learn the signs, breeds at risk, diagnosis, and treatment options available at Shivraj Pet Clinic, Pimple Nilakh Pune."
+summary: "Hip dysplasia causes chronic pain and mobility problems in dogs. Learn the signs, breeds at risk, diagnosis, and treatment options available at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "5"
 ---
 

@@ -4,12 +4,12 @@ date: "2026-07-11"
 cat: "exotic"
 catLabel: "🦜 Exotic Animals"
 img: "https://images.pexels.com/photos/1893158/pexels-photo-1893158.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Can't tell if your bird is male or female? Feather DNA sexing gives 99%+ accurate results in 7-10 days without a blood draw. Learn how the test works at Shivraj Pet Clinic, Pimple Nilakh Pune."
+summary: "Can't tell if your bird is male or female? Feather DNA sexing gives 99%+ accurate results in 7-10 days without a blood draw. Learn how the test works at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "5"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Most parrot species — African Greys, budgies, cockatiels, macaws, and lovebirds among them — are <strong>monomorphic</strong>, meaning males and females look identical to the naked eye. If you've ever guessed your bird's gender from behaviour alone and been wrong, you're not alone. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Pimple Nilakh, Pune</strong>, feather DNA sexing is the test we recommend whenever certainty actually matters — breeding, pairing, or simply settling the debate at home.</p>
+<p>Most parrot species — African Greys, budgies, cockatiels, macaws, and lovebirds among them — are <strong>monomorphic</strong>, meaning males and females look identical to the naked eye. If you've ever guessed your bird's gender from behaviour alone and been wrong, you're not alone. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, feather DNA sexing is the test we recommend whenever certainty actually matters — breeding, pairing, or simply settling the debate at home.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -73,4 +73,4 @@ read: "5"
 
 <p>Need reliable exotic bird care beyond DNA sexing? Explore our <a href="services/exotic-animal-centre.html" class="internal-link">Exotic Animal Centre</a> services, or read our <a href="javascript:void(0)" onclick="openPost('diet-guide-budgies-cockatiels-parrots')" class="internal-link">complete bird diet guide</a> for everyday nutrition.</p>
 
-<p>Need expert advice? <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic & Exotic Animal Centre, Pimple Nilakh, Pune — serving Vishal Nagar, Wakad, Aundh, and Baner.</p>
+<p>Need expert advice? <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic & Exotic Animal Centre, Wakad & Pimple Saudagar, Pune — serving Vishal Nagar, Wakad, Aundh, and Baner.</p>

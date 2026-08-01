@@ -204,6 +204,22 @@ window.addEventListener('scroll', function() {
 function generatePostPages(posts) {
   const BLOG_DIR = path.join(__dirname, 'blog');
   if (!fs.existsSync(BLOG_DIR)) fs.mkdirSync(BLOG_DIR);
+
+  // Remove any previously-generated page whose source post no longer exists.
+  // Without this, a deleted/merged post's old .html file stays live on the
+  // site indefinitely — stale, unlinked, but still crawlable.
+  const validSlugs = new Set(Object.keys(posts));
+  const existing = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.html'));
+  let removed = 0;
+  existing.forEach(f => {
+    const slug = f.replace(/\.html$/, '');
+    if (!validSlugs.has(slug)) {
+      fs.unlinkSync(path.join(BLOG_DIR, f));
+      removed++;
+    }
+  });
+  if (removed) console.log(`Removed ${removed} orphaned blog page(s) with no matching post.`);
+
   let count = 0;
   Object.keys(posts).forEach(slug => {
     const html = renderPostPage(slug, posts[slug], posts);

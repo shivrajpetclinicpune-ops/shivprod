@@ -9,7 +9,7 @@ read: "4"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Every dog and cat sheds — it's a normal part of the hair growth cycle. But when shedding turns into patchy bald spots, thinning fur, or hair loss accompanied by itching and irritated skin, it's usually a sign of an underlying issue. At <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong>, hair fall is one of the most common reasons pet parents bring their dogs and cats in for a skin consultation.</p>
+<p>Every dog and cat sheds — it's a normal part of the hair growth cycle. But when shedding turns into patchy bald spots, thinning fur, or hair loss accompanied by itching and irritated skin, it's usually a sign of an underlying issue. At <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong>, hair fall is one of the most common reasons pet parents bring their dogs and cats in for a skin consultation.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -76,4 +76,4 @@ read: "4"
 
 <p>If your pet's hair loss comes with persistent itching, our <a href="services/clinical-medicine.html" class="internal-link">clinical medicine team</a> can help identify the cause. For dogs specifically prone to allergy-driven skin issues, see our guide on <a href="javascript:void(0)" onclick="openPost('food-allergies-dogs')" class="internal-link">food allergies in dogs</a>.</p>
 
-<p>Healthy skin starts with early diagnosis. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune if your pet's shedding becomes excessive.</p>
+<p>Healthy skin starts with early diagnosis. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune if your pet's shedding becomes excessive.</p>

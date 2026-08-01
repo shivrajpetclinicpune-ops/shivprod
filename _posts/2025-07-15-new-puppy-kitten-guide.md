@@ -4,7 +4,7 @@ date: "2025-07-15"
 cat: "dog"
 catLabel: "🐕 Dogs"
 img: "https://images.pexels.com/photos/755834/pexels-photo-755834.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Just brought home a puppy or kitten? This complete guide covers vaccination schedule, deworming, feeding, socialisation, and first vet visit — from Dr. Pritesh Vidhate, Pimple Nilakh Pune."
+summary: "Just brought home a puppy or kitten? This complete guide covers vaccination schedule, deworming, feeding, socialisation, and first vet visit — from Dr. Pritesh Vidhate, serving Wakad & Pimple Saudagar, Pune."
 read: "5"
 ---
 
@@ -64,4 +64,4 @@ Between 3 and 12 weeks, puppies are in the critical socialisation window. Expose
 
 We recommend spaying female dogs and cats before their first heat (around 5–6 months) to prevent uterine infections (pyometra) and mammary cancer. Male dogs and cats benefit from neutering at 5–6 months to reduce roaming, aggression, and reproductive cancers.
 
-Call **077569 65169** to book your new puppy or kitten's first appointment at Shivraj Pet Clinic, Pimple Nilakh.
+Call **077569 65169** to book your new puppy or kitten's first appointment at Shivraj Pet Clinic, Wakad & Pimple Saudagar.

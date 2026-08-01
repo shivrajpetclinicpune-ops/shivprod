@@ -8,7 +8,7 @@ summary: "Pet birds bring joy and intelligence into our homes — but caring for
 read: "4"
 ---
 
-Pet birds bring joy, colour, and intelligence into our homes — but caring for them properly requires more than just a cage and seeds. At **Shivraj Pet Clinic & Lab in Pimple Nilakh, Pune**, we treat many birds suffering from entirely preventable issues. Here is how to ensure your feathered friends stay healthy and happy.
+Pet birds bring joy, colour, and intelligence into our homes — but caring for them properly requires more than just a cage and seeds. At **Shivraj Pet Clinic & Lab, serving Wakad & Pimple Saudagar, Pune**, we treat many birds suffering from entirely preventable issues. Here is how to ensure your feathered friends stay healthy and happy.
 
 ## Essentials of Bird Care
 

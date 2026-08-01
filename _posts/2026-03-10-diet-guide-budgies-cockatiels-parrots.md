@@ -10,7 +10,7 @@ slug: "diet-guide-budgies-cockatiels-parrots"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>70% of the illness we see in birds at <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Pimple Nilakh, Pune</strong> is directly linked to poor diet. Most pet owners feed their birds seeds almost exclusively — seeds are high in fat and severely deficient in vitamins A, D3, calcium, and many essential amino acids. A balanced diet is one of the most important factors in keeping pet birds healthy, active, and free of preventable disease.</p>
+<p>70% of the illness we see in birds at <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong> is directly linked to poor diet. Most pet owners feed their birds seeds almost exclusively — seeds are high in fat and severely deficient in vitamins A, D3, calcium, and many essential amino acids. A balanced diet is one of the most important factors in keeping pet birds healthy, active, and free of preventable disease.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -91,4 +91,4 @@ slug: "diet-guide-budgies-cockatiels-parrots"
 
 <p>Concerned about your bird's health beyond diet? Read about <a href="javascript:void(0)" onclick="openPost('bird-feather-dna-sexing-test')" class="internal-link">feather DNA sexing</a> or visit our <a href="services/exotic-animal-centre.html" class="internal-link">Exotic Animal Centre</a> for a full wellness check.</p>
 
-<p>A balanced diet helps prevent disease and supports healthy feathers and energy levels. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune for a personalised bird nutrition plan.</p>
+<p>A balanced diet helps prevent disease and supports healthy feathers and energy levels. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune for a personalised bird nutrition plan.</p>

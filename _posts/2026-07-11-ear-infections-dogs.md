@@ -4,12 +4,12 @@ date: "2026-07-11"
 cat: "dog"
 catLabel: "🐕 Dogs"
 img: "/images/blog/ear-infections-dogs.png"
-summary: "Head shaking, scratching, and bad odour are classic signs of a dog ear infection. Learn the causes, treatment, and how to prevent recurrence from Shivraj Pet Clinic, Pimple Nilakh Pune."
+summary: "Head shaking, scratching, and bad odour are classic signs of a dog ear infection. Learn the causes, treatment, and how to prevent recurrence from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Ear infections are among the most common — and most uncomfortable — problems we see at <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong>. They're especially frequent in floppy-eared breeds and during Pune's humid monsoon months, when moisture gets trapped in the ear canal and bacteria or yeast multiply rapidly.</p>
+<p>Ear infections are among the most common — and most uncomfortable — problems we see at <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong>. They're especially frequent in floppy-eared breeds and during Pune's humid monsoon months, when moisture gets trapped in the ear canal and bacteria or yeast multiply rapidly.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -86,4 +86,4 @@ read: "4"
 
 <p>If allergies may be contributing, our <a href="services/clinical-medicine.html" class="internal-link">clinical medicine service</a> can help identify the trigger. Persistent ear infections need veterinary care — early treatment reduces pain and prevents complications.</p>
 
-<p><a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune, or call 077569 65169.</p>
+<p><a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune, or call 077569 65169.</p>

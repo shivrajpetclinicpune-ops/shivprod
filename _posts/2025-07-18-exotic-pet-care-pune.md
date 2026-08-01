@@ -4,7 +4,7 @@ date: "2025-07-18"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
 img: "/images/gallery/exotic-2.jpg"
-summary: "Looking for a rabbit, bird, or reptile vet in Pune? Learn how Shivraj Pet Clinic offers expert care for exotic pets including parrots, turtles, hamsters, and more in Pimple Nilakh."
+summary: "Looking for a rabbit, bird, or reptile vet in Pune? Learn how Shivraj Pet Clinic offers expert care for exotic pets including parrots, turtles, hamsters, and more in Wakad & Pimple Saudagar."
 read: "4"
 ---
 
@@ -55,4 +55,4 @@ Yes, with proper guidance. We offer handling tips and hygiene protocols to keep 
 
 ## Why Choose Shivraj Pet Clinic for Exotic Pets?
 
-Trusted by pet parents from Pimple Nilakh, Baner, Aundh, and Wakad — we offer advanced diagnostics, surgical support, and species-specific care plans with follow-ups. Call **077569 65169** to schedule an appointment for your exotic pet.
+Trusted by pet parents from Wakad, Pimple Saudagar, Baner, and Aundh — we offer advanced diagnostics, surgical support, and species-specific care plans with follow-ups. Call **077569 65169** to schedule an appointment for your exotic pet.

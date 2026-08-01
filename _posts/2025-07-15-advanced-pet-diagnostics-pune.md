@@ -8,7 +8,7 @@ summary: "Is your pet feeling unwell but the symptoms are vague? Learn about mod
 read: "4"
 ---
 
-Is your pet feeling unwell, but the symptoms are vague? That's where advanced veterinary diagnostics come in. At **Shivraj Pet Clinic & Lab in Pimple Nilakh, Pune**, we offer a range of modern diagnostic tests that help us detect and treat diseases in **dogs, cats, rabbits, birds, turtles**, and other exotic pets — quickly and accurately.
+Is your pet feeling unwell, but the symptoms are vague? That's where advanced veterinary diagnostics come in. At **Shivraj Pet Clinic & Lab, serving Wakad & Pimple Saudagar, Pune**, we offer a range of modern diagnostic tests that help us detect and treat diseases in **dogs, cats, rabbits, birds, turtles**, and other exotic pets — quickly and accurately.
 
 ## Why Pet Diagnostics Matter
 
@@ -56,4 +56,4 @@ We tailor diagnostics for small mammals, reptiles, and birds with specialised sa
 - Better treatment accuracy — diagnosis drives targeted treatment
 - Full transparency with pet parents — we explain every result clearly
 
-We are conveniently located in **Pimple Nilakh, Pune**, near Baner, Vishal Nagar, and Aundh. Call **077569 65169** to schedule a diagnostic appointment today.
+We are conveniently located near **Wakad and Pimple Saudagar, Pune**, close to Baner, Vishal Nagar, and Aundh. Call **077569 65169** to schedule a diagnostic appointment today.

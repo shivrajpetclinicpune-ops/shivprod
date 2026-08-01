@@ -4,12 +4,12 @@ date: "2026-07-11"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
 img: "https://images.pexels.com/photos/5263876/pexels-photo-5263876.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Wheezing, open-mouth breathing, or nasal discharge in a pet turtle can signal a life-threatening respiratory infection. Learn the causes and treatment from Shivraj Pet Clinic, Pimple Nilakh Pune."
+summary: "Wheezing, open-mouth breathing, or nasal discharge in a pet turtle can signal a life-threatening respiratory infection. Learn the causes and treatment from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Turtles are excellent at masking illness — by the time a respiratory infection becomes visible, it's often already advanced. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Pimple Nilakh, Pune</strong>, we regularly treat turtles and tortoises with respiratory disease, most often traced back to incorrect temperature or lighting at home.</p>
+<p>Turtles are excellent at masking illness — by the time a respiratory infection becomes visible, it's often already advanced. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, we regularly treat turtles and tortoises with respiratory disease, most often traced back to incorrect temperature or lighting at home.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -83,4 +83,4 @@ read: "4"
 
 <p>Explore our <a href="services/exotic-animal-centre.html" class="internal-link">Exotic Animal Centre</a> for full reptile care services, including habitat consultations.</p>
 
-<p>Early veterinary care significantly improves recovery. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune, or call 077569 65169.</p>
+<p>Early veterinary care significantly improves recovery. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune, or call 077569 65169.</p>

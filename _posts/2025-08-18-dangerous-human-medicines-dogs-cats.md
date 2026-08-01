@@ -52,4 +52,4 @@ If your pet has consumed any human medication:
 
 Early treatment — within the first 1–2 hours — dramatically improves outcomes for most toxicities. Do not induce vomiting at home without veterinary guidance, as this can sometimes cause additional harm.
 
-Shivraj Pet Clinic is open Mon–Tue and Thu–Sun at Pimple Nilakh. For emergency guidance, call **077569 65169**.
+Shivraj Pet Clinic is open Mon–Tue and Thu–Sun at our Wakad & Pimple Saudagar area clinic. For emergency guidance, call **077569 65169**.

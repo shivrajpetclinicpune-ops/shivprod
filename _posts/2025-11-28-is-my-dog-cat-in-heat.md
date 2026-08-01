@@ -50,4 +50,4 @@ Unlike dogs, cats in heat do not typically show vaginal bleeding.
 
 We strongly recommend spaying female dogs before their first heat, and female cats by 5–6 months. Spaying before the first heat reduces mammary cancer risk by over 99%. It eliminates the risk of pyometra (infected uterus), which is a life-threatening emergency requiring surgery. It removes the management burden of repeated heat cycles.
 
-Call **077569 65169** to schedule a spaying consultation at Shivraj Pet Clinic, Pimple Nilakh.
+Call **077569 65169** to schedule a spaying consultation at Shivraj Pet Clinic, Wakad & Pimple Saudagar.

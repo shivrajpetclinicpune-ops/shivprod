@@ -54,4 +54,4 @@ True nutritional balance in home cooking requires calculation — it is more com
 
 Many pet parents combine a good quality commercial food (50–70%) with home-cooked meals (30–50%) as a practical middle ground that ensures baseline nutritional coverage.
 
-Call **077569 65169** to book a nutritional consultation at Shivraj Pet Clinic, Pimple Nilakh.
+Call **077569 65169** to book a nutritional consultation at Shivraj Pet Clinic, Wakad & Pimple Saudagar.

@@ -3,13 +3,13 @@ title: "Non-Surgical Heat Control in Cats — Temporary Options & Why Spaying St
 date: "2026-07-11"
 cat: "cat"
 catLabel: "🐈 Cats"
-img: "/images/blog/managing-heat-cats.png"
-summary: "Can a cat's heat cycle be managed without surgery? Yes, but only temporarily and under veterinary supervision. Learn the real options and risks from Shivraj Pet Clinic, Pimple Nilakh Pune."
+img: "https://images.pexels.com/photos/6346672/pexels-photo-6346672.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+summary: "Can a cat's heat cycle be managed without surgery? Yes, but only temporarily and under veterinary supervision. Learn the real options and risks from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Not every pet parent is ready to spay immediately — breeding plans, a very young cat, or a temporary situation can all be valid reasons to ask about alternatives. At <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong>, we get this question often: can heat be managed without surgery? The honest answer is yes, but only as a short-term, supervised measure — not a long-term substitute for spaying.</p>
+<p>Not every pet parent is ready to spay immediately — breeding plans, a very young cat, or a temporary situation can all be valid reasons to ask about alternatives. At <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong>, we get this question often: can heat be managed without surgery? The honest answer is yes, but only as a short-term, supervised measure — not a long-term substitute for spaying.</p>
 
 <p>If you're not yet sure whether your cat is actually in heat, start with our guide on <a href="javascript:void(0)" onclick="openPost('is-my-dog-cat-in-heat')" class="internal-link">recognising the signs of heat in cats and dogs</a> before deciding on a management approach.</p>
 
@@ -62,4 +62,4 @@ read: "4"
 <p><strong>Is spaying safe for an older cat?</strong><br>Yes, with proper pre-surgical assessment — age alone isn't a barrier, though risk factors are evaluated individually.</p>
 <p><strong>How soon after using hormonal medication can I schedule spaying?</strong><br>This depends on the specific medication used — we'll advise timing during your consultation.</p>
 
-<p>Consult <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong> to discuss the safest option for your cat — <a href="index.html#book" class="internal-link">book a consultation</a> or call 077569 65169.</p>
+<p>Consult <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong> to discuss the safest option for your cat — <a href="index.html#book" class="internal-link">book a consultation</a> or call 077569 65169.</p>

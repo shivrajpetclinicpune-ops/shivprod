@@ -8,7 +8,7 @@ summary: "Diwali firecrackers and monsoon thunder cause real distress in pets. L
 read: "4"
 ---
 
-Noise phobia is a genuine psychological disorder in pets — not stubbornness or disobedience. Thunder, Diwali firecrackers, construction noise, and vehicle backfires all trigger extreme fear responses in dogs and cats. At **Shivraj Pet Clinic & Lab**, we help pet parents in Pimple Nilakh, Baner, and surrounding areas manage noise phobia effectively.
+Noise phobia is a genuine psychological disorder in pets — not stubbornness or disobedience. Thunder, Diwali firecrackers, construction noise, and vehicle backfires all trigger extreme fear responses in dogs and cats. At **Shivraj Pet Clinic & Lab**, we help pet parents in Wakad, Pimple Saudagar, Baner, and surrounding areas manage noise phobia effectively.
 
 ## Why Noise Phobia Happens
 
@@ -58,4 +58,4 @@ For moderate to severe noise phobia, medication is often necessary and humane. W
 
 Start planning two weeks before Diwali. Talk to us about appropriate medication at your next visit. Keep pets indoors with music playing to mask outdoor sounds. Ensure all identification tags and microchipping are up to date — Diwali is the peak season for lost pets in India.
 
-Call **077569 65169** to discuss noise phobia management for your pet. We are open Mon–Tue and Thu–Sun at Pimple Nilakh.
+Call **077569 65169** to discuss noise phobia management for your pet. We are open Mon–Tue and Thu–Sun at our Wakad & Pimple Saudagar area clinic.

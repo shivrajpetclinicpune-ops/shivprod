@@ -10,7 +10,7 @@ slug: "dental-scaling-dogs-cats"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Over 80% of dogs and 70% of cats develop some form of dental disease by the age of 3 — yet dental health remains one of the most overlooked aspects of pet care. At <strong>Shivraj Pet Clinic, Pimple Nilakh, Pune</strong>, we perform professional dental scaling and oral health assessments to prevent pain, tooth loss, and the serious systemic disease that dental infection can cause.</p>
+<p>Over 80% of dogs and 70% of cats develop some form of dental disease by the age of 3 — yet dental health remains one of the most overlooked aspects of pet care. At <strong>Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune</strong>, we perform professional dental scaling and oral health assessments to prevent pain, tooth loss, and the serious systemic disease that dental infection can cause.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -89,4 +89,4 @@ slug: "dental-scaling-dogs-cats"
 
 <p>Our <a href="services/preventive-medicine.html" class="internal-link">preventive medicine service</a> can help build a full oral care plan alongside routine wellness checks.</p>
 
-<p>Professional dental scaling protects both oral and overall health. <a href="index.html#book" class="internal-link">Book a dental assessment</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune, or call 077569 65169.</p>
+<p>Professional dental scaling protects both oral and overall health. <a href="index.html#book" class="internal-link">Book a dental assessment</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune, or call 077569 65169.</p>

@@ -9,7 +9,7 @@ read: "5"
 ---
 <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
-<p>Turtles and tortoises are often assumed to be low-maintenance pets — but their dietary needs are precise, and getting them wrong has serious long-term consequences. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Pimple Nilakh, Pune</strong>, improper nutrition is one of the most common underlying causes behind the shell and bone problems we treat.</p>
+<p>Turtles and tortoises are often assumed to be low-maintenance pets — but their dietary needs are precise, and getting them wrong has serious long-term consequences. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, improper nutrition is one of the most common underlying causes behind the shell and bone problems we treat.</p>
 
 <div class="post-quickfacts">
 <h4>Quick Facts</h4>
@@ -74,4 +74,4 @@ read: "5"
 
 <p>If you notice shell softness or unusual growth, our <a href="javascript:void(0)" onclick="openPost('respiratory-infections-pet-turtles')" class="internal-link">turtle health guide</a> and <a href="services/exotic-animal-centre.html" class="internal-link">Exotic Animal Centre</a> services can help.</p>
 
-<p>Species-specific diets plus correct UVB lighting are essential for lifelong shell health. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Pimple Nilakh, Pune.</p>
+<p>Species-specific diets plus correct UVB lighting are essential for lifelong shell health. <a href="index.html#book" class="internal-link">Book a consultation</a> at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune.</p>

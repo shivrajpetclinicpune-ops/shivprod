@@ -71,4 +71,4 @@ Atopy is a clinical diagnosis supported by ruling out other causes of itching â€
 
 **Targeted medications (Apoquel, Cytopoint)** â€” highly effective at controlling itch with good safety profiles. Available at our clinic.
 
-Call **077569 65169** to schedule an allergy assessment at Shivraj Pet Clinic, Pimple Nilakh, Pune.
+Call **077569 65169** to schedule an allergy assessment at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune.

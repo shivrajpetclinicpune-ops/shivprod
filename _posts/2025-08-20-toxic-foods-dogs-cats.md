@@ -73,4 +73,4 @@ Raw yeast dough continues to expand in the warm, moist environment of the stomac
 
 The window for effective treatment is often very narrow. If caught within 1–2 hours of ingestion, we can often prevent serious toxicity from developing. After symptoms appear, treatment becomes more complex and outcomes less certain.
 
-Shivraj Pet Clinic is at Pimple Nilakh, Pune. Open Mon–Tue and Thu–Sun.
+Shivraj Pet Clinic serves Wakad, Pimple Saudagar & Pune. Open Mon–Tue and Thu–Sun.
