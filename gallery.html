@@ -164,16 +164,31 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
 @media(max-width:380px){.gal-grid{grid-template-columns:1fr}}
 .team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:28px}
 .t-card{background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--sh)}
-.t-card-top{background:linear-gradient(135deg,#0d3356,#1e5f8c);padding:32px;text-align:center}
-.t-card-top img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.25);margin:0 auto;display:block}
-.avatar-fallback{display:none;width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.15);margin:0 auto;align-items:center;justify-content:center;font-size:3rem}
+.t-card-top{padding:32px;text-align:center}
+.avatar-fallback{display:none;width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.6);margin:0 auto;align-items:center;justify-content:center;font-size:3rem}
+.t-card-top{position:relative;overflow:hidden}
+.t-card-top::before{content:'';position:absolute;inset:0;pointer-events:none;background-size:70px 70px}
+.t-card-top>*{position:relative;z-index:1}
+.t-card-top.theme-green{background:#eaf6ec}
+.t-card-top.theme-green::before{background-image:url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%232f9e52' fill-opacity='0.16'%3E%3Cpath d='M15 10a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm8-3a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm-4 6c3 0 6 2.6 6 6.4 0 2.2-1.5 4.1-3.8 4.1-1.1 0-1.9-.7-3-.7s-1.9.7-3 .7c-2.3 0-3.8-1.9-3.8-4.1C19 20.6 22 18 25 18z'/%3E%3Ccircle cx='55' cy='50' r='1.6'/%3E%3Ccircle cx='48' cy='58' r='1.2'/%3E%3C/g%3E%3C/svg%3E")}
+.t-card-top.theme-tan{background:#faf0e3}
+.t-card-top.theme-tan::before{background-image:url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c17f3f' fill-opacity='0.16'%3E%3Cpath d='M15 10a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm8-3a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm-4 6c3 0 6 2.6 6 6.4 0 2.2-1.5 4.1-3.8 4.1-1.1 0-1.9-.7-3-.7s-1.9.7-3 .7c-2.3 0-3.8-1.9-3.8-4.1C19 20.6 22 18 25 18z'/%3E%3Cpath d='M50 46h4v4h4v4h-4v4h-4v-4h-4v-4h4z'/%3E%3C/g%3E%3C/svg%3E")}
+.t-card-top.theme-purple{background:#f1eafb}
+.t-card-top.theme-purple::before{background-image:url("data:image/svg+xml,%3Csvg width='70' height='70' viewBox='0 0 70 70' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%238b5cf6' fill-opacity='0.16'%3E%3Cpath d='M15 10a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm8-3a2.6 2.6 0 1 1 0 5.2 2.6 2.6 0 0 1 0-5.2zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm-4 6c3 0 6 2.6 6 6.4 0 2.2-1.5 4.1-3.8 4.1-1.1 0-1.9-.7-3-.7s-1.9.7-3 .7c-2.3 0-3.8-1.9-3.8-4.1C19 20.6 22 18 25 18z'/%3E%3Ccircle cx='52' cy='48' r='2'/%3E%3Ccircle cx='58' cy='55' r='1.4'/%3E%3Ccircle cx='46' cy='55' r='1.4'/%3E%3C/g%3E%3C/svg%3E")}
+.t-card-top img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid #fff;margin:0 auto;display:block;box-shadow:0 4px 14px rgba(0,0,0,.12)}
 .t-card-body{padding:24px}
 .t-role{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--green);margin-bottom:6px}
+.t-role.theme-green{color:#2f9e52}
+.t-role.theme-tan{color:#b3722f}
+.t-role.theme-purple{color:#7c3aed}
 .t-name{font-family:'Instrument Serif',serif;font-size:1.3rem;color:var(--ink);margin-bottom:4px}
 .t-qual{font-size:.82rem;color:var(--muted);margin-bottom:12px}
 .t-bio{font-size:.85rem;color:var(--body);line-height:1.65;margin-bottom:14px}
 .t-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .t-tag{background:var(--green-lite);color:var(--green);padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600}
+.t-tag.theme-green{background:#d7f0dc;color:#2f9e52}
+.t-tag.theme-tan{background:#f5e2c6;color:#b3722f}
+.t-tag.theme-purple{background:#e6d9fb;color:#7c3aed}
 .t-note{background:var(--green-xlt);border-radius:9px;padding:12px;font-size:.8rem;color:var(--muted);line-height:1.6}
 </style>
 </head>
@@ -306,48 +321,49 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
 <!-- ═══ TEAM ═══ -->
 <section id="team" style="background:#faf7f2;padding:64px 0">
   <div class="container">
-    <div class="tag">Meet The Doctors</div>
-    <h2 class="ttl" style="margin-bottom:8px">Your Pets Are in Expert Hands</h2>
-    <p style="color:#6b7280;font-size:.92rem;margin-bottom:36px">A father-son duo with 33+ years of combined veterinary experience — the same doctors, every visit.</p>
+    <div class="tag" style="display:flex;width:fit-content;margin:0 auto 10px">Meet The Doctors</div>
+    <h2 class="ttl" style="text-align:center;margin-bottom:8px">Meet Our Experts</h2>
+    <p style="color:#6b7280;font-size:.92rem;margin-bottom:8px;text-align:center">Dedicated professionals providing the best care for your pets.</p>
+    <div style="width:56px;height:3px;background:var(--teal,#1e5f8c);border-radius:2px;margin:0 auto 36px"></div>
 
     <div class="team-grid">
 
       <!-- Dr. Pritesh -->
       <div class="t-card">
-        <div class="t-card-top">
-          <img src="images/dr-pritesh.jpg" alt="Dr. Pritesh S. Vidhate — Head Veterinarian at Shivraj Pet Clinic" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="t-card-top theme-green">
+          <img src="images/gallery/dr-pritesh-dog-exam.jpg" alt="Dr. Pritesh S. Vidhate — Head Veterinarian at Shivraj Pet Clinic" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div class="avatar-fallback">👨‍⚕️</div>
         </div>
         <div class="t-card-body">
-          <div class="t-role">Head Veterinarian</div>
+          <div class="t-role theme-green">Head Veterinarian</div>
           <div class="t-name">Dr. Pritesh S. Vidhate</div>
           <div class="t-qual">M.V.Sc. (Medicine)</div>
           <p class="t-bio">Dr. Pritesh leads clinical care at Shivraj Pet Clinic with extensive experience in exotic animal medicine, soft tissue surgery, and diagnostic ultrasonography. He has personally treated thousands of pets from across PCMC and Pune.</p>
           <div class="t-tags">
-            <span class="t-tag">Exotic Animal Medicine</span>
-            <span class="t-tag">Surgery</span>
-            <span class="t-tag">Ultrasonography</span>
-            <span class="t-tag">Internal Medicine</span>
+            <span class="t-tag theme-green">Exotic Animal Medicine</span>
+            <span class="t-tag theme-green">Surgery</span>
+            <span class="t-tag theme-green">Ultrasonography</span>
+            <span class="t-tag theme-green">Internal Medicine</span>
           </div>
         </div>
       </div>
 
       <!-- Dr. Shivaji -->
       <div class="t-card">
-        <div class="t-card-top">
-          <img src="images/dr-shivaji.jpg" alt="Dr. Shivaji B. Vidhate — Founder & Senior Veterinarian" style="object-position:center top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="t-card-top theme-tan">
+          <img src="images/dr-shivaji-headshot.jpg" alt="Dr. Shivaji B. Vidhate — Founder & Senior Veterinarian" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div class="avatar-fallback">👨‍⚕️</div>
         </div>
         <div class="t-card-body">
-          <div class="t-role">Founder &amp; Senior Veterinarian</div>
+          <div class="t-role theme-tan">Founder &amp; Senior Veterinarian</div>
           <div class="t-name">Dr. Shivaji B. Vidhate</div>
           <div class="t-qual">M.V.Sc. (Pathology) · 33+ Years Experience</div>
           <p class="t-bio">Retired District Animal Husbandry Officer, Pune. Dr. Shivaji founded Shivraj Pet Clinic in 2013 bringing 33 years of field and companion animal medicine expertise. His depth of experience continues to guide the clinic's approach to every case.</p>
           <div class="t-tags">
-            <span class="t-tag">Pathology</span>
-            <span class="t-tag">Field Medicine</span>
-            <span class="t-tag">33+ Years</span>
-            <span class="t-tag">Retired DAHO Pune</span>
+            <span class="t-tag theme-tan">Pathology</span>
+            <span class="t-tag theme-tan">Field Medicine</span>
+            <span class="t-tag theme-tan">33+ Years</span>
+            <span class="t-tag theme-tan">Retired DAHO Pune</span>
           </div>
           <div class="t-note">🏆 Founder of a leading multispecies veterinary clinic in PCMC, Est. 2013</div>
         </div>
@@ -355,19 +371,19 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
 
       <!-- Deepak -->
       <div class="t-card">
-        <div class="t-card-top">
+        <div class="t-card-top theme-purple">
           <img src="images/team/deepak.jpg" alt="Mr. Deepak Joshi — Veterinarian at Shivraj Pet Clinic" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
           <div class="avatar-fallback">👨‍⚕️</div>
         </div>
         <div class="t-card-body">
-          <div class="t-role">Veterinary Technician</div>
+          <div class="t-role theme-purple">Veterinary Technician</div>
           <div class="t-name">Mr. Deepak Joshi</div>
           <div class="t-qual">Veterinarian</div>
           <p class="t-bio">Skilled veterinary technician known for his gentle animal handling and calm clinical presence. Mr. Deepak is an essential part of the Shivraj team and a familiar face to every regular patient family.</p>
           <div class="t-tags">
-            <span class="t-tag">Animal Handling</span>
-            <span class="t-tag">Clinical Support</span>
-            <span class="t-tag">Patient Care</span>
+            <span class="t-tag theme-purple">Animal Handling</span>
+            <span class="t-tag theme-purple">Clinical Support</span>
+            <span class="t-tag theme-purple">Patient Care</span>
           </div>
         </div>
       </div>
