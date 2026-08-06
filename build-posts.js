@@ -97,6 +97,14 @@ function renderPostPage(slug, p, allPosts) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-94PYDYSWKF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-94PYDYSWKF');
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="${canonicalUrl}">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
