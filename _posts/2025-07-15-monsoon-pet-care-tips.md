@@ -3,7 +3,7 @@ title: "Monsoon Pet Care Tips for Dogs and Cats in Pune"
 date: "2025-07-15"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "https://images.pexels.com/photos/8499252/pexels-photo-8499252.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/dog-clinic-waiting.jpg"
 summary: "Monsoon brings ticks, fungal infections, and leptospirosis risks for Pune pets. Here are 8 essential monsoon care tips for dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic."
 read: "4"
 ---

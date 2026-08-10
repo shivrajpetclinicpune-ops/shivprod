@@ -3,7 +3,7 @@ title: "Bird Feather DNA Sexing Test in Pune — Accurate Gender Testing for Par
 date: "2026-07-11"
 cat: "exotic"
 catLabel: "🦜 Exotic Animals"
-img: "https://images.pexels.com/photos/1893158/pexels-photo-1893158.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/bird-1.jpg"
 summary: "Can't tell if your bird is male or female? Feather DNA sexing gives 99%+ accurate results in 7-10 days without a blood draw. Learn how the test works at Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "5"
 ---

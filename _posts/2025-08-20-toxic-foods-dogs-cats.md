@@ -3,7 +3,7 @@ title: "Toxic Foods for Dogs and Cats — What Never to Feed Your Pet"
 date: "2025-08-20"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "https://images.pexels.com/photos/18050554/pexels-photo-18050554.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/cat-1.jpg"
 summary: "Grapes, onions, chocolate, and xylitol are just some of the common foods that can kill pets. Learn what foods are toxic to dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic Pune."
 read: "5"
 ---

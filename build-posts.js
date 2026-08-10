@@ -41,6 +41,18 @@ function absImg(img) {
   return img.indexOf('http') === 0 ? img : ('https://www.shivrajpetclinicpune.com' + img);
 }
 
+// Static pages under /blog/ are one directory deep. An absolute path like
+// "/images/x.jpg" only resolves correctly when the site is served from its
+// real domain root — it breaks when someone opens the file directly on their
+// own computer (file://), since "/" then means the filesystem root, not the
+// site root. Relative paths work in both cases, so every image reference
+// inside a /blog/ page must go through this first.
+function relImg(img) {
+  if (!img) return '';
+  if (img.indexOf('http') === 0) return img;
+  return img.indexOf('/') === 0 ? ('..' + img) : img;
+}
+
 // Internal links in post content were written as onclick="openPost('slug')" for the
 // old JS-overlay reader. On a real static page, that has to become a real href to a
 // sibling file. Service/index links used root-relative style (blog.html's own level);
@@ -88,7 +100,7 @@ function renderPostPage(slug, p, allPosts) {
   <h3>Related Articles</h3>
   <div class="related-grid">
     ${related.map(r => `<a href="${r.slug}.html" class="related-card">
-      <img src="${r.img}" alt="${escapeHtml(r.title)}" loading="lazy" onerror="this.style.display='none'">
+      <img src="${relImg(r.img)}" alt="${escapeHtml(r.title)}" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>${escapeHtml(r.title)}</h4></div>
     </a>`).join('\n    ')}
   </div>
@@ -150,7 +162,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 <nav id="mainNav">
   <div class="nav-inner">
     <a href="../index.html" class="logo-wrap">
-      <img src="/images/logo.png" alt="Shivraj Pet Clinic" class="logo-img" onerror="this.style.display='none'">
+      <img src="../images/logo.png" alt="Shivraj Pet Clinic" class="logo-img" onerror="this.style.display='none'">
       <div class="logo-text"><strong>Shivraj Pet Clinic</strong><span>&amp; Lab &middot; Pimple Nilakh</span></div>
     </a>
     <ul class="nav-links">
@@ -181,7 +193,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">${p.catLabel}</div>
   <h1 class="post-h1">${escapeHtml(p.title)}</h1>
   <div class="post-meta-full"><span>${p.date}</span><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
-  <img src="${p.img}" alt="${escapeHtml(p.title)}" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" onerror="this.style.display='none'">
   <div class="post-content">${content}</div>
 
   <div class="post-cta-box">

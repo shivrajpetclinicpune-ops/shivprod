@@ -3,7 +3,7 @@ title: "Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Sp
 date: "2026-07-11"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "https://images.pexels.com/photos/5993646/pexels-photo-5993646.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/dog-1.jpg"
 summary: "Constant paw or leg licking can turn into a painful, thickened wound called a lick granuloma. Learn the causes, treatment, and prevention of acral lick dermatitis from Shivraj Pet Clinic, Pune."
 read: "4"
 ---

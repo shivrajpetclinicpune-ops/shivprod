@@ -3,7 +3,7 @@ title: "Non-Surgical Heat Control in Cats — Temporary Options & Why Spaying St
 date: "2026-07-11"
 cat: "cat"
 catLabel: "🐈 Cats"
-img: "https://images.pexels.com/photos/6346672/pexels-photo-6346672.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/cat-1.jpg"
 summary: "Can a cat's heat cycle be managed without surgery? Yes, but only temporarily and under veterinary supervision. Learn the real options and risks from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---

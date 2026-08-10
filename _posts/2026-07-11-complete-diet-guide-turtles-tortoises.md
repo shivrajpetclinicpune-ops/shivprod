@@ -3,7 +3,7 @@ title: "Complete Diet Guide for Pet Turtles & Tortoises — Feeding Ratios & Saf
 date: "2026-07-11"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "https://images.pexels.com/photos/5263873/pexels-photo-5263873.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/turtle-1.jpg"
 summary: "Improper diet is a leading cause of shell deformities and metabolic bone disease in turtles and tortoises. Get species-specific feeding ratios and safe foods from Shivraj Pet Clinic, Pune."
 read: "5"
 ---

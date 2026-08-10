@@ -3,7 +3,7 @@ title: "Respiratory Infections in Pet Turtles — Symptoms, Causes & Treatment i
 date: "2026-07-11"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "https://images.pexels.com/photos/5263876/pexels-photo-5263876.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/turtle-exam.jpg"
 summary: "Wheezing, open-mouth breathing, or nasal discharge in a pet turtle can signal a life-threatening respiratory infection. Learn the causes and treatment from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---

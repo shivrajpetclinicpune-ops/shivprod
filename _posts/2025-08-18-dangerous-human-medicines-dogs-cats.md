@@ -3,7 +3,7 @@ title: "Dangerous Human Medicines for Dogs and Cats — What Never to Give Your 
 date: "2025-08-18"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "https://images.pexels.com/photos/16051960/pexels-photo-16051960.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/gallery/dog-2.jpg"
 summary: "Common human painkillers and medicines that are safe for people can be fatal to pets. Dr. Pritesh Vidhate from Shivraj Pet Clinic explains which medicines to keep away from dogs and cats."
 read: "4"
 ---

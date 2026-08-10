@@ -3,7 +3,7 @@ title: "Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs"
 date: "2025-12-03"
 cat: "surgery"
 catLabel: "🏥 Surgery & Lab"
-img: "https://images.pexels.com/photos/34611133/pexels-photo-34611133.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
+img: "/images/services/xray.jpg"
 summary: "PRP therapy uses your dog's own blood to promote joint healing and reduce arthritis pain. Learn how platelet-rich plasma injections work, which conditions benefit, and what to expect."
 read: "4"
 ---

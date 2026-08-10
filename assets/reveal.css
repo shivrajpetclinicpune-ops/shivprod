@@ -1,0 +1,65 @@
+/* ══════════════════════════════════════════════════════════════
+   Shivraj Pet Clinic — shared scroll-reveal + hover-lift system
+   One file, used on every page except the homepage hero (which
+   is intentionally static/editorial per client spec).
+   Tune timing/easing here only — every page updates together.
+   ══════════════════════════════════════════════════════════════ */
+
+[data-reveal]{
+  opacity: 0;
+  transform: translateY(42px);
+  transition: opacity .85s cubic-bezier(.16,1,.3,1),
+              transform .85s cubic-bezier(.16,1,.3,1);
+  will-change: opacity, transform;
+}
+[data-reveal].is-visible{
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-reveal="left"]{ transform: translateX(-52px); }
+[data-reveal="left"].is-visible{ transform: translateX(0); }
+[data-reveal="right"]{ transform: translateX(52px); }
+[data-reveal="right"].is-visible{ transform: translateX(0); }
+[data-reveal="scale"]{ transform: scale(.88); }
+[data-reveal="scale"].is-visible{ transform: scale(1); }
+[data-reveal="fade"]{ transform: none; }
+
+@media (prefers-reduced-motion: reduce){
+  [data-reveal]{
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ── Global hover-lift for every card-style element site-wide ──
+   Applies automatically, no per-page markup needed. Scoped to a
+   known list of card classes used across the site so it never
+   catches unrelated elements. */
+.svc-card, .doc-card, .g-item, .post-card, .team-card, .mission-card,
+.why-item, .why-card, .t-card, .sidebar-card, .story-card, .faq-item,
+.info-box, .stat-box, .card-img, .rec-item{
+  transition: transform .3s cubic-bezier(.16,1,.3,1), box-shadow .3s ease;
+}
+.svc-card:hover, .doc-card:hover, .g-item:hover, .post-card:hover,
+.team-card:hover, .mission-card:hover, .why-item:hover, .why-card:hover,
+.t-card:hover, .sidebar-card:hover, .story-card:hover, .faq-item:hover,
+.info-box:hover, .rec-item:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(30,95,140,.16);
+}
+.g-item:hover img, .post-card:hover img, .card-img:hover img{
+  transform: scale(1.06);
+}
+.g-item img, .post-card .card-img img, .card-img img{
+  transition: transform .5s cubic-bezier(.16,1,.3,1);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .svc-card:hover, .doc-card:hover, .g-item:hover, .post-card:hover,
+  .team-card:hover, .mission-card:hover, .why-item:hover, .why-card:hover,
+  .t-card:hover, .sidebar-card:hover, .story-card:hover, .faq-item:hover,
+  .info-box:hover, .rec-item:hover{
+    transform: none;
+  }
+}
