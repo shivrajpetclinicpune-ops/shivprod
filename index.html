@@ -445,7 +445,6 @@ footer ul a:hover{color:var(--green-mid)}
 
 /* ── RESPONSIVE ── */
 @media(max-width:1024px){
-  .svc-grid{grid-template-columns:1fr 1fr}
   .footer-grid{grid-template-columns:1fr 1fr}
   .gallery-grid{grid-template-columns:repeat(2,1fr)}
   .g-item.wide,.g-item.tall{grid-column:span 1;grid-row:span 1}
@@ -473,7 +472,7 @@ footer ul a:hover{color:var(--green-mid)}
   .about-grid{grid-template-columns:1fr!important;gap:32px!important}
   .book-grid{grid-template-columns:1fr!important}
   .book-form-side{margin-top:0}
-  .svc-grid{grid-template-columns:1fr 1fr!important}
+  .svc-grid{grid-template-columns:1fr!important}
   .svc-card[style*="grid-column:span 2"]{grid-column:span 1!important}
   .svc-grid>*,.stats-row>*{min-width:0}
   .svc-card p{overflow-wrap:break-word;word-break:break-word}
@@ -527,9 +526,9 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
   .sub{font-size:.82rem!important;margin-bottom:14px!important}
   .tag{font-size:.62rem!important;margin-bottom:4px!important}
 
-  /* Services — 2-col, hide descriptions */
-  .svc-grid{gap:8px!important;grid-template-columns:1fr 1fr!important}
-  .svc-card{padding:12px!important}
+  /* Services — single column on phones, avoids any orphan-card math regardless of card count */
+  .svc-grid{gap:10px!important;grid-template-columns:1fr!important}
+  .svc-card{padding:14px!important}
   .svc-card h3{font-size:.85rem!important}
   .svc-card p{display:none!important}
   .svc-card[style*="grid-column:span 2"]{grid-column:span 2!important}
@@ -1146,8 +1145,8 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
     </div>
 
     <div style="text-align:center">
-      <a href="gallery.html#testimonials" style="display:inline-flex;align-items:center;gap:8px;background:transparent;border:1.5px solid rgba(255,255,255,.25);color:#fff;padding:11px 26px;border-radius:50px;font-weight:600;font-size:.88rem;transition:all .2s" onmouseover="this.style.background='rgba(255,255,255,.1)'" onmouseout="this.style.background='transparent'">
-        Read all 12 reviews &rarr;
+      <a href="https://www.google.com/maps/place/Shivraj+Pet+Clinic+%26+lab,+Alpine+Avenue,+Shop+No+B-4,+Aundh-Wakad+Rd,+Vishal+Nagar,+Pimple+Nilakh,+Pimpri-Chinchwad,+Maharashtra+411027/data=!4m2!3m1!1s0x3bc2b93d19aeeeef:0xbb41140a3a0bac96!18m1!1e1" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:transparent;border:1.5px solid rgba(255,255,255,.25);color:#fff;padding:11px 26px;border-radius:50px;font-weight:600;font-size:.88rem;transition:all .2s" onmouseover="this.style.background='rgba(255,255,255,.1)'" onmouseout="this.style.background='transparent'">
+        Read Our Google Reviews &rarr;
       </a>
     </div>
   </div>
