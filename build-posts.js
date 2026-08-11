@@ -193,7 +193,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">${p.catLabel}</div>
   <h1 class="post-h1">${escapeHtml(p.title)}</h1>
   <div class="post-meta-full"><span>${p.date}</span><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
-  <img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" onerror="this.style.display='none'">
+  ${p.img ? `<img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" onerror="this.style.display='none'">` : ''}
   <div class="post-content">${content}</div>
 
   <div class="post-cta-box">
