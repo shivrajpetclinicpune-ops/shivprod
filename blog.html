@@ -280,7 +280,7 @@ function renderFeatured() {
   feat.setAttribute('data-slug', slug);
   feat.innerHTML =
     '<div class="feat-img">' +
-      '(p.img ? ('<img src="' + relImg(p.img) + '" alt="' + p.title + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">') : '') +
+      (p.img ? ('<img src="' + relImg(p.img) + '" alt="' + p.title + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">') : '') +
       '<div class="feat-badge">Latest</div>' +
     '</div>' +
     '<div class="feat-body">' +
@@ -311,7 +311,7 @@ function renderGrid(filter, query) {
     if (!matchCat || !matchQ) return;
     count++;
     html += '<a href="blog/' + slug + '.html" class="post-card" data-cat="' + p.cat + '">' +
-      '(p.img ? ('<div class="card-img"><img src="' + relImg(p.img) + '" alt="' + p.title + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>') : '<div style="height:0"></div>') +
+      (p.img ? ('<div class="card-img"><img src="' + relImg(p.img) + '" alt="' + p.title + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>') : '<div style="height:0"></div>') +
       '<div class="card-body">' +
       '<div class="post-cat-tag">' + p.catLabel + '</div>' +
       '<h3>' + p.title + '</h3>' +
@@ -327,7 +327,7 @@ function renderGrid(filter, query) {
   recent.forEach(function(slug) {
     var p = POSTS[slug];
     sideHtml += '<a href="blog/' + slug + '.html" class="rec-item">' +
-      '(p.img ? ('<div class="rec-thumb"><img src="' + relImg(p.img) + '" alt="' + (p.title || 'Pet health article') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>') : '') +
+      (p.img ? ('<div class="rec-thumb"><img src="' + relImg(p.img) + '" alt="' + (p.title || 'Pet health article') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>') : '') +
       '<div class="rec-info"><h5>' + p.title + '</h5><span>' + p.date + '</span></div></a>';
   });
   sidebar.innerHTML = sideHtml;
