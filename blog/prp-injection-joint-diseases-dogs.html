@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/prp-injection-joint-diseases-dogs.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs","description":"PRP therapy uses your dog's own blood to promote joint healing and reduce arthritis pain. Learn how platelet-rich plasma injections work, which conditions benefit, and what to expect.","image":"https://www.shivrajpetclinicpune.com/images/services/xray.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2025-12-03","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/prp-injection-joint-diseases-dogs.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs","item":"https://www.shivrajpetclinicpune.com/blog/prp-injection-joint-diseases-dogs.html"}]}</script>
+
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🏥 Surgery & Lab</div>
   <h1 class="post-h1">Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs</h1>
   <div class="post-meta-full"><span>December 3, 2025</span><span>Dr. Pritesh Vidhate</span><span>4 min read</span></div>
-  <img src="../images/services/xray.jpg" alt="Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/services/xray.jpg" alt="Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p>Platelet-Rich Plasma (PRP) therapy is a regenerative medicine technique that harnesses the healing factors within your dog&#39;s own blood to reduce joint inflammation, slow cartilage degradation, and improve mobility. At <strong>Shivraj Pet Clinic &amp; Lab</strong>, we discuss PRP as part of comprehensive joint disease management for appropriate patients.</p>
 <h2>What is PRP?</h2>
 <p>Platelet-Rich Plasma is a concentrated preparation of platelets derived from your dog&#39;s own blood. Platelets are best known for their role in clotting, but they also release growth factors — chemical signals that promote tissue healing, reduce inflammation, and stimulate the production of new collagen and cartilage matrix.</p>

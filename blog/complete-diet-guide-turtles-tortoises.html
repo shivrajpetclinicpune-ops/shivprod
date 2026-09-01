@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/complete-diet-guide-turtles-tortoises.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Complete Diet Guide for Pet Turtles & Tortoises — Feeding Ratios & Safe Foods","description":"Improper diet is a leading cause of shell deformities and metabolic bone disease in turtles and tortoises. Get species-specific feeding ratios and safe foods from Shivraj Pet Clinic, Pune.","image":"https://www.shivrajpetclinicpune.com/images/gallery/turtle-1.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-07-11","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/complete-diet-guide-turtles-tortoises.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Complete Diet Guide for Pet Turtles & Tortoises — Feeding Ratios & Safe Foods","item":"https://www.shivrajpetclinicpune.com/blog/complete-diet-guide-turtles-tortoises.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How often should I feed my turtle or tortoise?","acceptedAnswer":{"@type":"Answer","text":"Juveniles typically need daily feeding; adults often do well with feeding every 1–2 days, depending on species. We can advise based on your pet's age and species."}},{"@type":"Question","name":"Can I feed my tortoise fruit every day?","acceptedAnswer":{"@type":"Answer","text":"No — fruit should stay under 5% of the diet and is best offered as an occasional treat, not a daily staple."}},{"@type":"Question","name":"Do all species need the same calcium supplementation?","acceptedAnswer":{"@type":"Answer","text":"No — requirements vary by species, age, and whether the female is reproductively active. Ask us for specifics."}},{"@type":"Question","name":"Is tap water safe for aquatic turtles?","acceptedAnswer":{"@type":"Answer","text":"Tap water is generally fine once dechlorinated; ask us about appropriate water conditioning for your setup."}},{"@type":"Question","name":"What's the biggest dietary mistake you see?","acceptedAnswer":{"@type":"Answer","text":"Feeding a diet too high in fruit and too low in calcium-rich greens, combined with inadequate UVB lighting."}},{"@type":"Question","name":"Can diet alone prevent metabolic bone disease?","acceptedAnswer":{"@type":"Answer","text":"No — diet must be paired with proper UVB lighting for calcium to be metabolised effectively."}},{"@type":"Question","name":"Are commercial pellets enough on their own?","acceptedAnswer":{"@type":"Answer","text":"Pellets are a good base but should be combined with fresh greens and, for aquatic species, some protein — not fed exclusively."}},{"@type":"Question","name":"My tortoise refuses vegetables — what should I do?","acceptedAnswer":{"@type":"Answer","text":"This can indicate a health issue or simply pickiness developed from an early diet too high in fruit. Bring your tortoise in for an assessment."}}]}</script>
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🐰 Exotic Animals</div>
   <h1 class="post-h1">Complete Diet Guide for Pet Turtles &amp; Tortoises — Feeding Ratios &amp; Safe Foods</h1>
   <div class="post-meta-full"><span>July 11, 2026</span><span>Dr. Pritesh Vidhate</span><span>5 min read</span></div>
-  <img src="../images/gallery/turtle-1.jpg" alt="Complete Diet Guide for Pet Turtles &amp; Tortoises — Feeding Ratios &amp; Safe Foods" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/gallery/turtle-1.jpg" alt="Complete Diet Guide for Pet Turtles &amp; Tortoises — Feeding Ratios &amp; Safe Foods" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine) — 24+ years of experience in companion animal and exotic pet medicine.</em></p>
 
 <p>Turtles and tortoises are often assumed to be low-maintenance pets — but their dietary needs are precise, and getting them wrong has serious long-term consequences. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, improper nutrition is one of the most common underlying causes behind the shell and bone problems we treat.</p>
@@ -298,7 +313,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
       <div class="rc-body"><h4>Guinea Pig Dental Problems — Overgrown Teeth Symptoms &amp; Treatment in Pune</h4></div>
     </a>
     <a href="rabbit-not-eating.html" class="related-card">
-      <img src="../images/gallery/rabbit-exam.jpg" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune</h4></div>
     </a>
   </div>

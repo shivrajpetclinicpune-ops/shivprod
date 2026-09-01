@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/pathology-lab.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -221,6 +235,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">In-House Diagnostics</div>
     <h1>Pet Blood Tests & Pathology Lab — Same-Visit Results in Pimple Nilakh</h1>
     <p>No referrals. No waiting days for results. Our in-house laboratory processes blood panels, urinalysis, and cytology on-site — with CBC and biochemistry results ready in 15–20 minutes, so treatment starts the same visit.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 
@@ -237,7 +252,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
 <p>Most veterinary clinics in Pune send samples to external labs and wait 24–48 hours for results. At Shivraj Pet Clinic & Lab, serving Wakad & Pimple Saudagar, our fully-equipped in-house pathology laboratory processes the majority of routine tests within the same visit. This means Dr. Pritesh can see your pet's results, diagnose the condition, and begin treatment — all before you leave the clinic.</p>
 <p>For sick or emergency patients, this speed is critical. A dog in suspected tick fever, a rabbit with suspected organ failure, a bird with an unclear diagnosis — in each case, waiting a day for lab results can be the difference between full recovery and a critical decline.</p>
 
-<h2>Tests Available In-House</h2>
+<h2>What Tests Are Available In-House?</h2>
 <h3>Complete Blood Count (CBC)</h3>
 <p>Measures red blood cells, white blood cells, and platelets. Essential for detecting anaemia, infection, inflammation, clotting problems, and bone marrow disorders.</p>
 

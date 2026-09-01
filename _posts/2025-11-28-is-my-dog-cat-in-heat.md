@@ -3,7 +3,7 @@ title: "Is My Dog or Cat in Heat? Signs, Symptoms, and What to Do"
 date: "2025-11-28"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/cat-1.jpg"
+img: "https://images.pexels.com/photos/327244/pexels-photo-327244.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Recognising the signs of heat (oestrus) in dogs and cats helps prevent unwanted pregnancies and health issues. Learn what to expect and when to consider spaying or neutering."
 read: "4"
 ---

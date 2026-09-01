@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/foreign-body-removal-surgery.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -215,6 +229,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Veterinary Surgery</div>
     <h1>Foreign Body Removal — When Your Pet Swallows Something They Shouldn't</h1>
     <p>Toys, socks, string, bones, stones — pets swallow things that can block or tear the intestines. Fast diagnosis prevents a small problem becoming a fatal one.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 <section>
@@ -229,7 +244,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
 <p>Dogs and cats — especially puppies, kittens, and naturally curious breeds — frequently swallow objects that can't pass through the digestive tract. Common culprits we see: socks, string or thread (especially dangerous in cats), small toy parts, fruit pits, and bones that splinter.</p>
 <h2>How We Diagnose It</h2>
 <p>If you've seen your pet eat something concerning, or they're showing symptoms without a known cause, we start with a same-visit digital X-ray. Many objects (bone, metal, dense plastic) show up clearly. For items that don't show on X-ray, like fabric or thread, we use in-house ultrasound to look for the secondary signs — bunched intestines, obstruction patterns, or fluid buildup.</p>
-<h2>Treatment Options</h2>
+<h2>What Are the Treatment Options?</h2>
 <p>Not every swallowed object needs surgery. Small, smooth objects sometimes pass naturally and we may monitor with repeat imaging. Sometimes an object can be removed endoscopically if it's still in the stomach. But if it's caused an obstruction or has moved into the intestines, surgical removal (enterotomy) is needed — and the timeline matters, since a blocked or torn intestine becomes an emergency.</p>
         <h2>Common Signs to Watch For</h2>
         <div class="symptom-grid">

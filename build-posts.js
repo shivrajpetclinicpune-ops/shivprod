@@ -95,6 +95,26 @@ function renderPostPage(slug, p, allPosts) {
     ]
   };
 
+  // FAQPage schema — only generated when the post actually has a real,
+  // parseable Q&A section. Posts without this structure correctly get no
+  // FAQPage schema at all, rather than forcing inaccurate markup onto them.
+  let faqSchema = null;
+  const faqMatch = p.content.match(/<h2>Frequently Asked Questions<\/h2>([\s\S]*?)(?:<h2>|$)/);
+  if (faqMatch) {
+    const qaPairs = [...faqMatch[1].matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/g)];
+    if (qaPairs.length > 0) {
+      faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": qaPairs.map(([, q, a]) => ({
+          "@type": "Question",
+          "name": q.replace(/<[^>]*>/g, ''),
+          "acceptedAnswer": {"@type": "Answer", "text": a.replace(/<[^>]*>/g, '')}
+        }))
+      };
+    }
+  }
+
   const relatedHtml = related.length ? `
 <div class="related-section">
   <h3>Related Articles</h3>
@@ -116,6 +136,20 @@ function renderPostPage(slug, p, allPosts) {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
+</script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
 </script>
 <meta charset="UTF-8">
 <link rel="canonical" href="${canonicalUrl}">
@@ -157,6 +191,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">${JSON.stringify(articleSchema)}</script>
 <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
+${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>` : ''}
 </head>
 <body>
 <nav id="mainNav">
@@ -193,7 +228,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">${p.catLabel}</div>
   <h1 class="post-h1">${escapeHtml(p.title)}</h1>
   <div class="post-meta-full"><span>${p.date}</span><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
-  ${p.img ? `<img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" onerror="this.style.display='none'">` : ''}
+  ${p.img ? `<img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">` : ''}
   <div class="post-content">${content}</div>
 
   <div class="post-cta-box">

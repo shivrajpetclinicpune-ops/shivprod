@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/bird-breathing-problem.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Bird Breathing Problems — Warning Signs & When to Rush to the Vet in Pune","description":"Tail-bobbing, open-beak breathing, or a fluffed-up posture in a pet bird can signal a respiratory emergency. Learn the warning signs from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune.","image":"https://www.shivrajpetclinicpune.com/images/gallery/bird-2.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-08-11","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/bird-breathing-problem.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Bird Breathing Problems — Warning Signs & When to Rush to the Vet in Pune","item":"https://www.shivrajpetclinicpune.com/blog/bird-breathing-problem.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"My bird's tail moves a little when it breathes — is that normal?","acceptedAnswer":{"@type":"Answer","text":"A very slight movement can be normal, but pronounced, rhythmic bobbing with every breath is a warning sign and should be checked promptly."}},{"@type":"Question","name":"Could a scented candle really affect my bird's breathing?","acceptedAnswer":{"@type":"Answer","text":"Yes — birds have an extremely sensitive respiratory system, and fumes from non-stick cookware, aerosols, and some scented products can cause acute, sometimes fatal, respiratory distress."}},{"@type":"Question","name":"Is breathing difficulty always respiratory, or could it be something else?","acceptedAnswer":{"@type":"Answer","text":"Not always — conditions like egg binding or fatty liver disease can also restrict normal breathing, which is why a full exam matters rather than assuming it's a lung infection."}},{"@type":"Question","name":"How is a bird's breathing problem diagnosed?","acceptedAnswer":{"@type":"Answer","text":"Through a calm physical exam, often combined with X-rays and lab testing once the bird is stable enough for handling."}},{"@type":"Question","name":"My bird seems fine most of the day but breathes harder after activity — should I be concerned?","acceptedAnswer":{"@type":"Answer","text":"Yes, reduced exercise tolerance is worth a check — it can be an early sign before breathing problems appear at rest."}},{"@type":"Question","name":"Do you treat budgies and cockatiels as well as larger birds?","acceptedAnswer":{"@type":"Answer","text":"Yes, we see a wide range of pet bird species at our Exotic Animal Centre."}}]}</script>
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🐦 Exotic Animals</div>
   <h1 class="post-h1">Bird Breathing Problems — Warning Signs &amp; When to Rush to the Vet in Pune</h1>
   <div class="post-meta-full"><span>August 11, 2026</span><span>Dr. Pritesh Vidhate</span><span>5 min read</span></div>
-  <img src="../images/gallery/bird-2.jpg" alt="Bird Breathing Problems — Warning Signs &amp; When to Rush to the Vet in Pune" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/gallery/bird-2.jpg" alt="Bird Breathing Problems — Warning Signs &amp; When to Rush to the Vet in Pune" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Medicine), Head Veterinarian at Shivraj Pet Clinic &amp; Exotic Animal Centre.</em></p>
 
 <p>Birds are prey animals by instinct, which means they hide illness extremely well — by the time breathing difficulty is visible, the underlying problem is often already advanced. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, we treat respiratory distress in pet birds as an emergency.</p>
@@ -294,11 +309,11 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
       <div class="rc-body"><h4>Guinea Pig Dental Problems — Overgrown Teeth Symptoms &amp; Treatment in Pune</h4></div>
     </a>
     <a href="rabbit-not-eating.html" class="related-card">
-      <img src="../images/gallery/rabbit-exam.jpg" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune</h4></div>
     </a>
     <a href="turtle-shell-rot.html" class="related-card">
-      <img src="../images/gallery/turtle-1.jpg" alt="Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/159758/pexels-photo-159758.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune</h4></div>
     </a>
   </div>

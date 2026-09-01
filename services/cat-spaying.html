@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/cat-spaying.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -215,6 +229,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Veterinary Surgery</div>
     <h1>Cat Spaying — Protecting Your Cat From Preventable Disease</h1>
     <p>Spaying removes the ovaries and uterus, eliminating heat cycles, unwanted pregnancies, and the risk of life-threatening uterine infections.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 <section>

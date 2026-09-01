@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/soft-tissue-surgery.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -207,6 +221,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Veterinary Surgery</div>
     <h1>Soft Tissue Surgery — Wounds, Hernias &amp; Internal Repair</h1>
     <p>Beyond bones — surgical care for skin, organs, and internal structures, from a torn wound to an abdominal repair.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 <section>
@@ -217,7 +232,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
         <div class="svc-img-strip">
   <img src="../images/services/surgery-2.jpg" alt="Veterinary surgical team performing soft tissue surgery on a pet" loading="lazy">
 </div>
-<h2>Procedures Under This Category</h2>
+<h2>What Procedures Fall Under This Category?</h2>
 <ul><li>Wound repair and reconstruction following injury or dog fights</li><li>Hernia correction (umbilical, inguinal, perineal)</li><li>Cherry eye and eyelid surgery</li><li>Abscess drainage and surgical cleaning</li><li>Anal gland surgery for recurring impaction</li><li>Bladder and abdominal organ procedures</li></ul>
 <h2>Why Quick Evaluation Matters</h2>
 <p>Soft tissue injuries can look minor on the surface but involve deeper damage that's only clear on examination. A small skin tear might need only cleaning and stitches; a deeper wound near the abdomen needs imaging to rule out internal injury before we proceed. We assess every case individually rather than applying a one-size-fits-all approach.</p>

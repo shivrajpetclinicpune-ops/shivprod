@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/monsoon-pet-care-tips.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Monsoon Pet Care Tips for Dogs and Cats in Pune","description":"Monsoon brings ticks, fungal infections, and leptospirosis risks for Pune pets. Here are 8 essential monsoon care tips for dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic.","image":"https://www.shivrajpetclinicpune.com/images/gallery/dog-clinic-waiting.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2025-07-15","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/monsoon-pet-care-tips.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Monsoon Pet Care Tips for Dogs and Cats in Pune","item":"https://www.shivrajpetclinicpune.com/blog/monsoon-pet-care-tips.html"}]}</script>
+
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🐕 Dogs</div>
   <h1 class="post-h1">Monsoon Pet Care Tips for Dogs and Cats in Pune</h1>
   <div class="post-meta-full"><span>July 15, 2025</span><span>Dr. Pritesh Vidhate</span><span>4 min read</span></div>
-  <img src="../images/gallery/dog-clinic-waiting.jpg" alt="Monsoon Pet Care Tips for Dogs and Cats in Pune" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/gallery/dog-clinic-waiting.jpg" alt="Monsoon Pet Care Tips for Dogs and Cats in Pune" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p>Monsoon brings relief from Pune&#39;s scorching summer — but for pet parents, it also brings ticks, skin infections, leptospirosis, and thunder anxiety. At <strong>Shivraj Pet Clinic &amp; Lab</strong>, we see a sharp rise in tick fever, skin infections, and gastroenteritis cases every July to October. Here is how to keep your dog or cat healthy through the rains.</p>
 <h2>8 Essential Monsoon Pet Care Tips</h2>
 <h3>1. Clean and Dry After Every Walk</h3>
@@ -243,7 +258,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <h3>Related Articles</h3>
   <div class="related-grid">
     <a href="acral-lick-dermatitis-dogs.html" class="related-card">
-      <img src="../images/gallery/dog-1.jpg" alt="Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Spot" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/22607860/pexels-photo-22607860.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Spot" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Spot</h4></div>
     </a>
     <a href="dental-scaling-dogs-cats.html" class="related-card">

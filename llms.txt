@@ -1,0 +1,31 @@
+# Shivraj Pet Clinic & Lab
+
+> Multispecies veterinary clinic in Pimple Nilakh, Pune, India, serving Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar since 2013. Father-son veterinary team (Dr. Pritesh Vidhate, Dr. Shivaji Vidhate) offering in-house pathology lab, digital X-ray, sonography, surgery, and a dedicated Exotic Animal Centre for birds, rabbits, turtles, guinea pigs, and hamsters. Consultation: ₹300 (regular), ₹400 (exotic pets). Open Mon–Tue and Thu–Sun, 10:30 AM–1:30 PM & 3:00–8:30 PM. Closed Wednesdays. Phone/WhatsApp: +91 77569 65169.
+
+## Core Pages
+
+- [Homepage](https://www.shivrajpetclinicpune.com/index.html): Overview, hours, location, booking
+- [About](https://www.shivrajpetclinicpune.com/about.html): Doctor bios and clinic history
+- [Gallery & Team](https://www.shivrajpetclinicpune.com/gallery.html): Clinic photos and full team profiles
+- [Pet Care FAQs](https://www.shivrajpetclinicpune.com/pet-care-faqs.html): Common dog, cat, and exotic pet health questions
+
+## Services
+
+- [Preventive Medicine](https://www.shivrajpetclinicpune.com/services/preventive-medicine.html): Vaccination, deworming, wellness exams
+- [Clinical Medicine](https://www.shivrajpetclinicpune.com/services/clinical-medicine.html): General consultations and diagnosis
+- [Exotic Animal Centre](https://www.shivrajpetclinicpune.com/services/exotic-animal-centre.html): Birds, rabbits, turtles, guinea pigs, hamsters
+- [Pathology Lab](https://www.shivrajpetclinicpune.com/services/pathology-lab.html): In-house blood tests, 15–20 minute results
+- [Digital X-Ray](https://www.shivrajpetclinicpune.com/services/digital-xray.html): On-site digital radiography
+- [Sonography](https://www.shivrajpetclinicpune.com/services/sonography.html): Ultrasound imaging
+- [CT Scan & MRI](https://www.shivrajpetclinicpune.com/services/ct-scan-mri.html): Advanced imaging referrals
+- [Dog Neutering](https://www.shivrajpetclinicpune.com/services/dog-neutering.html) / [Cat Spaying](https://www.shivrajpetclinicpune.com/services/cat-spaying.html)
+- [Dog Tumor Surgery](https://www.shivrajpetclinicpune.com/services/dog-tumor-surgery.html)
+- [Orthopedic Surgery](https://www.shivrajpetclinicpune.com/services/orthopedic-surgery.html)
+- [Soft Tissue Surgery](https://www.shivrajpetclinicpune.com/services/soft-tissue-surgery.html)
+- [Foreign Body Removal Surgery](https://www.shivrajpetclinicpune.com/services/foreign-body-removal-surgery.html)
+- [Emergency Surgery](https://www.shivrajpetclinicpune.com/services/emergency-surgery.html)
+- [Vet Pharmacy](https://www.shivrajpetclinicpune.com/services/vet-pharmacy.html)
+
+## Blog
+
+Full pet health article index: [Blog](https://www.shivrajpetclinicpune.com/blog.html) — condition guides, emergency care, vaccination schedules, and species-specific care for dogs, cats, and exotic pets. Full sitemap: [sitemap.xml](https://www.shivrajpetclinicpune.com/sitemap.xml)

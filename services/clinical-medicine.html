@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/clinical-medicine.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -221,6 +235,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Clinical Medicine</div>
     <h1>Veterinary Consultation & Clinical Medicine in Wakad & Pimple Saudagar, Pune</h1>
     <p>A thorough, unhurried examination is the foundation of good medicine. Dr. Pritesh takes the time to examine every system, understand the history, and explain the findings clearly.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 
@@ -237,7 +252,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
 <p>At Shivraj Pet Clinic & Lab, every consultation follows a structured approach that leaves nothing to chance. Dr. Pritesh reviews the history, performs a complete physical examination from nose to tail, and integrates findings from any diagnostics run the same day.</p>
 <p>You receive a clear, honest explanation of what was found, what it means, what the treatment options are, and what to watch for at home. We don't rush appointments and we encourage questions — because an informed pet owner is the most important part of any treatment plan.</p>
 
-<h2>Conditions Commonly Treated</h2>
+<h2>What Conditions Are Commonly Treated?</h2>
 <h3>Dermatology (Skin & Coat)</h3>
 <ul>
   <li>Allergic skin disease — food allergies, environmental atopy, flea allergy dermatitis</li>

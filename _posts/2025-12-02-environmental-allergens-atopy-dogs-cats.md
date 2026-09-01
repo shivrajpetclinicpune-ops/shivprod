@@ -3,7 +3,7 @@ title: "Environmental Allergens That Trigger Atopy in Dogs and Cats"
 date: "2025-12-02"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-2.jpg"
+img: "https://images.pexels.com/photos/16629458/pexels-photo-16629458.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Atopic dermatitis (environmental allergy) is the second most common cause of itching in dogs. Learn which allergens trigger it, how it is diagnosed, and treatment options from Shivraj Pet Clinic Pune."
 read: "5"
 ---

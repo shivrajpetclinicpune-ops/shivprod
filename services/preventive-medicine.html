@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/preventive-medicine.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -221,6 +235,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Preventive Medicine</div>
     <h1>Pet Vaccination & Preventive Care in Wakad & Pimple Saudagar, Pune</h1>
     <p>Prevention is the most powerful medicine. From core vaccines to parasite protection — keeping your pet healthy before illness strikes.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 
@@ -237,7 +252,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
 <p>Most serious diseases that affect dogs and cats in Pune are entirely preventable with timely vaccination and routine health checks. Parvovirus, distemper, rabies, and feline panleukopenia kill hundreds of pets in PCMC every year — and the majority of these deaths happen in unvaccinated animals.</p>
 <p>At Shivraj Pet Clinic & Lab in Pimple Nilakh, our preventive medicine program is designed to catch problems before they become emergencies. Regular wellness visits give Dr. Pritesh the chance to detect early signs of organ disease, dental problems, skin conditions, and joint issues that owners rarely notice at home.</p>
 
-<h2>Vaccination Schedule</h2>
+<h2>What Is the Vaccination Schedule?</h2>
 <p>In India, annual vaccination is recommended for most pets. Schedules are tailored to your pet's age, lifestyle, travel and health status.</p>
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin:20px 0">
@@ -302,7 +317,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
   <li><strong>Parasite Screening</strong> — Stool examination for active worm burden, recommended annually</li>
 </ul>
 
-<h2>Wellness Examinations</h2>
+<h2>What Happens During a Wellness Examination?</h2>
 <p>A yearly wellness exam is the single most effective thing you can do for a pet that looks and acts healthy. Dr. Pritesh examines every organ system — eyes, ears, teeth, skin, lymph nodes, heart, lungs, abdomen — and can identify problems at a stage when they're far easier and less expensive to treat.</p>
 <ul>
   <li><strong>Puppy & Kitten Health Checks</strong> — Growth monitoring, developmental milestones, diet guidance</li>

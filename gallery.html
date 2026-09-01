@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -194,6 +208,9 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
 .t-bio{font-size:.85rem;color:var(--body);line-height:1.65;margin-bottom:14px}
 .t-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .t-tag{background:var(--green-lite);color:var(--green);padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600}
+.t-tags .t-tag:nth-child(n+5){display:none}
+.t-tags.tags-expanded .t-tag{display:inline-flex!important}
+.tags-more-btn{background:none;border:1px solid var(--line);color:var(--muted);padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600;cursor:pointer;font-family:inherit;margin-top:6px}
 .t-tag.theme-green{background:#d7f0dc;color:#2f9e52}
 .t-tag.theme-tan{background:#f5e2c6;color:#b3722f}
 .t-tag.theme-purple{background:#e6d9fb;color:#7c3aed}
@@ -354,7 +371,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
             <span class="t-tag theme-green">Exotic Animal Medicine</span>
             <span class="t-tag theme-green">Surgery</span>
             <span class="t-tag theme-green">Ultrasonography</span>
-            <span class="t-tag theme-green">Internal Medicine</span>
+            <span class="t-tag theme-green">Preventive Medicine</span>
           </div>
         </div>
       </a>
@@ -375,6 +392,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
             <span class="t-tag theme-tan">Field Medicine</span>
             <span class="t-tag theme-tan">33+ Years</span>
             <span class="t-tag theme-tan">Retired DAHO Pune</span>
+            <span class="t-tag theme-tan">Experienced Surgeon</span>
           </div>
           <div class="t-note">🏆 Founder of a leading multispecies veterinary clinic in PCMC, Est. 2013</div>
         </div>
@@ -469,5 +487,23 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif;font-size:.95rem;d
 </div>
 
 <script src="assets/reveal.js" defer></script>
+<script>
+document.querySelectorAll('.t-tags').forEach(function(container) {
+  var tags = container.querySelectorAll('.t-tag');
+  if (tags.length > 4) {
+    var hiddenCount = tags.length - 4;
+    var btn = document.createElement('button');
+    btn.className = 'tags-more-btn';
+    btn.textContent = '+' + hiddenCount + ' more';
+    btn.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var expanded = container.classList.toggle('tags-expanded');
+      btn.textContent = expanded ? 'Show less' : '+' + hiddenCount + ' more';
+    };
+    container.insertAdjacentElement('afterend', btn);
+  }
+});
+</script>
 </body>
 </html>

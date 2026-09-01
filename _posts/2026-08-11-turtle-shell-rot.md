@@ -3,7 +3,7 @@ title: "Turtle Shell Rot — Causes, Symptoms & Treatment in Pune"
 date: "2026-08-11"
 cat: "exotic"
 catLabel: "🐢 Exotic Animals"
-img: "/images/gallery/turtle-1.jpg"
+img: "https://images.pexels.com/photos/159758/pexels-photo-159758.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Soft patches, discoloration, or a foul smell from your turtle's shell can signal shell rot — a treatable but serious infection. Learn the signs from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "4"
 ---

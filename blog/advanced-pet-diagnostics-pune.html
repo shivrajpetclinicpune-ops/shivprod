@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/advanced-pet-diagnostics-pune.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need","description":"Is your pet feeling unwell but the symptoms are vague? Learn about modern diagnostic tests at Shivraj Pet Clinic for dogs, cats, rabbits, birds, and turtles.","image":"https://www.shivrajpetclinicpune.com/images/services/lab.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2025-07-15","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/advanced-pet-diagnostics-pune.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need","item":"https://www.shivrajpetclinicpune.com/blog/advanced-pet-diagnostics-pune.html"}]}</script>
+
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🏥 Surgery & Lab</div>
   <h1 class="post-h1">Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need</h1>
   <div class="post-meta-full"><span>July 15, 2025</span><span>Dr. Pritesh Vidhate</span><span>4 min read</span></div>
-  <img src="../images/services/lab.jpg" alt="Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/services/lab.jpg" alt="Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p>Is your pet feeling unwell, but the symptoms are vague? That&#39;s where advanced veterinary diagnostics come in. At <strong>Shivraj Pet Clinic &amp; Lab, serving Wakad &amp; Pimple Saudagar, Pune</strong>, we offer a range of modern diagnostic tests that help us detect and treat diseases in <strong>dogs, cats, rabbits, birds, turtles</strong>, and other exotic pets — quickly and accurately.</p>
 <h2>Why Pet Diagnostics Matter</h2>
 <p>Animals can&#39;t tell us what&#39;s wrong. Early detection through diagnostics can prevent serious illness, help tailor precise treatments, and save lives in emergencies. We&#39;re equipped with in-clinic diagnostic tools, reducing the need for external referrals and speeding up treatment.</p>

@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -19,7 +33,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune">
 <meta property="og:description" content="A rabbit that stops eating for even a few hours can be a genuine emergency, not something to wait out. Learn why, and what to do, from Shivraj Pet Clinic, Wakad &amp; Pimple Saudagar, Pune.">
-<meta property="og:image" content="https://www.shivrajpetclinicpune.com/images/gallery/rabbit-exam.jpg">
+<meta property="og:image" content="https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop">
 <meta property="og:url" content="https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html">
 <meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -170,8 +184,9 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 .back-link:hover{text-decoration:underline}
 @media(max-width:600px){.post-page-wrap{padding:90px 16px 50px}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Rabbit Not Eating? Causes, Emergency Signs & Treatment in Pune","description":"A rabbit that stops eating for even a few hours can be a genuine emergency, not something to wait out. Learn why, and what to do, from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune.","image":"https://www.shivrajpetclinicpune.com/images/gallery/rabbit-exam.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-08-11","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Rabbit Not Eating? Causes, Emergency Signs & Treatment in Pune","description":"A rabbit that stops eating for even a few hours can be a genuine emergency, not something to wait out. Learn why, and what to do, from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune.","image":"https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-08-11","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Rabbit Not Eating? Causes, Emergency Signs & Treatment in Pune","item":"https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"My rabbit ate a little this morning but has stopped since — is that still an emergency?","acceptedAnswer":{"@type":"Answer","text":"Yes. A significant drop in intake, even if not complete refusal, warrants a same-day check, especially if droppings have also reduced."}},{"@type":"Question","name":"Can I just syringe-feed my rabbit at home until it improves?","acceptedAnswer":{"@type":"Answer","text":"Supportive feeding can help once a vet has assessed the cause, but doing it alone without knowing why your rabbit stopped eating can delay treatment of the underlying problem."}},{"@type":"Question","name":"Is GI stasis the same as a hairball blockage?","acceptedAnswer":{"@type":"Answer","text":"Not always — stasis is a slowdown of gut movement that can happen with or without a physical blockage. Only an exam (and sometimes imaging) can tell the difference."}},{"@type":"Question","name":"How quickly can rabbits decline once they stop eating?","acceptedAnswer":{"@type":"Answer","text":"Deterioration can happen within 24-48 hours, which is why same-day veterinary attention matters so much with this species."}},{"@type":"Question","name":"Do you see rabbit dental problems often?","acceptedAnswer":{"@type":"Answer","text":"Yes — dental disease is one of the most common underlying causes of appetite loss we diagnose in pet rabbits."}},{"@type":"Question","name":"What should I bring to the appointment?","acceptedAnswer":{"@type":"Answer","text":"Note roughly when your rabbit last ate and last produced droppings, and bring your rabbit in its normal carrier to minimise added stress."}}]}</script>
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🐰 Exotic Animals</div>
   <h1 class="post-h1">Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune</h1>
   <div class="post-meta-full"><span>August 11, 2026</span><span>Dr. Pritesh Vidhate</span><span>5 min read</span></div>
-  <img src="../images/gallery/rabbit-exam.jpg" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Rabbit Not Eating? Causes, Emergency Signs &amp; Treatment in Pune" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Medicine), Head Veterinarian at Shivraj Pet Clinic &amp; Exotic Animal Centre.</em></p>
 
 <p>Unlike dogs or cats, a rabbit that skips even one or two meals is not "just being fussy" — it's one of the most time-sensitive warning signs in rabbit medicine. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, we treat rabbit anorexia as an emergency until proven otherwise.</p>
@@ -299,7 +314,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
       <div class="rc-body"><h4>Guinea Pig Dental Problems — Overgrown Teeth Symptoms &amp; Treatment in Pune</h4></div>
     </a>
     <a href="turtle-shell-rot.html" class="related-card">
-      <img src="../images/gallery/turtle-1.jpg" alt="Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
+      <img src="https://images.pexels.com/photos/159758/pexels-photo-159758.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune" loading="lazy" onerror="this.style.display='none'">
       <div class="rc-body"><h4>Turtle Shell Rot — Causes, Symptoms &amp; Treatment in Pune</h4></div>
     </a>
   </div>

@@ -3,7 +3,7 @@ title: "Rabbit Not Eating? Causes, Emergency Signs & Treatment in Pune"
 date: "2026-08-11"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "/images/gallery/rabbit-exam.jpg"
+img: "https://images.pexels.com/photos/19943347/pexels-photo-19943347.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "A rabbit that stops eating for even a few hours can be a genuine emergency, not something to wait out. Learn why, and what to do, from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
 read: "5"
 ---

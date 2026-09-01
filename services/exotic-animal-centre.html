@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/exotic-animal-centre.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -221,6 +235,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Exotic Animal Centre</div>
     <h1>Exotic Pet Veterinary Care in Pune — Rabbits, Birds, Turtles & More</h1>
     <p>One of the very few clinics in PCMC with dedicated equipment and clinical experience for birds, rabbits, turtles, reptiles, and small exotic mammals.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 
@@ -237,7 +252,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
 <p>Exotic animals are not small dogs. Their anatomy, metabolism, disease patterns, and response to anaesthesia are completely different from cats and dogs — and most general veterinary clinics in Pune simply don't have the training, equipment, or experience to treat them safely.</p>
 <p>At Shivraj Pet Clinic & Lab, Dr. Pritesh Vidhate has extensive clinical experience treating exotic pets including rabbits, birds, turtles and small mammals. With hands-on experience treating hundreds of exotic patients every year, we use species-appropriate gaseous anaesthesia, species-specific diagnostic protocols, and individualized treatment plans for every exotic patient.</p>
 
-<h2>Animals We Treat</h2>
+<h2>Which Animals Do We Treat?</h2>
 <div class="symptom-grid">
   <div class="symptom-chip">🐰 <strong>Rabbits</strong> — GI stasis, dental disease, neutering/spaying, respiratory infections</div>
   <div class="symptom-chip">🦜 <strong>Parrots & Birds</strong> — African Greys, Macaws, Budgies, Cockatiels, Finches, Lovebirds</div>
@@ -247,7 +262,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
   <div class="symptom-chip">🐾 <strong>Guinea Pigs</strong> — Dental malocclusion, scurvy (Vitamin C deficiency), skin conditions</div>
 </div>
 
-<h2>Services for Exotic Pets</h2>
+<h2>What Services Are Available for Exotic Pets?</h2>
 <ul>
   <li><strong>Health Checkups</strong> — Species-specific wellness exams, weight monitoring, behavioral assessment</li>
   <li><strong>Diagnostic Testing</strong> — In-house blood panels, X-ray, ultrasound adapted for small exotic patients</li>

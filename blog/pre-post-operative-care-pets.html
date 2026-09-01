@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/pre-post-operative-care-pets.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Pre-operative & Post-operative Care for Pets — Surgery Safety at Shivraj","description":"What to expect before and after your pet's surgery at Shivraj Pet Clinic. Our gas anaesthesia protocol, recovery monitoring and complete post-op care guide.","image":"https://www.shivrajpetclinicpune.com/images/services/surgery-2.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-04-18","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/pre-post-operative-care-pets.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Pre-operative & Post-operative Care for Pets — Surgery Safety at Shivraj","item":"https://www.shivrajpetclinicpune.com/blog/pre-post-operative-care-pets.html"}]}</script>
+
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🔬 Surgery & Lab</div>
   <h1 class="post-h1">Pre-operative &amp; Post-operative Care for Pets — Surgery Safety at Shivraj</h1>
   <div class="post-meta-full"><span>April 18, 2026</span><span>Dr. Pritesh Vidhate</span><span>5 min read</span></div>
-  <img src="../images/services/surgery-2.jpg" alt="Pre-operative &amp; Post-operative Care for Pets — Surgery Safety at Shivraj" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/services/surgery-2.jpg" alt="Pre-operative &amp; Post-operative Care for Pets — Surgery Safety at Shivraj" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><h2>Our Commitment to Surgical Safety</h2><p>At Shivraj Pet Clinic we have performed over 200 surgical procedures on exotic and companion animals. Our protocol prioritises safety at every step.</p><div class='post-highlight'>🏥 We use gas anaesthesia (isoflurane) for all surgeries — the same standard used in human hospitals. Significantly safer than injectable-only anaesthesia.</div><h2>Pre-operative Preparation</h2><h3>Dogs and Cats:</h3><ul><li><strong>Fast for 8–12 hours</strong> before surgery — no food after midnight</li><li><strong>Water is fine</strong> up to 2 hours before</li><li><strong>Pre-surgical blood work</strong> — we run CBC and biochemistry</li><li>Do NOT give medications on the morning of surgery unless instructed</li></ul><h3>Exotic Animals (Rabbits, Guinea Pigs, Birds):</h3><ul><li><strong>Do NOT fast rabbits or guinea pigs</strong> — their digestive system must keep moving</li></ul><div class='post-warning'>⚠️ Most dangerous mistake: fasting a rabbit before surgery. Always tell us if another vet recommended this.</div><h2>Post-operative Care at Home</h2><ul><li><strong>Rest for 24–48 hours</strong> — no running, jumping or stairs</li><li><strong>E-collar (cone)</strong> — must be worn to prevent licking the wound</li><li><strong>Wound care:</strong> Keep dry, check daily for redness or discharge</li><li><strong>Medications:</strong> Give exactly as prescribed — never skip pain relief</li><li><strong>Follow-up:</strong> Suture removal 10–14 days after surgery</li></ul></div>
 
   <div class="post-cta-box">

@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -570,6 +584,9 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
   /* Booking form */
   #book [style*="max-width:520px"]{padding:20px 16px!important}
 }
+.t-tags .t-tag:nth-child(n+5){display:none}
+.t-tags.tags-expanded .t-tag{display:inline-flex!important}
+.tags-more-btn{background:none;border:1px solid var(--line);color:var(--muted);padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600;cursor:pointer;font-family:inherit;margin-top:6px}
 </style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script>
@@ -1097,10 +1114,11 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
           <div style="font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#2f9e52;margin-bottom:4px">Head Veterinarian</div>
           <div style="font-family:'Instrument Serif',serif;font-size:1.2rem;color:var(--ink);margin-bottom:2px">Dr. Pritesh S. Vidhate</div>
           <div style="font-size:.8rem;color:var(--muted);margin-bottom:12px">M.V.Sc. (Medicine)</div>
-          <div style="display:flex;flex-wrap:wrap;gap:6px">
-            <span style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Exotic Animal Medicine</span>
-            <span style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Surgery</span>
-            <span style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Ultrasonography</span>
+          <div class="t-tags" style="display:flex;flex-wrap:wrap;gap:6px">
+            <span class="t-tag" style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Exotic Animal Medicine</span>
+            <span class="t-tag" style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Surgery</span>
+            <span class="t-tag" style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Ultrasonography</span>
+            <span class="t-tag" style="background:#d7f0dc;color:#2f9e52;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Preventive Medicine</span>
           </div>
         </div>
       </a>
@@ -1113,10 +1131,11 @@ svg:not([width]):not([height]):not(.logo-svg){max-width:24px;max-height:24px}
           <div style="font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#b3722f;margin-bottom:4px">Founder &amp; Senior Veterinarian</div>
           <div style="font-family:'Instrument Serif',serif;font-size:1.2rem;color:var(--ink);margin-bottom:2px">Dr. Shivaji B. Vidhate</div>
           <div style="font-size:.8rem;color:var(--muted);margin-bottom:12px">M.V.Sc. (Pathology) · 33+ Years Experience</div>
-          <div style="display:flex;flex-wrap:wrap;gap:6px">
-            <span style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Pathology</span>
-            <span style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Field Medicine</span>
-            <span style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Retired DAHO Pune</span>
+          <div class="t-tags" style="display:flex;flex-wrap:wrap;gap:6px">
+            <span class="t-tag" style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Pathology</span>
+            <span class="t-tag" style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Field Medicine</span>
+            <span class="t-tag" style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Retired DAHO Pune</span>
+            <span class="t-tag" style="background:#f5e2c6;color:#b3722f;padding:4px 10px;border-radius:50px;font-size:.72rem;font-weight:600">Experienced Surgeon</span>
           </div>
         </div>
       </a>
@@ -1581,6 +1600,24 @@ function submitMainBooking(){
     init();
   }
 })();
+</script>
+<script>
+document.querySelectorAll('.t-tags').forEach(function(container) {
+  var tags = container.querySelectorAll('.t-tag');
+  if (tags.length > 4) {
+    var hiddenCount = tags.length - 4;
+    var btn = document.createElement('button');
+    btn.className = 'tags-more-btn';
+    btn.textContent = '+' + hiddenCount + ' more';
+    btn.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var expanded = container.classList.toggle('tags-expanded');
+      btn.textContent = expanded ? 'Show less' : '+' + hiddenCount + ' more';
+    };
+    container.insertAdjacentElement('afterend', btn);
+  }
+});
 </script>
 </body>
 </html>

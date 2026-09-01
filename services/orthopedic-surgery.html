@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/services/orthopedic-surgery.html">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -215,6 +229,7 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
     <div class="tag">Veterinary Surgery</div>
     <h1>Orthopedic Surgery — Fractures, Ligaments &amp; Joint Care</h1>
     <p>From a fall, an accident, or wear over time — broken bones and torn ligaments need fast, accurate diagnosis and skilled surgical repair.</p>
+    <p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
   </div>
 </section>
 <section>
@@ -225,11 +240,11 @@ footer strong{color:#fff;font-family:'Instrument Serif',serif}
         <div class="svc-img-strip">
   <img src="../images/services/surgery.jpg" alt="Veterinary surgeon performing orthopedic fracture repair surgery" loading="lazy">
 </div>
-<h2>Conditions We Treat</h2>
+<h2>What Conditions Do We Treat?</h2>
 <ul><li>Limb fractures from falls, road accidents, or trauma</li><li>Fracture repair — bone plating and intramedullary pinning</li><li>Ligament injuries and joint surgery</li><li>Patellar luxation (kneecap slipping out of place), common in small breeds</li><li>Hip dysplasia and joint degeneration in older pets</li><li>Dislocations following trauma</li></ul>
 <h2>Why Imaging Comes First</h2>
 <p>We never operate on a guess. Digital X-ray gives us a clear view of bone alignment and fracture pattern same-visit. For complex cases requiring more detailed cross-sectional imaging, we coordinate referral to trusted facilities so surgical planning is accurate and complete.</p>
-<h2>Surgical Approach</h2>
+<h2>What Is the Surgical Approach?</h2>
 <p>Depending on the injury, repair may involve pinning, plating, external fixation, or ligament reconstruction. All orthopedic procedures are done under gas anaesthesia with full vital monitoring. Recovery includes pain management and a structured activity-restriction plan — we'll walk you through exactly what your pet can and can't do during healing.</p>
         <h2>Common Signs to Watch For</h2>
         <div class="symptom-grid">

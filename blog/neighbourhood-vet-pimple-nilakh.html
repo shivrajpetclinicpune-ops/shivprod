@@ -9,6 +9,20 @@
   gtag('js', new Date());
   gtag('config', 'G-94PYDYSWKF');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a');
+  if (!link || typeof gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  if (href.indexOf('tel:') === 0) {
+    gtag('event', 'phone_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'whatsapp_click', {event_category: 'engagement', event_label: href});
+  } else if (href.indexOf('#book') !== -1) {
+    gtag('event', 'book_appointment_click', {event_category: 'engagement', event_label: href});
+  }
+});
+</script>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://www.shivrajpetclinicpune.com/blog/neighbourhood-vet-pimple-nilakh.html">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -172,6 +186,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Your Neighbourhood Vet in Pimple Nilakh Since 2013","description":"Shivraj Pet Clinic & Lab — Pimple Nilakh's multispecies veterinary clinic since 2013. In-house lab, digital X-ray, surgery, exotic animal care.","image":"https://www.shivrajpetclinicpune.com/images/gallery/dr-pritesh-dog-exam.jpg","author":{"@type":"Person","name":"Dr. Pritesh Vidhate"},"publisher":{"@type":"VeterinaryCare","name":"Shivraj Pet Clinic & Lab","url":"https://www.shivrajpetclinicpune.com"},"datePublished":"2026-06-25","mainEntityOfPage":"https://www.shivrajpetclinicpune.com/blog/neighbourhood-vet-pimple-nilakh.html"}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.shivrajpetclinicpune.com/index.html"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://www.shivrajpetclinicpune.com/blog.html"},{"@type":"ListItem","position":3,"name":"Your Neighbourhood Vet in Pimple Nilakh Since 2013","item":"https://www.shivrajpetclinicpune.com/blog/neighbourhood-vet-pimple-nilakh.html"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where exactly is the clinic located?","acceptedAnswer":{"@type":"Answer","text":"Shop No. B-4, Alpine Avenue, Aundh-Wakad Rd, Vishal Nagar, Pimple Nilakh, Pimpri-Chinchwad 411027."}},{"@type":"Question","name":"How long have you been serving Pimple Nilakh?","acceptedAnswer":{"@type":"Answer","text":"Since 2013 — over 12 years and 2,500+ pet families."}},{"@type":"Question","name":"Do you offer same-day lab results?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our in-house pathology lab typically returns CBC and biochemistry results within 15–20 minutes."}}]}</script>
 </head>
 <body>
 <nav id="mainNav">
@@ -208,7 +223,7 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
   <div class="post-cat-tag">🏥 Clinic Info</div>
   <h1 class="post-h1">Your Neighbourhood Vet in Pimple Nilakh Since 2013</h1>
   <div class="post-meta-full"><span>June 25, 2026</span><span>Dr. Pritesh Vidhate</span><span>4 min read</span></div>
-  <img src="../images/gallery/dr-pritesh-dog-exam.jpg" alt="Your Neighbourhood Vet in Pimple Nilakh Since 2013" class="post-hero-img" onerror="this.style.display='none'">
+  <img src="../images/gallery/dr-pritesh-dog-exam.jpg" alt="Your Neighbourhood Vet in Pimple Nilakh Since 2013" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">
   <div class="post-content"><p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
 
 <p>Shivraj Pet Clinic &amp; Lab has been Pimple Nilakh's neighbourhood veterinary clinic since 2013 — a father-son practice built on the idea that every pet, from a family dog to a pet turtle, deserves expert, same-day care without being sent across town for basic diagnostics.</p>
@@ -267,13 +282,17 @@ h1.post-h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.4re
 <div class="related-section">
   <h3>Related Articles</h3>
   <div class="related-grid">
-    <a href="vet-clinic-pimple-saudagar.html" class="related-card">
-      <img src="../images/gallery/dog-clinic-waiting.jpg" alt="Trusted Vet Clinic Serving Pimple Saudagar Pet Parents" loading="lazy" onerror="this.style.display='none'">
-      <div class="rc-body"><h4>Trusted Vet Clinic Serving Pimple Saudagar Pet Parents</h4></div>
+    <a href="dog-diarrhea-causes.html" class="related-card">
+      <img src="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Dog Diarrhea: Causes, Warning Signs, and When to Visit a Vet" loading="lazy" onerror="this.style.display='none'">
+      <div class="rc-body"><h4>Dog Diarrhea: Causes, Warning Signs, and When to Visit a Vet</h4></div>
     </a>
-    <a href="vet-near-wakad.html" class="related-card">
-      <img src="../images/gallery/clinic-storefront.jpg" alt="Looking for a Vet Near Wakad? Here's What Shivraj Pet Clinic Offers" loading="lazy" onerror="this.style.display='none'">
-      <div class="rc-body"><h4>Looking for a Vet Near Wakad? Here's What Shivraj Pet Clinic Offers</h4></div>
+    <a href="dog-vomiting-causes.html" class="related-card">
+      <img src="https://images.pexels.com/photos/6235241/pexels-photo-6235241.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Why Is My Dog Vomiting? Common Causes and When It Becomes an Emergency" loading="lazy" onerror="this.style.display='none'">
+      <div class="rc-body"><h4>Why Is My Dog Vomiting? Common Causes and When It Becomes an Emergency</h4></div>
+    </a>
+    <a href="dog-not-eating-drinking.html" class="related-card">
+      <img src="https://images.pexels.com/photos/6235016/pexels-photo-6235016.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Dog Not Eating or Drinking: When Should You Worry?" loading="lazy" onerror="this.style.display='none'">
+      <div class="rc-body"><h4>Dog Not Eating or Drinking: When Should You Worry?</h4></div>
     </a>
   </div>
 </div>

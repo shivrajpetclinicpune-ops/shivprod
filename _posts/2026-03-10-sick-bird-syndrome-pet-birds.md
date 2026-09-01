@@ -3,7 +3,7 @@ title: "Sick Bird Syndrome — Early Signs Every Bird Owner Should Know"
 date: "2026-03-10"
 cat: "exotic"
 catLabel: "🐰 Exotic Animals"
-img: "/images/gallery/exotic-bird.jpg"
+img: "https://images.pexels.com/photos/7154573/pexels-photo-7154573.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Birds hide illness until they are critically sick. Learn to recognise the early signs of a sick bird — and why acting within hours matters. From Dr. Pritesh Vidhate, Shivraj Pet Clinic Pune."
 read: "4"
 ---

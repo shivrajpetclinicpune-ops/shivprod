@@ -3,7 +3,7 @@ title: "Hair Fall in Dogs & Cats — When Is Shedding Normal vs a Medical Proble
 date: "2026-07-11"
 cat: "dog"
 catLabel: "🐕 Dogs"
-img: "/images/gallery/dog-2.jpg"
+img: "https://images.pexels.com/photos/9810766/pexels-photo-9810766.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
 summary: "Seasonal shedding is normal — patchy bald spots or sudden hair loss are not. Learn the causes, diagnosis, and treatment for excessive hair fall in dogs and cats at Shivraj Pet Clinic, Pune."
 read: "4"
 ---
