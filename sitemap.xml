@@ -11,7 +11,7 @@
   <url><loc>https://www.shivrajpetclinicpune.com/services/clinical-medicine.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/services/digital-xray.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/services/sonography.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://www.shivrajpetclinicpune.com/services/ct-scan-mri.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <!-- TEMPORARILY DISABLED: <url><loc>https://www.shivrajpetclinicpune.com/services/ct-scan-mri.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url> -->
   <url><loc>https://www.shivrajpetclinicpune.com/services/vet-pharmacy.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/services/dog-neutering.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/services/cat-spaying.html</loc><lastmod>2026-09-01</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -45,24 +45,35 @@
 
 
 
+
+
 <!-- BLOG_POSTS_START -->
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/rabies-dogs-cats-prevention.html</loc><lastmod>2026-09-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pet-missed-vaccine-booster.html</loc><lastmod>2026-08-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-health-checkup-frequency.html</loc><lastmod>2026-08-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-diarrhea-causes.html</loc><lastmod>2026-08-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/puppy-outside-before-vaccinations.html</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/kitten-deworming-schedule-india.html</loc><lastmod>2026-08-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/puppy-vaccination-after-adoption.html</loc><lastmod>2026-08-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-vaccination-schedule-india.html</loc><lastmod>2026-08-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-vomiting-causes.html</loc><lastmod>2026-08-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-deworming-frequency.html</loc><lastmod>2026-08-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/feline-panleukopenia-vs-cat-flu.html</loc><lastmod>2026-08-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-deworming-frequency.html</loc><lastmod>2026-08-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-fever-symptoms.html</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-not-eating-drinking.html</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/bird-breathing-problem.html</loc><lastmod>2026-08-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/guinea-pig-dental-problem.html</loc><lastmod>2026-08-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-not-eating.html</loc><lastmod>2026-08-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/turtle-shell-rot.html</loc><lastmod>2026-08-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/puppy-deworming-schedule-india.html</loc><lastmod>2026-08-09</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-breathing-problems-respiratory-distress.html</loc><lastmod>2026-08-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/bird-first-aid-before-avian-vet.html</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/why-is-my-cat-losing-weight.html</loc><lastmod>2026-08-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-emergency-vet-signs.html</loc><lastmod>2026-08-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-vomiting-hairballs-or-serious.html</loc><lastmod>2026-08-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/blood-in-cat-urine-blockage.html</loc><lastmod>2026-08-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/how-to-tell-bird-in-pain.html</loc><lastmod>2026-08-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/why-is-my-cat-hiding-suddenly.html</loc><lastmod>2026-08-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-diarrhea-causes-vet-visit.html</loc><lastmod>2026-07-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-not-eating-how-long.html</loc><lastmod>2026-07-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -89,38 +100,79 @@
   <url><loc>https://www.shivrajpetclinicpune.com/blog/household-poisons-pets.html</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/bird-droppings-health-signs.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-urine-problems-uti-stones.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/exotic-pet-vet-near-vishal-nagar.html</loc><lastmod>2026-06-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/neighbourhood-vet-pimple-nilakh.html</loc><lastmod>2026-06-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/parrot-breathing-heavily.html</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/veterinary-clinic-near-wakad-checklist.html</loc><lastmod>2026-06-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/fleas-cause-pet-anemia.html</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-ate-chocolate-first-hour.html</loc><lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/sudden-paralysis-dogs.html</loc><lastmod>2026-06-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/good-pet-clinic-pimple-saudagar-services.html</loc><lastmod>2026-06-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/ear-mites-cats-dogs.html</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/parrot-fluffed-up-all-day.html</loc><lastmod>2026-06-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/how-to-choose-emergency-vet-pcmc.html</loc><lastmod>2026-06-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-skin-problems-itching-hair-loss.html</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-bite-wounds-veterinary-exam.html</loc><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/parrot-not-eating.html</loc><lastmod>2026-06-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/how-to-choose-pet-clinic-pune.html</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/toxic-foods-household-hazards-pet-birds.html</loc><lastmod>2026-06-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/why-dog-constantly-scratching.html</loc><lastmod>2026-06-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-heatstroke-symptoms-first-aid.html</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/parrot-diseases-explained.html</loc><lastmod>2026-06-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/veterinary-checkup-cost-pune.html</loc><lastmod>2026-06-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/common-diseases-pet-rabbits.html</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-fleas-ticks-prevention-treatment.html</loc><lastmod>2026-06-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/fast-diagnostics-veterinary-emergencies.html</loc><lastmod>2026-06-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/vet-clinic-pimple-saudagar.html</loc><lastmod>2026-06-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-skin-allergy-symptoms-treatment.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-losing-weight.html</loc><lastmod>2026-06-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-eats-foreign-object.html</loc><lastmod>2026-06-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pre-surgical-blood-tests-dogs-cats.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/delaying-treatment-worsens-emergencies.html</loc><lastmod>2026-05-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/what-should-rabbits-eat.html</loc><lastmod>2026-05-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-seizures-what-to-do.html</loc><lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/how-quickly-blood-test-results-available.html</loc><lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/create-pet-emergency-plan.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-vaccination-preventive-care-india.html</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/what-is-veterinary-pathology-lab.html</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pet-emergency-signs-never-ignore.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-breathing-problems.html</loc><lastmod>2026-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-suddenly-weak-unable-stand.html</loc><lastmod>2026-05-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/in-house-diagnostics-faster-treatment.html</loc><lastmod>2026-05-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pet-first-aid-kit-essentials.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-diarrhea-vs-cecotropes.html</loc><lastmod>2026-05-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/xray-detect-foreign-body-dog.html</loc><lastmod>2026-05-13</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/vet-near-wakad.html</loc><lastmod>2026-05-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-breathing-fast-resting.html</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/information-for-vet-during-emergency.html</loc><lastmod>2026-05-11</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/how-to-know-rabbit-is-sick.html</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/cat-xray-when-needed.html</loc><lastmod>2026-05-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/neutering-rabbits.html</loc><lastmod>2026-05-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/prepare-dog-xray-ultrasound.html</loc><lastmod>2026-05-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-dental-problems.html</loc><lastmod>2026-05-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/blood-in-dog-stool.html</loc><lastmod>2026-05-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/dog-xray-conditions-detected.html</loc><lastmod>2026-05-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/prepare-pet-veterinary-blood-test.html</loc><lastmod>2026-05-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/rabbit-gi-stasis.html</loc><lastmod>2026-05-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pet-blood-test-before-surgery.html</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/transport-parrot-avian-vet.html</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/exotic-vet-pcmc-turtle-rabbit-parrot.html</loc><lastmod>2026-04-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/blood-tests-sick-cat-needs.html</loc><lastmod>2026-04-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/high-rise-syndrome-cats.html</loc><lastmod>2026-04-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/tick-fever-dogs.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/transport-sick-cat-safely.html</loc><lastmod>2026-04-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/blood-tests-sick-dog-needs.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/transport-sick-dog-safely.html</loc><lastmod>2026-04-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/blood-biochemistry-tests-explained.html</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/pre-post-operative-care-pets.html</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/gastroenteritis-dogs-vaccination.html</loc><lastmod>2026-04-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/first-veterinary-visit-what-to-expect.html</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/cbc-test-dogs-cats-explained.html</loc><lastmod>2026-04-14</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/preventive-checkup-what-vet-checks.html</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/vet-visit-vs-home-treatment.html</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/pet-clinic-vs-emergency-hospital.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/why-annual-pet-checkups-important.html</loc><lastmod>2026-04-06</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.shivrajpetclinicpune.com/blog/clinic-suitable-birds-rabbits-reptiles.html</loc><lastmod>2026-04-02</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/sick-bird-syndrome-pet-birds.html</loc><lastmod>2026-03-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/food-allergies-dogs.html</loc><lastmod>2025-12-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.shivrajpetclinicpune.com/blog/prp-injection-joint-diseases-dogs.html</loc><lastmod>2025-12-03</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
