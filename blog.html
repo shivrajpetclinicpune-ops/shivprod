@@ -300,7 +300,7 @@ function renderFeatured() {
     '<div class="feat-body">' +
       '<div class="post-cat-tag">' + p.catLabel + '</div>' +
       '<h2>' + p.title + '</h2>' +
-      '<div class="post-meta"><span>' + p.date + '</span><span>Dr. Pritesh</span><span>' + p.read + ' min read</span></div>' +
+      '<div class="post-meta"><span>Dr. Pritesh</span><span>' + p.read + ' min read</span></div>' +
       '<p>' + p.summary + '</p>' +
       '<a href="blog/' + slug + '.html" class="read-link">Read Full Article</a>' +
     '</div>';
@@ -330,7 +330,7 @@ function renderGrid(filter, query) {
       '<div class="post-cat-tag">' + p.catLabel + '</div>' +
       '<h3>' + p.title + '</h3>' +
       '<p>' + p.summary + '</p>' +
-      '<div class="card-footer"><span class="card-date">' + p.date + ' &middot; ' + p.read + ' min</span><span class="read-btn">Read &rarr;</span></div>' +
+      '<div class="card-footer"><span class="card-date">' + p.read + ' min read</span><span class="read-btn">Read &rarr;</span></div>' +
       '</div></a>';
   });
 
@@ -342,7 +342,7 @@ function renderGrid(filter, query) {
     var p = POSTS[slug];
     sideHtml += '<a href="blog/' + slug + '.html" class="rec-item">' +
       (p.img ? ('<div class="rec-thumb"><img src="' + relImg(p.img) + '" alt="' + (p.title || 'Pet health article') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>') : '') +
-      '<div class="rec-info"><h5>' + p.title + '</h5><span>' + p.date + '</span></div></a>';
+      '<div class="rec-info"><h5>' + p.title + '</h5><span>' + p.read + ' min read</span></div></a>';
   });
   sidebar.innerHTML = sideHtml;
 }

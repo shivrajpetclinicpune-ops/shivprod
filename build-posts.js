@@ -227,7 +227,7 @@ ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema)}</
   <div class="breadcrumb-nav"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / ${escapeHtml(p.title)}</div>
   <div class="post-cat-tag">${p.catLabel}</div>
   <h1 class="post-h1">${escapeHtml(p.title)}</h1>
-  <div class="post-meta-full"><span>${p.date}</span><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
+  <div class="post-meta-full"><span>Dr. Pritesh Vidhate</span><span>${p.read} min read</span></div>
   ${p.img ? `<img src="${relImg(p.img)}" alt="${escapeHtml(p.title)}" class="post-hero-img" width="800" height="320" onerror="this.style.display='none'">` : ''}
   <div class="post-content">${content}</div>
 
