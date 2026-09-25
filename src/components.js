@@ -87,7 +87,7 @@ function hoursTable() {
     const closed = !clinic.openDays.includes(d);
     return `<li class="hours__row${closed ? ' is-closed' : ''}" data-day="${d}"><span class="hours__day">${d}</span>`
       + (closed ? `<span class="hours__time">Closed</span>`
-        : `<span class="hours__time">${clinic.hoursRanges.join('<br>')}</span>`)
+        : `<span class="hours__time">${clinic.hoursRanges.map((r) => `<span>${r}</span>`).join('<br>')}</span>`)
       + `</li>`;
   }).join('');
   return `<ul class="hours" data-hours>${rows}</ul>`;

@@ -737,8 +737,8 @@ details[open] > summary .faq__ic svg { transform: rotate(45deg); }
 .svc__hero .display--page { font-size: var(--s-4); max-width: 20ch; }
 .svc__lead { margin-top: 18px; font-size: var(--s-1); color: var(--ink-2); max-width: 50ch; }
 .svc__cta { margin-top: 24px; }
-.svc__review { display: flex; align-items: center; gap: 8px; margin-top: 22px; font-size: .9rem; color: var(--ink-3); }
-.svc__review svg { width: 16px; height: 16px; color: var(--ok); }
+.svc__review { display: block; margin-top: 22px; font-size: .9rem; color: var(--ink-3); }
+.svc__review svg { display: inline-block; vertical-align: -3px; margin-right: 6px; width: 16px; height: 16px; color: var(--ok); }
 .svc__review a { color: var(--ink-2); font-weight: 600; }
 .svc__hero-img { position: relative; aspect-ratio: 4 / 3; overflow: hidden; }
 .svc__hero-img[data-scan] .dx__scan { height: 26%; }
@@ -1020,4 +1020,47 @@ details[open] > summary .faq__ic svg { transform: rotate(45deg); }
   .facts { grid-template-columns: 1fr 1fr; }
   .facts dt { white-space: normal; font-size: 1.75rem; }
   .facts > div { padding-right: 10px; }
+}
+
+/* ==========================================================================
+   PHONE PASS (2026-09-25): shorter page, first screen shows headline + booking,
+   no oversized photos, nothing that reads as "unfinished".
+   ========================================================================== */
+@media (max-width: 1023px) {
+  /* Hero: photo, headline, lede and Book all visible on a first phone screen. */
+  .hero__media { height: min(40svh, 380px); }
+  .hero__window { width: 26%; bottom: -22px; border-width: 4px; }
+  .hero__cyc figcaption { font-size: .7rem; padding: 4px 7px; }
+  .hero__copy { padding-top: 26px; padding-bottom: 20px; }
+  .hero__title { font-size: clamp(2.5rem, 1.2rem + 6vw, 4.4rem); margin-bottom: 14px; }
+  .hero__lede { font-size: 1.02rem; }
+  .hero__cta { margin-top: 18px; }
+  .cpair--hero { margin-top: 16px; }
+
+  /* Care index: names only (each links to its full page); one slim photo per group. */
+  .care__blurb { display: none; }
+  .care__gimg { aspect-ratio: 21 / 9; margin: 12px 0 2px; }
+  .care__row { padding: 13px 0; }
+  .care__group + .care__group { margin-top: 28px; }
+
+  /* Species: tell people the row scrolls sideways. */
+  .exo__hint { display: flex; }
+
+  /* Doctors + journey: photos sized for a phone, not a poster. */
+  .dr__img { aspect-ratio: 1; max-height: none; }
+  .dr__name { font-size: clamp(2.1rem, 1.4rem + 3vw, 3.2rem); }
+  .jr__inline { aspect-ratio: 16 / 9; margin-top: 12px; }
+  .jr__step { padding: 22px 0; }
+}
+.exo__hint { display: none; align-items: center; gap: 8px; margin: 14px var(--gutter) 0; font-size: .88rem; font-weight: 600; color: rgba(255, 255, 255, .7); }
+.exo__hint svg { width: 16px; height: 16px; }
+@media (max-width: 599px) {
+  /* Hours: one line per day. */
+  .hours__row { grid-template-columns: 6.2rem 1fr; padding: 8px 0; font-size: .92rem; }
+  .hours__time br { display: none; }
+  .hours__time { display: flex; flex-wrap: wrap; column-gap: .6em; }
+  .visit__sign { display: none; }
+  .words__rest .quote p { font-size: 1rem; }
+  .quote--lead p { font-size: 1.45rem; }
+  :root { --pad: 52px; --pad-s: 36px; }
 }

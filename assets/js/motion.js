@@ -48,7 +48,8 @@
 
   /* ---------- Intro statement: words light up at reading pace ---------- */
   const words = d.querySelector('[data-words]');
-  if (words && !reduced) {
+  // Desktop only: on a phone the half-grey paragraph reads as unfinished.
+  if (words && !reduced && desktop.matches) {
     const wrap = (node) => {
       [...node.childNodes].forEach((n) => {
         if (n.nodeType === 3) {
@@ -68,7 +69,7 @@
     const paint = () => {
       raf = 0;
       const r = words.getBoundingClientRect();
-      const p = Math.min(1, Math.max(0, (innerHeight * 0.85 - r.top) / (r.height + innerHeight * 0.35)));
+      const p = Math.min(1, Math.max(0, (innerHeight * 0.9 - r.top) / (r.height * 0.8 + innerHeight * 0.2)));
       const n = Math.round(p * ws.length * 1.15);
       ws.forEach((w, k) => w.classList.toggle('is-lit', k < n));
     };

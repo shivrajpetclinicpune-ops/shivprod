@@ -133,6 +133,7 @@ function species() {
     <div class="exo__track" data-exo-track tabindex="0" role="region" aria-label="Species we treat. Scroll sideways to see all">${panels}
       <div class="sp sp--end"><p class="display">One clinic for all of them.</p>${btn('/services/exotic-animal-centre', 'Inside the Exotic Animal Centre', { variant: 'light' })}</div>
     </div>
+    <p class="exo__hint" aria-hidden="true">Swipe to meet all seven ${icon('arrow')}</p>
     <ol class="exo__rail" aria-hidden="true">${SPECIES.map((s, i) => `<li${i === 0 ? ' class="is-on"' : ''} data-exo-dot>${s.name}</li>`).join('')}</ol>
   </div>
 </section>`;
