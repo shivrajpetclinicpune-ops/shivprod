@@ -1,0 +1,30 @@
+# Shivraj Pet Clinic & Lab
+
+> Multispecies veterinary clinic in Pimple Nilakh, Pune, India (PCMC), established 2013. Father-son team: Dr. Shivaji B. Vidhate (M.V.Sc. Pathology, 33+ years, retired District Animal Husbandry Officer, Pune) and Dr. Pritesh S. Vidhate (Head Veterinarian). In-house pathology lab (CBC & biochemistry in 15–20 minutes), digital X-ray, sonography, surgery under gaseous anaesthesia, and an Exotic Animal Centre for birds, rabbits, turtles, reptiles, guinea pigs and hamsters. Consultation ₹300 (regular), ₹400 (exotic pets). Hours: Mon, Tue, Thu–Sun · 10:30 AM–1:30 PM & 3:00–8:30 PM · Wednesday closed. Phone/WhatsApp: +91 77569 65169. Address: Shop No. B-4, Alpine Avenue, Aundh–Wakad Road, Vishal Nagar, Pimple Nilakh, Pune 411027.
+
+## Core pages
+- [Home](https://www.shivrajpetclinicpune.com/): overview, species, services, booking, hours, location
+- [About](https://www.shivrajpetclinicpune.com/about): doctors, qualifications, team
+- [Services](https://www.shivrajpetclinicpune.com/services/): all services
+- [Visit & book](https://www.shivrajpetclinicpune.com/contact): address, hours, map, appointment request
+- [Gallery](https://www.shivrajpetclinicpune.com/gallery): real clinic photos
+- [Pet care FAQs](https://www.shivrajpetclinicpune.com/pet-care-faqs): 86 answers across 7 species
+
+## Services
+- [Preventive Medicine](https://www.shivrajpetclinicpune.com/services/preventive-medicine): Vaccination schedules, deworming and wellness checks for dogs, cats and exotic pets.
+- [Clinical Medicine](https://www.shivrajpetclinicpune.com/services/clinical-medicine): Consultations, diagnosis and treatment plans. Walk-ins accepted, second opinions welcome.
+- [Vet Pharmacy](https://www.shivrajpetclinicpune.com/services/vet-pharmacy): Prescription medicines, parasite control, supplements, therapeutic diets and e-collars on site.
+- [Exotic Animal Centre](https://www.shivrajpetclinicpune.com/services/exotic-animal-centre): Birds, rabbits, turtles, reptiles, guinea pigs and hamsters, examined, diagnosed and operated on with species-appropriate care and gaseous anaesthesia.
+- [Pathology Lab](https://www.shivrajpetclinicpune.com/services/pathology-lab): In-house blood panels, urinalysis and cytology. CBC and biochemistry ready in 15–20 minutes.
+- [Digital X-Ray](https://www.shivrajpetclinicpune.com/services/digital-xray): On-site digital radiography with instant images, for dogs, cats and exotic patients alike.
+- [Sonography](https://www.shivrajpetclinicpune.com/services/sonography): Ultrasound imaging at the clinic, including pregnancy confirmation.
+- [Dog Neutering](https://www.shivrajpetclinicpune.com/services/dog-neutering): Routine same-day neutering under gas anaesthesia, with pre-surgery bloodwork in our own lab.
+- [Cat Spaying](https://www.shivrajpetclinicpune.com/services/cat-spaying): Safe spaying for female cats, with a 10-day suture check.
+- [Soft Tissue Surgery](https://www.shivrajpetclinicpune.com/services/soft-tissue-surgery): Hernia, cherry eye, anal gland and bladder surgery.
+- [Orthopedic Surgery](https://www.shivrajpetclinicpune.com/services/orthopedic-surgery): Fracture repair with plating, intramedullary pinning and external fixation.
+- [Dog Tumor Surgery](https://www.shivrajpetclinicpune.com/services/dog-tumor-surgery): Lump evaluation by fine-needle aspirate, surgical removal and histopathology.
+- [Foreign Body Removal](https://www.shivrajpetclinicpune.com/services/foreign-body-removal-surgery): X-ray confirmation and removal of swallowed objects.
+- [Emergency Surgery](https://www.shivrajpetclinicpune.com/services/emergency-surgery): GDV, trauma and C-sections during opening hours. Call the clinic first so the team can prepare.
+
+## Blog
+- [All 185 articles](https://www.shivrajpetclinicpune.com/blog/) · [sitemap](https://www.shivrajpetclinicpune.com/sitemap.xml)

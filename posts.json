@@ -1,0 +1,1852 @@
+{
+ "complete-veterinary-care-guide-pcmc": {
+  "slug": "complete-veterinary-care-guide-pcmc",
+  "title": "Complete Veterinary Care Guide for Pet Parents in PCMC",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-11-03",
+  "read": "5",
+  "summary": "An overview of what comprehensive veterinary care looks like for pet owners across the PCMC area, from routine to emergency needs.",
+  "url": "/blog/complete-veterinary-care-guide-pcmc"
+ },
+ "complete-pet-checkup-guide-pune": {
+  "slug": "complete-pet-checkup-guide-pune",
+  "title": "Complete Pet Health Checkup Guide for Dog and Cat Parents in Pune",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-11-02",
+  "read": "5",
+  "summary": "A comprehensive overview of what pet health checkups involve for Pune-based dog and cat owners, across all life stages.",
+  "url": "/blog/complete-pet-checkup-guide-pune"
+ },
+ "complete-preventive-healthcare-plan": {
+  "slug": "complete-preventive-healthcare-plan",
+  "title": "How to Build a Complete Preventive Healthcare Plan for Your Pet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-11-01",
+  "read": "5",
+  "summary": "A framework for thinking about preventive pet healthcare holistically, beyond just annual vaccination reminders.",
+  "url": "/blog/complete-preventive-healthcare-plan"
+ },
+ "pet-adoption-health-checklist": {
+  "slug": "pet-adoption-health-checklist",
+  "title": "Pet Adoption Health Checklist: Vaccines, Deworming, Blood Tests, and More",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-31",
+  "read": "5",
+  "summary": "A comprehensive checklist for the health side of pet adoption, covering everything from vaccines to baseline testing.",
+  "url": "/blog/pet-adoption-health-checklist"
+ },
+ "adopted-puppy-kitten-not-eating": {
+  "slug": "adopted-puppy-kitten-not-eating",
+  "title": "Adopted Puppy or Kitten Not Eating: What Should You Do?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-30",
+  "read": "5",
+  "summary": "A newly adopted puppy or kitten refusing food is common but shouldn't be ignored for long. Here's how to respond.",
+  "url": "/blog/adopted-puppy-kitten-not-eating"
+ },
+ "rescue-pet-health-checkup-tests": {
+  "slug": "rescue-pet-health-checkup-tests",
+  "title": "Rescue Pet Health Checkup: What Tests Should Be Done?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-29",
+  "read": "5",
+  "summary": "Rescue pets often need a more thorough diagnostic workup than pets with known history. Here's what's commonly recommended.",
+  "url": "/blog/rescue-pet-health-checkup-tests"
+ },
+ "first-vet-visit-newly-adopted-cat": {
+  "slug": "first-vet-visit-newly-adopted-cat",
+  "title": "First Vet Visit for a Newly Adopted Cat: Complete Checklist",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-28",
+  "read": "5",
+  "summary": "A specific checklist for a newly adopted cat's first veterinary visit — what to expect and prepare.",
+  "url": "/blog/first-vet-visit-newly-adopted-cat"
+ },
+ "first-vet-visit-newly-adopted-dog": {
+  "slug": "first-vet-visit-newly-adopted-dog",
+  "title": "First Vet Visit for a Newly Adopted Dog: Complete Checklist",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-27",
+  "read": "5",
+  "summary": "A specific checklist for a newly adopted dog's first veterinary visit — what to expect and prepare.",
+  "url": "/blog/first-vet-visit-newly-adopted-dog"
+ },
+ "new-pet-parent-checklist-first-30-days": {
+  "slug": "new-pet-parent-checklist-first-30-days",
+  "title": "New Pet Parent Checklist: What to Do in the First 30 Days",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-26",
+  "read": "5",
+  "summary": "A practical checklist for the first month with a new pet, covering vet visits, routine-building, and settling in.",
+  "url": "/blog/new-pet-parent-checklist-first-30-days"
+ },
+ "safe-pet-handling-around-children": {
+  "slug": "safe-pet-handling-around-children",
+  "title": "Safe Pet Handling Around Children: Preventing Bites and Scratches",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-25",
+  "read": "5",
+  "summary": "Teaching children safe pet interaction reduces bite and scratch risk for everyone. Here's practical guidance.",
+  "url": "/blog/safe-pet-handling-around-children"
+ },
+ "deworming-protects-pets-families": {
+  "slug": "deworming-protects-pets-families",
+  "title": "Why Regular Deworming Protects Both Pets and Families",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-24",
+  "read": "5",
+  "summary": "Deworming isn't just about your pet's comfort — it's also a household health measure given several parasites' zoonotic potential.",
+  "url": "/blog/deworming-protects-pets-families"
+ },
+ "rabies-prevention-pet-owners-india": {
+  "slug": "rabies-prevention-pet-owners-india",
+  "title": "Rabies Prevention for Pet Owners in India",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-23",
+  "read": "5",
+  "summary": "Rabies remains a genuine public health concern in India. Here's what responsible prevention looks like for pet owners.",
+  "url": "/blog/rabies-prevention-pet-owners-india"
+ },
+ "zoonotic-diseases-in-pets": {
+  "slug": "zoonotic-diseases-in-pets",
+  "title": "Zoonotic Diseases in Pets: What Every Pet Parent Should Know",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-22",
+  "read": "5",
+  "summary": "A broader look at zoonotic disease risk for pet owners, beyond just the most commonly known examples.",
+  "url": "/blog/zoonotic-diseases-in-pets"
+ },
+ "dogs-cats-transmit-diseases-humans": {
+  "slug": "dogs-cats-transmit-diseases-humans",
+  "title": "Can Dogs and Cats Transmit Diseases to Humans?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-21",
+  "read": "5",
+  "summary": "Some pet diseases can transmit to humans (zoonotic diseases). Learn which ones matter and how to reduce risk practically.",
+  "url": "/blog/dogs-cats-transmit-diseases-humans"
+ },
+ "can-pets-get-human-flu-colds": {
+  "slug": "can-pets-get-human-flu-colds",
+  "title": "Can Pets Get Human Flu or Colds?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-20",
+  "read": "5",
+  "summary": "Pets can catch respiratory illness, but it's usually not the same virus as human flu or colds. Here's the actual relationship.",
+  "url": "/blog/can-pets-get-human-flu-colds"
+ },
+ "tick-season-pune-protect-dog-cat": {
+  "slug": "tick-season-pune-protect-dog-cat",
+  "title": "Tick Season in Pune: How to Protect Your Dog and Cat",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-19",
+  "read": "5",
+  "summary": "Understanding tick activity patterns in Pune helps pet owners stay ahead of prevention rather than reacting after exposure.",
+  "url": "/blog/tick-season-pune-protect-dog-cat"
+ },
+ "winter-pet-care-dogs-cats-birds-rabbits": {
+  "slug": "winter-pet-care-dogs-cats-birds-rabbits",
+  "title": "Winter Pet Care: Keeping Dogs, Cats, Birds, and Rabbits Healthy",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-18",
+  "read": "5",
+  "summary": "Winter brings its own set of pet care considerations across species. Here's a practical seasonal guide.",
+  "url": "/blog/winter-pet-care-dogs-cats-birds-rabbits"
+ },
+ "monsoon-pet-care-infections-ticks-skin": {
+  "slug": "monsoon-pet-care-infections-ticks-skin",
+  "title": "Monsoon Pet Care: Preventing Infections, Ticks, and Skin Problems",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-17",
+  "read": "5",
+  "summary": "Monsoon season brings specific health risks for pets in India. Here's a practical prevention guide covering infections, parasites, and skin issues.",
+  "url": "/blog/monsoon-pet-care-infections-ticks-skin"
+ },
+ "can-dogs-cats-get-dengue": {
+  "slug": "can-dogs-cats-get-dengue",
+  "title": "Can Dogs and Cats Get Dengue?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-16",
+  "read": "5",
+  "summary": "Dengue is a mosquito-borne human disease — here's what pet owners should actually know about dengue and their pets.",
+  "url": "/blog/can-dogs-cats-get-dengue"
+ },
+ "senior-pets-regular-blood-tests": {
+  "slug": "senior-pets-regular-blood-tests",
+  "title": "Why Senior Pets Need Regular Blood Tests",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-15",
+  "read": "5",
+  "summary": "Regular bloodwork becomes increasingly valuable as pets age. Here's why senior pets specifically benefit from this monitoring.",
+  "url": "/blog/senior-pets-regular-blood-tests"
+ },
+ "cancer-dogs-cats-early-warning-signs": {
+  "slug": "cancer-dogs-cats-early-warning-signs",
+  "title": "Cancer in Dogs and Cats: Early Warning Signs Pet Parents Should Know",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-14",
+  "read": "5",
+  "summary": "Cancer is increasingly diagnosed in pets, partly due to longer lifespans. Learn the early warning signs worth acting on.",
+  "url": "/blog/cancer-dogs-cats-early-warning-signs"
+ },
+ "heartworm-disease-dogs-prevention": {
+  "slug": "heartworm-disease-dogs-prevention",
+  "title": "Heartworm Disease in Dogs: Prevention and Early Detection",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-13",
+  "read": "5",
+  "summary": "Heartworm disease is transmitted by mosquitoes and can be serious if untreated. Learn about prevention and detection.",
+  "url": "/blog/heartworm-disease-dogs-prevention"
+ },
+ "heart-disease-dogs-symptoms": {
+  "slug": "heart-disease-dogs-symptoms",
+  "title": "Heart Disease in Dogs: Symptoms Pet Parents Should Watch For",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-12",
+  "read": "5",
+  "summary": "Heart disease in dogs can develop gradually. Learn the symptoms that warrant veterinary evaluation.",
+  "url": "/blog/heart-disease-dogs-symptoms"
+ },
+ "liver-disease-dogs-signs-diagnostics": {
+  "slug": "liver-disease-dogs-signs-diagnostics",
+  "title": "Liver Disease in Dogs: Signs and Veterinary Diagnostics",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-11",
+  "read": "5",
+  "summary": "Liver disease can progress silently before visible symptoms appear. Learn the signs and how it's typically diagnosed.",
+  "url": "/blog/liver-disease-dogs-signs-diagnostics"
+ },
+ "diabetes-dogs-cats-symptoms-management": {
+  "slug": "diabetes-dogs-cats-symptoms-management",
+  "title": "Diabetes in Dogs and Cats: Symptoms, Diagnosis, and Management",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-10",
+  "read": "5",
+  "summary": "Diabetes is increasingly diagnosed in pets. Learn the symptoms, how it's diagnosed, and what ongoing management looks like.",
+  "url": "/blog/diabetes-dogs-cats-symptoms-management"
+ },
+ "kidney-disease-dogs-symptoms-tests": {
+  "slug": "kidney-disease-dogs-symptoms-tests",
+  "title": "Kidney Disease in Dogs: Symptoms and Diagnostic Tests",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-09",
+  "read": "5",
+  "summary": "Kidney disease in dogs shares similarities with the feline version but has some distinct considerations. Learn the symptoms and diagnosis process.",
+  "url": "/blog/kidney-disease-dogs-symptoms-tests"
+ },
+ "kidney-disease-cats-warning-signs": {
+  "slug": "kidney-disease-cats-warning-signs",
+  "title": "Kidney Disease in Cats: Early Warning Signs",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-08",
+  "read": "5",
+  "summary": "Kidney disease is one of the most common conditions in senior cats. Learn the early signs that often go unnoticed.",
+  "url": "/blog/kidney-disease-cats-warning-signs"
+ },
+ "arthritis-in-dogs-signs-treatment": {
+  "slug": "arthritis-in-dogs-signs-treatment",
+  "title": "Arthritis in Dogs: Early Signs and Treatment Options",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-07",
+  "read": "5",
+  "summary": "Arthritis is common in aging dogs but often mistaken for normal slowing down. Learn to recognize the real early signs.",
+  "url": "/blog/arthritis-in-dogs-signs-treatment"
+ },
+ "senior-cat-care-common-problems": {
+  "slug": "senior-cat-care-common-problems",
+  "title": "Senior Cat Care: Common Health Problems in Older Cats",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-06",
+  "read": "5",
+  "summary": "Senior cats are prone to specific conditions that benefit from early detection. Here's what to watch for.",
+  "url": "/blog/senior-cat-care-common-problems"
+ },
+ "senior-dog-health-checkup-tests": {
+  "slug": "senior-dog-health-checkup-tests",
+  "title": "Senior Dog Health Checkup: Tests Every Older Dog May Need",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-05",
+  "read": "5",
+  "summary": "Senior dogs benefit from more comprehensive monitoring than younger adults. Here's what a senior checkup typically covers.",
+  "url": "/blog/senior-dog-health-checkup-tests"
+ },
+ "how-much-feed-puppy-kitten": {
+  "slug": "how-much-feed-puppy-kitten",
+  "title": "How Much Should You Feed Your Puppy or Kitten?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-04",
+  "read": "5",
+  "summary": "Feeding amounts for growing puppies and kittens depend on several factors. Here's how to figure out the right amount.",
+  "url": "/blog/how-much-feed-puppy-kitten"
+ },
+ "sudden-diet-changes-digestive-problems": {
+  "slug": "sudden-diet-changes-digestive-problems",
+  "title": "Why Sudden Diet Changes Can Cause Digestive Problems in Pets",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-03",
+  "read": "5",
+  "summary": "Switching your pet's food too quickly is a common, avoidable cause of digestive upset. Here's why gradual transitions matter.",
+  "url": "/blog/sudden-diet-changes-digestive-problems"
+ },
+ "homemade-vs-commercial-pet-food": {
+  "slug": "homemade-vs-commercial-pet-food",
+  "title": "Homemade Food vs Commercial Pet Food: Which Is Better?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-02",
+  "read": "5",
+  "summary": "Both homemade and commercial diets can be done well or poorly. Here's an honest breakdown of the real trade-offs.",
+  "url": "/blog/homemade-vs-commercial-pet-food"
+ },
+ "can-cats-eat-human-food": {
+  "slug": "can-cats-eat-human-food",
+  "title": "Can Cats Eat Human Food? Foods That Are Safe and Unsafe",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-10-01",
+  "read": "5",
+  "summary": "Some human foods are fine for cats in small amounts; others are genuinely dangerous. Here's a practical breakdown.",
+  "url": "/blog/can-cats-eat-human-food"
+ },
+ "can-dogs-eat-rice-milk-curd": {
+  "slug": "can-dogs-eat-rice-milk-curd",
+  "title": "Can Dogs Eat Rice, Milk, or Curd?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-30",
+  "read": "5",
+  "summary": "A practical breakdown of whether rice, milk, and curd are safe additions to a dog's diet.",
+  "url": "/blog/can-dogs-eat-rice-milk-curd"
+ },
+ "can-dogs-eat-eggs": {
+  "slug": "can-dogs-eat-eggs",
+  "title": "Can Dogs Eat Eggs? Benefits, Risks, and Safe Feeding",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-29",
+  "read": "5",
+  "summary": "Eggs can be a healthy addition to a dog's diet when prepared correctly. Here's what to know about benefits and risks.",
+  "url": "/blog/can-dogs-eat-eggs"
+ },
+ "healthy-diet-for-dogs-what-to-feed": {
+  "slug": "healthy-diet-for-dogs-what-to-feed",
+  "title": "Healthy Diet for Dogs: What Should You Feed Your Pet?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-28",
+  "read": "5",
+  "summary": "A practical overview of what a balanced dog diet actually requires, beyond marketing claims on packaging.",
+  "url": "/blog/healthy-diet-for-dogs-what-to-feed"
+ },
+ "dog-obesity-how-to-know-overweight": {
+  "slug": "dog-obesity-how-to-know-overweight",
+  "title": "Dog Obesity: How to Know If Your Pet Is Overweight",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-27",
+  "read": "5",
+  "summary": "Obesity is one of the most common, and most preventable, health issues in dogs. Learn how to assess your dog's body condition.",
+  "url": "/blog/dog-obesity-how-to-know-overweight"
+ },
+ "why-dental-checkups-matter": {
+  "slug": "why-dental-checkups-matter",
+  "title": "Why Dental Checkups Matter for Dogs and Cats",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-26",
+  "read": "5",
+  "summary": "Regular dental checkups catch problems that home observation alone often misses. Here's why they're a standard part of preventive care.",
+  "url": "/blog/why-dental-checkups-matter"
+ },
+ "dog-teeth-brushing-frequency": {
+  "slug": "dog-teeth-brushing-frequency",
+  "title": "How Often Should You Brush Your Dog's Teeth?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-25",
+  "read": "5",
+  "summary": "The ideal brushing frequency for dogs, and practical tips for making it a sustainable habit.",
+  "url": "/blog/dog-teeth-brushing-frequency"
+ },
+ "cat-dental-disease-signs-missed": {
+  "slug": "cat-dental-disease-signs-missed",
+  "title": "Cat Dental Disease: Signs Pet Parents Often Miss",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-24",
+  "read": "5",
+  "summary": "Dental disease in cats is common but easy to miss since cats hide discomfort well. Learn the subtle signs.",
+  "url": "/blog/cat-dental-disease-signs-missed"
+ },
+ "bad-breath-dogs-dental-disease-sign": {
+  "slug": "bad-breath-dogs-dental-disease-sign",
+  "title": "Bad Breath in Dogs: When Is It a Sign of Dental Disease?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-23",
+  "read": "5",
+  "summary": "Not all bad breath is normal — persistent odor is often an early sign of dental disease in dogs. Learn what to watch for.",
+  "url": "/blog/bad-breath-dogs-dental-disease-sign"
+ },
+ "dog-dental-care-prevent-disease": {
+  "slug": "dog-dental-care-prevent-disease",
+  "title": "Dog Dental Care: How to Prevent Dental Disease",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-22",
+  "read": "5",
+  "summary": "Dental disease is one of the most common, and most preventable, health issues in dogs. Here's a practical prevention guide.",
+  "url": "/blog/dog-dental-care-prevent-disease"
+ },
+ "rabies-dogs-cats-prevention": {
+  "slug": "rabies-dogs-cats-prevention",
+  "title": "Rabies in Dogs and Cats: Symptoms, Prevention, and Vaccination",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-22",
+  "read": "5",
+  "summary": "Rabies remains a serious concern in India. Learn the symptoms, why vaccination is essential, and prevention steps for pet owners.",
+  "url": "/blog/rabies-dogs-cats-prevention"
+ },
+ "year-round-tick-flea-prevention-pune": {
+  "slug": "year-round-tick-flea-prevention-pune",
+  "title": "Year-Round Tick and Flea Prevention for Dogs and Cats in Pune",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-09-21",
+  "read": "5",
+  "summary": "Pune's climate supports flea and tick activity nearly year-round. Here's why continuous prevention matters locally.",
+  "url": "/blog/year-round-tick-flea-prevention-pune"
+ },
+ "home-cooked-food-for-dogs": {
+  "slug": "home-cooked-food-for-dogs",
+  "title": "Home Cooked Food for Dogs — What Is Safe, What to Avoid, and How to Balance It",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-09-13",
+  "read": "5",
+  "summary": "Home cooked food is popular among Indian pet parents, but unbalanced diets cause nutritional deficiencies over time. Learn what to include, what to avoid, and how to balance home cooking for dogs.",
+  "url": "/blog/home-cooked-food-for-dogs"
+ },
+ "blood-in-cat-urine-blockage": {
+  "slug": "blood-in-cat-urine-blockage",
+  "title": "Blood in Cat Urine: Causes, Urinary Blockage, and Emergency Care",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-31",
+  "read": "5",
+  "summary": "Blood in a cat's urine can range from a treatable infection to a life-threatening blockage — especially in male cats. Learn the warning signs.",
+  "url": "/blog/blood-in-cat-urine-blockage"
+ },
+ "pet-missed-vaccine-booster": {
+  "slug": "pet-missed-vaccine-booster",
+  "title": "What Happens If Your Pet Misses a Vaccine Booster?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-30",
+  "read": "5",
+  "summary": "Missing a scheduled booster doesn't always mean starting over, but timing matters. Here's what to actually do.",
+  "url": "/blog/pet-missed-vaccine-booster"
+ },
+ "cat-health-checkup-frequency": {
+  "slug": "cat-health-checkup-frequency",
+  "title": "How Often Should You Take Your Cat for a Health Checkup?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-29",
+  "read": "5",
+  "summary": "Cats hide illness exceptionally well, which makes regular checkups more important than owners often realize. Here's a recommended frequency by life stage.",
+  "url": "/blog/cat-health-checkup-frequency"
+ },
+ "dog-diarrhea-causes": {
+  "slug": "dog-diarrhea-causes",
+  "title": "Dog Diarrhea: Causes, Warning Signs, and When to Visit a Vet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-27",
+  "read": "5",
+  "summary": "Diarrhea in dogs can be a mild, self-limiting upset or a sign of something more serious. Learn the warning signs that mean it's time to see a vet.",
+  "url": "/blog/dog-diarrhea-causes"
+ },
+ "puppy-outside-before-vaccinations": {
+  "slug": "puppy-outside-before-vaccinations",
+  "title": "Can a Puppy Go Outside Before Completing Vaccinations?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-26",
+  "read": "5",
+  "summary": "Balancing socialization needs against infection risk is a common new-owner question. Here's the practical guidance.",
+  "url": "/blog/puppy-outside-before-vaccinations"
+ },
+ "kitten-deworming-schedule-india": {
+  "slug": "kitten-deworming-schedule-india",
+  "title": "Kitten Deworming Schedule in India: When and Why It Matters",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-25",
+  "read": "5",
+  "summary": "Kittens are commonly born with or quickly pick up intestinal parasites. Here's the deworming schedule and why timing matters for their development.",
+  "url": "/blog/kitten-deworming-schedule-india"
+ },
+ "cat-breathing-problems-respiratory-distress": {
+  "slug": "cat-breathing-problems-respiratory-distress",
+  "title": "Cat Breathing Problems: Signs of Respiratory Distress",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-24",
+  "read": "5",
+  "summary": "Cats hide breathing difficulty exceptionally well. Learn the subtle and obvious signs of respiratory distress and why it's always an emergency.",
+  "url": "/blog/cat-breathing-problems-respiratory-distress"
+ },
+ "puppy-vaccination-after-adoption": {
+  "slug": "puppy-vaccination-after-adoption",
+  "title": "Puppy Vaccination After Adoption: What Should You Do First?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-21",
+  "read": "5",
+  "summary": "Just adopted a puppy? Here's the first-step vaccination and health check plan every new owner should follow.",
+  "url": "/blog/puppy-vaccination-after-adoption"
+ },
+ "cat-vaccination-schedule-india": {
+  "slug": "cat-vaccination-schedule-india",
+  "title": "Cat Vaccination Schedule in India: Kitten Vaccines and Booster Shots",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-20",
+  "read": "5",
+  "summary": "A clear kitten and adult cat vaccination schedule for Indian pet owners — core vaccines, timing, and booster intervals explained.",
+  "url": "/blog/cat-vaccination-schedule-india"
+ },
+ "dog-vomiting-causes": {
+  "slug": "dog-vomiting-causes",
+  "title": "Why Is My Dog Vomiting? Common Causes and When It Becomes an Emergency",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-19",
+  "read": "5",
+  "summary": "Vomiting in dogs ranges from a mild one-off to a life-threatening emergency. Here's how to tell which one you're dealing with.",
+  "url": "/blog/dog-vomiting-causes"
+ },
+ "cat-deworming-frequency": {
+  "slug": "cat-deworming-frequency",
+  "title": "How Often Should Cats Be Dewormed?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-17",
+  "read": "5",
+  "summary": "Deworming frequency for adult cats depends on indoor/outdoor status and lifestyle. Here's a general guide.",
+  "url": "/blog/cat-deworming-frequency"
+ },
+ "why-is-my-cat-hiding-suddenly": {
+  "slug": "why-is-my-cat-hiding-suddenly",
+  "title": "Why Is My Cat Hiding Suddenly?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-17",
+  "read": "5",
+  "summary": "Cats hide when stressed — but also when sick or in pain. Learn how to tell the difference and when sudden hiding behavior needs a vet visit.",
+  "url": "/blog/why-is-my-cat-hiding-suddenly"
+ },
+ "feline-panleukopenia-vs-cat-flu": {
+  "slug": "feline-panleukopenia-vs-cat-flu",
+  "title": "Feline Panleukopenia vs Cat Flu: How to Tell the Difference",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-16",
+  "read": "5",
+  "summary": "Panleukopenia and cat flu share some symptoms but differ significantly in severity and treatment. Learn how vets tell them apart.",
+  "url": "/blog/feline-panleukopenia-vs-cat-flu"
+ },
+ "dog-deworming-frequency": {
+  "slug": "dog-deworming-frequency",
+  "title": "How Often Should Dogs Be Dewormed?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-13",
+  "read": "5",
+  "summary": "Deworming frequency for adult dogs depends on lifestyle and risk factors. Here's a general guide for Indian pet owners.",
+  "url": "/blog/dog-deworming-frequency"
+ },
+ "cat-fever-symptoms": {
+  "slug": "cat-fever-symptoms",
+  "title": "Cat Fever Symptoms and When to See a Veterinarian",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-12",
+  "read": "5",
+  "summary": "Recognizing fever in cats is harder than in dogs since cats hide illness so well. Learn the real signs and when a fever needs veterinary attention.",
+  "url": "/blog/cat-fever-symptoms"
+ },
+ "dog-not-eating-drinking": {
+  "slug": "dog-not-eating-drinking",
+  "title": "Dog Not Eating or Drinking: When Should You Worry?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-12",
+  "read": "5",
+  "summary": "A dog that skips one meal isn't always cause for alarm — but a dog that won't eat or drink for over 24 hours is. Here's how to tell the difference.",
+  "url": "/blog/dog-not-eating-drinking"
+ },
+ "bird-breathing-problem": {
+  "slug": "bird-breathing-problem",
+  "title": "Bird Breathing Problems — Warning Signs & When to Rush to the Vet in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-11",
+  "read": "5",
+  "summary": "Tail-bobbing, open-beak breathing, or a fluffed-up posture in a pet bird can signal a respiratory emergency. Learn the warning signs from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/bird-breathing-problem"
+ },
+ "guinea-pig-dental-problem": {
+  "slug": "guinea-pig-dental-problem",
+  "title": "Guinea Pig Dental Problems — Overgrown Teeth Symptoms & Treatment in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-11",
+  "read": "4",
+  "summary": "Drooling, weight loss, or dropping food while eating can signal overgrown teeth in a guinea pig. Learn the warning signs from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/guinea-pig-dental-problem"
+ },
+ "rabbit-not-eating": {
+  "slug": "rabbit-not-eating",
+  "title": "Rabbit Not Eating? Causes, Emergency Signs & Treatment in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-11",
+  "read": "5",
+  "summary": "A rabbit that stops eating for even a few hours can be a genuine emergency, not something to wait out. Learn why, and what to do, from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/rabbit-not-eating"
+ },
+ "turtle-shell-rot": {
+  "slug": "turtle-shell-rot",
+  "title": "Turtle Shell Rot — Causes, Symptoms & Treatment in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-11",
+  "read": "4",
+  "summary": "Soft patches, discoloration, or a foul smell from your turtle's shell can signal shell rot — a treatable but serious infection. Learn the signs from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/turtle-shell-rot"
+ },
+ "cat-diarrhea-causes-vet-visit": {
+  "slug": "cat-diarrhea-causes-vet-visit",
+  "title": "Cat Diarrhea: Common Causes and When to Visit a Vet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-10",
+  "read": "5",
+  "summary": "Diarrhea in cats ranges from a mild diet-related upset to a sign of serious illness. Learn what's manageable at home and what needs a vet visit.",
+  "url": "/blog/cat-diarrhea-causes-vet-visit"
+ },
+ "is-my-dog-cat-in-heat": {
+  "slug": "is-my-dog-cat-in-heat",
+  "title": "Is My Dog or Cat in Heat? Signs, Symptoms, and What to Do",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-10",
+  "read": "4",
+  "summary": "Recognising the signs of heat (oestrus) in dogs and cats helps prevent unwanted pregnancies and health issues. Learn what to expect and when to consider spaying or neutering.",
+  "url": "/blog/is-my-dog-cat-in-heat"
+ },
+ "puppy-deworming-schedule-india": {
+  "slug": "puppy-deworming-schedule-india",
+  "title": "Puppy Deworming Schedule in India: First Dose to Regular Prevention",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-09",
+  "read": "5",
+  "summary": "A clear puppy deworming schedule for Indian pet owners — when to start, how often to repeat, and why the timing matters.",
+  "url": "/blog/puppy-deworming-schedule-india"
+ },
+ "neutering-rabbits": {
+  "slug": "neutering-rabbits",
+  "title": "Neutering in Rabbits — Why It Matters & How We Do It at Shivraj Pet Clinic & Lab",
+  "cat": "surgery",
+  "catLabel": "Surgery & lab",
+  "dateISO": "2026-08-07",
+  "read": "5",
+  "summary": "Rabbit neutering prevents uterine cancer and increases lifespan significantly. At Shivraj Pet Clinic & Lab we use specialised gas anaesthesia designed for small exotic animals.",
+  "url": "/blog/neutering-rabbits"
+ },
+ "cat-xray-when-needed": {
+  "slug": "cat-xray-when-needed",
+  "title": "Cat X-Ray: When Does Your Cat Need One?",
+  "cat": "cat",
+  "catLabel": "Cats",
+  "dateISO": "2026-08-06",
+  "read": "5",
+  "summary": "X-rays help diagnose a range of conditions in cats, from trauma to urinary stones. Here's when your vet might recommend one.",
+  "url": "/blog/cat-xray-when-needed"
+ },
+ "bird-first-aid-before-avian-vet": {
+  "slug": "bird-first-aid-before-avian-vet",
+  "title": "Bird First Aid: What to Do Before Reaching an Avian Vet",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-05",
+  "read": "5",
+  "summary": "Basic first-aid steps for common bird emergencies before you can get to an avian vet — bleeding, injury, and shock.",
+  "url": "/blog/bird-first-aid-before-avian-vet"
+ },
+ "prepare-dog-xray-ultrasound": {
+  "slug": "prepare-dog-xray-ultrasound",
+  "title": "How to Prepare Your Dog for an X-Ray or Ultrasound",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-08-05",
+  "read": "5",
+  "summary": "Practical preparation tips for a dog's upcoming imaging appointment, covering fasting, calm handling, and what to bring.",
+  "url": "/blog/prepare-dog-xray-ultrasound"
+ },
+ "why-is-my-cat-losing-weight": {
+  "slug": "why-is-my-cat-losing-weight",
+  "title": "Why Is My Cat Losing Weight?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-05",
+  "read": "5",
+  "summary": "Unexplained weight loss in cats — even with normal appetite — often points to an underlying condition. Learn the common causes and when to test.",
+  "url": "/blog/why-is-my-cat-losing-weight"
+ },
+ "dog-emergency-vet-signs": {
+  "slug": "dog-emergency-vet-signs",
+  "title": "What Are the Signs That Your Dog Needs an Emergency Vet?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-04",
+  "read": "5",
+  "summary": "How to tell the difference between a wait-and-watch symptom and a true emergency in dogs — a clear checklist for pet owners.",
+  "url": "/blog/dog-emergency-vet-signs"
+ },
+ "rabbit-dental-problems": {
+  "slug": "rabbit-dental-problems",
+  "title": "Rabbit Dental Problems: Signs Every Pet Parent Should Know",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-04",
+  "read": "5",
+  "summary": "Rabbit teeth grow continuously, and dental problems are among the most common health issues in pet rabbits. Learn the warning signs.",
+  "url": "/blog/rabbit-dental-problems"
+ },
+ "cat-vomiting-hairballs-or-serious": {
+  "slug": "cat-vomiting-hairballs-or-serious",
+  "title": "Cat Vomiting Frequently: Normal Hairballs or a Serious Problem?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-03",
+  "read": "5",
+  "summary": "Occasional hairballs are normal in cats — frequent vomiting is not. Learn to tell the difference and when it signals something more serious.",
+  "url": "/blog/cat-vomiting-hairballs-or-serious"
+ },
+ "dog-xray-conditions-detected": {
+  "slug": "dog-xray-conditions-detected",
+  "title": "Dog X-Ray: What Conditions Can It Detect?",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-08-03",
+  "read": "5",
+  "summary": "X-rays are one of the most versatile diagnostic tools in veterinary medicine. Learn what conditions they can help identify in dogs.",
+  "url": "/blog/dog-xray-conditions-detected"
+ },
+ "blood-in-dog-stool": {
+  "slug": "blood-in-dog-stool",
+  "title": "Blood in Dog Stool: Causes and When It Requires Immediate Care",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-08-02",
+  "read": "5",
+  "summary": "Blood in your dog's stool can look alarming or barely noticeable — both matter. Learn what bright red versus dark, tarry stool means and when to see a vet.",
+  "url": "/blog/blood-in-dog-stool"
+ },
+ "how-to-tell-bird-in-pain": {
+  "slug": "how-to-tell-bird-in-pain",
+  "title": "How to Tell If Your Bird Is in Pain",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-08-01",
+  "read": "5",
+  "summary": "Birds hide pain exceptionally well as an instinctive survival behavior. Learn the subtle signs that indicate discomfort.",
+  "url": "/blog/how-to-tell-bird-in-pain"
+ },
+ "prepare-pet-veterinary-blood-test": {
+  "slug": "prepare-pet-veterinary-blood-test",
+  "title": "How to Prepare Your Pet for a Veterinary Blood Test",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-08-01",
+  "read": "5",
+  "summary": "Simple preparation steps that make a blood test visit smoother and the results more accurate.",
+  "url": "/blog/prepare-pet-veterinary-blood-test"
+ },
+ "pre-surgical-blood-tests-dogs-cats": {
+  "slug": "pre-surgical-blood-tests-dogs-cats",
+  "title": "Pre-Surgical Blood Tests for Dogs and Cats: What Pet Parents Should Know",
+  "cat": "surgery",
+  "catLabel": "Surgery & lab",
+  "dateISO": "2026-07-31",
+  "read": "5",
+  "summary": "What pre-surgical blood testing actually involves and why it's a standard part of safe anesthetic planning.",
+  "url": "/blog/pre-surgical-blood-tests-dogs-cats"
+ },
+ "delaying-treatment-worsens-emergencies": {
+  "slug": "delaying-treatment-worsens-emergencies",
+  "title": "Why Delaying Veterinary Treatment Can Make Pet Emergencies Worse",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-30",
+  "read": "5",
+  "summary": "The 'let's wait and see' instinct is understandable but can meaningfully worsen outcomes in genuine emergencies. Here's why.",
+  "url": "/blog/delaying-treatment-worsens-emergencies"
+ },
+ "what-should-rabbits-eat": {
+  "slug": "what-should-rabbits-eat",
+  "title": "What Should Rabbits Eat? A Complete Guide to Rabbit Nutrition",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-29",
+  "read": "5",
+  "summary": "Rabbit nutrition is built around hay, not pellets or treats. Learn the correct diet balance to prevent common health problems.",
+  "url": "/blog/what-should-rabbits-eat"
+ },
+ "how-quickly-blood-test-results-available": {
+  "slug": "how-quickly-blood-test-results-available",
+  "title": "How Quickly Can Pet Blood Test Results Be Available?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-28",
+  "read": "5",
+  "summary": "Turnaround time for pet blood tests varies by test type and lab setup. Here's a realistic breakdown.",
+  "url": "/blog/how-quickly-blood-test-results-available"
+ },
+ "cat-not-eating-how-long": {
+  "slug": "cat-not-eating-how-long",
+  "title": "Cat Not Eating: How Long Is Too Long?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-27",
+  "read": "5",
+  "summary": "Cats can develop serious complications from not eating faster than dogs. Learn how long is genuinely safe to wait and when it becomes an emergency.",
+  "url": "/blog/cat-not-eating-how-long"
+ },
+ "dog-seizures-what-to-do": {
+  "slug": "dog-seizures-what-to-do",
+  "title": "Dog Seizures: What to Do During a Seizure and When to Seek Veterinary Care",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-27",
+  "read": "5",
+  "summary": "Watching your dog have a seizure is frightening. Here's exactly what to do in the moment, and when a seizure means an emergency vet visit.",
+  "url": "/blog/dog-seizures-what-to-do"
+ },
+ "parrot-beak-nail-problems": {
+  "slug": "parrot-beak-nail-problems",
+  "title": "Parrot Beak and Nail Problems: When Professional Care Is Needed",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-27",
+  "read": "5",
+  "summary": "Overgrown beaks or nails can signal underlying health issues in parrots. Learn when trimming needs professional care.",
+  "url": "/blog/parrot-beak-nail-problems"
+ },
+ "create-pet-emergency-plan": {
+  "slug": "create-pet-emergency-plan",
+  "title": "How to Create an Emergency Plan for Your Pet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-26",
+  "read": "5",
+  "summary": "A step-by-step approach to building a pet emergency plan before you actually need one.",
+  "url": "/blog/create-pet-emergency-plan"
+ },
+ "rabbit-vaccination-preventive-care-india": {
+  "slug": "rabbit-vaccination-preventive-care-india",
+  "title": "Rabbit Vaccination and Preventive Care in India",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-25",
+  "read": "5",
+  "summary": "Vaccination needs for pet rabbits in India differ from Western countries. Here's what preventive care actually looks like locally.",
+  "url": "/blog/rabbit-vaccination-preventive-care-india"
+ },
+ "what-is-veterinary-pathology-lab": {
+  "slug": "what-is-veterinary-pathology-lab",
+  "title": "What Is a Veterinary Pathology Lab and Why Does Your Pet Need One?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-24",
+  "read": "5",
+  "summary": "Understanding what a veterinary pathology lab does and why access to one matters for accurate diagnosis.",
+  "url": "/blog/what-is-veterinary-pathology-lab"
+ },
+ "rabbit-gi-stasis": {
+  "slug": "rabbit-gi-stasis",
+  "title": "Rabbit GI Stasis: Symptoms, Causes, and Emergency Treatment",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-23",
+  "read": "5",
+  "summary": "GI stasis is one of the most common rabbit emergencies. Learn the symptoms, causes, and why fast treatment matters.",
+  "url": "/blog/rabbit-gi-stasis"
+ },
+ "tricat-vaccine-cats": {
+  "slug": "tricat-vaccine-cats",
+  "title": "Feline Care: Why the Tricat Vaccine Is Essential for Indoor and Outdoor Cats",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-23",
+  "read": "5",
+  "summary": "The Tricat (FVRCP) vaccine protects cats against three serious infectious diseases, including feline panleukopenia. Here's why indoor cats need it too.",
+  "url": "/blog/tricat-vaccine-cats"
+ },
+ "rabbit-breathing-problems": {
+  "slug": "rabbit-breathing-problems",
+  "title": "Rabbit Breathing Problems: When Is It an Emergency?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-22",
+  "read": "5",
+  "summary": "Rabbits are obligate nasal breathers, which makes respiratory problems especially serious. Learn the warning signs and when to seek immediate care.",
+  "url": "/blog/rabbit-breathing-problems"
+ },
+ "respiratory-diseases-pet-birds": {
+  "slug": "respiratory-diseases-pet-birds",
+  "title": "Common Respiratory Diseases in Pet Birds",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-22",
+  "read": "5",
+  "summary": "Respiratory disease is a leading cause of avian illness. Learn the common conditions and why birds are particularly vulnerable.",
+  "url": "/blog/respiratory-diseases-pet-birds"
+ },
+ "pet-emergency-signs-never-ignore": {
+  "slug": "pet-emergency-signs-never-ignore",
+  "title": "10 Pet Emergency Signs You Should Never Ignore",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-21",
+  "read": "5",
+  "summary": "A quick-reference list of the clearest emergency warning signs across dogs, cats, and other pets.",
+  "url": "/blog/pet-emergency-signs-never-ignore"
+ },
+ "dog-fever-recognize-symptoms": {
+  "slug": "dog-fever-recognize-symptoms",
+  "title": "Dog Fever: How to Recognize It and When a Vet Visit Is Necessary",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-20",
+  "read": "5",
+  "summary": "A dog with a fever may seem lethargic, warm, or off their food. Learn how to recognize fever in dogs and when it needs veterinary attention.",
+  "url": "/blog/dog-fever-recognize-symptoms"
+ },
+ "dog-suddenly-weak-unable-stand": {
+  "slug": "dog-suddenly-weak-unable-stand",
+  "title": "Why Is My Dog Suddenly Weak or Unable to Stand?",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-20",
+  "read": "5",
+  "summary": "Sudden weakness or an inability to stand in dogs can stem from many causes — some minor, some critical. Here's how to assess it and when to act fast.",
+  "url": "/blog/dog-suddenly-weak-unable-stand"
+ },
+ "in-house-diagnostics-faster-treatment": {
+  "slug": "in-house-diagnostics-faster-treatment",
+  "title": "Why In-House Veterinary Diagnostics Can Make Treatment Faster",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-19",
+  "read": "5",
+  "summary": "In-house lab testing shortens the time between symptoms and treatment decisions. Here's why that speed matters clinically.",
+  "url": "/blog/in-house-diagnostics-faster-treatment"
+ },
+ "pet-first-aid-kit-essentials": {
+  "slug": "pet-first-aid-kit-essentials",
+  "title": "Pet First Aid Kit: Essential Items Every Pet Parent Should Keep at Home",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-18",
+  "read": "5",
+  "summary": "A practical checklist of first-aid items every pet owner should have on hand for minor injuries and emergency prep.",
+  "url": "/blog/pet-first-aid-kit-essentials"
+ },
+ "parrot-avian-vet-checkup-frequency": {
+  "slug": "parrot-avian-vet-checkup-frequency",
+  "title": "How Often Should a Pet Parrot See an Avian Veterinarian?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-17",
+  "read": "5",
+  "summary": "Parrots hide illness well, making scheduled checkups more important than symptom-triggered visits alone. Here's a recommended frequency.",
+  "url": "/blog/parrot-avian-vet-checkup-frequency"
+ },
+ "rabbit-diarrhea-vs-cecotropes": {
+  "slug": "rabbit-diarrhea-vs-cecotropes",
+  "title": "Rabbit Diarrhea vs Normal Cecotropes: What Pet Parents Should Know",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-17",
+  "read": "5",
+  "summary": "Rabbits produce two types of droppings, and mistaking normal cecotropes for diarrhea is a common owner confusion. Here's the difference.",
+  "url": "/blog/rabbit-diarrhea-vs-cecotropes"
+ },
+ "xray-detect-foreign-body-dog": {
+  "slug": "xray-detect-foreign-body-dog",
+  "title": "Can an X-Ray Detect a Foreign Body in a Dog?",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-16",
+  "read": "5",
+  "summary": "X-rays can catch many swallowed foreign objects in dogs, but not all. Here's what to know about detection limits.",
+  "url": "/blog/xray-detect-foreign-body-dog"
+ },
+ "vet-near-wakad": {
+  "slug": "vet-near-wakad",
+  "title": "Looking for a Vet Near Wakad? Here's What Shivraj Pet Clinic & Lab Offers",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-15",
+  "read": "4",
+  "summary": "Searching for a vet near Wakad? Shivraj Pet Clinic & Lab in Pimple Nilakh offers in-house lab, digital X-ray, surgery, and exotic animal care — minutes from Wakad.",
+  "url": "/blog/vet-near-wakad"
+ },
+ "dog-vaccination-schedule-india": {
+  "slug": "dog-vaccination-schedule-india",
+  "title": "Complete Dog Vaccination Schedule in India: From Puppy DP to Annual Boosters",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-14",
+  "read": "6",
+  "summary": "A clear, age-by-age dog vaccination schedule for Indian pet owners — puppy shots, core vaccines, rabies timing, and annual boosters explained.",
+  "url": "/blog/dog-vaccination-schedule-india"
+ },
+ "information-for-vet-during-emergency": {
+  "slug": "information-for-vet-during-emergency",
+  "title": "What Information Should You Give Your Vet During an Emergency?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-14",
+  "read": "5",
+  "summary": "The right information, given quickly and clearly, can meaningfully speed up emergency treatment. Here's what to have ready.",
+  "url": "/blog/information-for-vet-during-emergency"
+ },
+ "dog-breathing-fast-resting": {
+  "slug": "dog-breathing-fast-resting",
+  "title": "Dog Breathing Fast While Resting: Causes and Emergency Warning Signs",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-13",
+  "read": "5",
+  "summary": "A dog breathing rapidly while resting — not after exercise — can signal pain, heart disease, or a respiratory emergency. Here's how to tell what's normal.",
+  "url": "/blog/dog-breathing-fast-resting"
+ },
+ "dog-losing-weight-despite-eating": {
+  "slug": "dog-losing-weight-despite-eating",
+  "title": "Why Is My Dog Losing Weight Despite Eating Normally?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-13",
+  "read": "5",
+  "summary": "Weight loss in a dog that's still eating normally can point to underlying illness. Learn the possible causes and why this symptom shouldn't be ignored.",
+  "url": "/blog/dog-losing-weight-despite-eating"
+ },
+ "nutritional-deficiencies-pet-parrots": {
+  "slug": "nutritional-deficiencies-pet-parrots",
+  "title": "Common Nutritional Deficiencies in Pet Parrots",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-13",
+  "read": "5",
+  "summary": "An all-seed diet is behind many common parrot health problems. Learn the most frequent nutritional deficiencies and how to correct them.",
+  "url": "/blog/nutritional-deficiencies-pet-parrots"
+ },
+ "how-to-know-rabbit-is-sick": {
+  "slug": "how-to-know-rabbit-is-sick",
+  "title": "How to Know If Your Rabbit Is Sick",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-12",
+  "read": "5",
+  "summary": "Rabbits, like most prey species, hide illness well. Learn the subtle signs that indicate your rabbit needs veterinary attention.",
+  "url": "/blog/how-to-know-rabbit-is-sick"
+ },
+ "acral-lick-dermatitis-dogs": {
+  "slug": "acral-lick-dermatitis-dogs",
+  "title": "Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Spot",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Constant paw or leg licking can turn into a painful, thickened wound called a lick granuloma. Learn the causes, treatment, and prevention of acral lick dermatitis from Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/acral-lick-dermatitis-dogs"
+ },
+ "bird-feather-dna-sexing-test": {
+  "slug": "bird-feather-dna-sexing-test",
+  "title": "Bird Feather DNA Sexing Test in Pune — Accurate Gender Testing for Parrots & Budgies",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-11",
+  "read": "5",
+  "summary": "Can't tell if your bird is male or female? Feather DNA sexing gives 99%+ accurate results in 7-10 days without a blood draw. Learn how the test works at Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/bird-feather-dna-sexing-test"
+ },
+ "complete-diet-guide-turtles-tortoises": {
+  "slug": "complete-diet-guide-turtles-tortoises",
+  "title": "Complete Diet Guide for Pet Turtles & Tortoises — Feeding Ratios & Safe Foods",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-11",
+  "read": "5",
+  "summary": "Improper diet is a leading cause of shell deformities and metabolic bone disease in turtles and tortoises. Get species-specific feeding ratios and safe foods from Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/complete-diet-guide-turtles-tortoises"
+ },
+ "dental-scaling-dogs-cats": {
+  "slug": "dental-scaling-dogs-cats",
+  "title": "Professional Dental Scaling for Dogs & Cats in Pune — Why It Matters",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-11",
+  "read": "5",
+  "summary": "Over 80% of dogs and 70% of cats develop dental disease by age 3. Learn why professional dental scaling under anaesthesia protects your pet's oral and overall health — Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/dental-scaling-dogs-cats"
+ },
+ "diet-guide-budgies-cockatiels-parrots": {
+  "slug": "diet-guide-budgies-cockatiels-parrots",
+  "title": "Complete Diet Guide for Budgies, Cockatiels & Parrots — Safe Foods & Feeding Ratios",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-11",
+  "read": "6",
+  "summary": "Seed-only diets are the leading cause of nutritional disease in pet birds. Get the ideal feeding ratios, safe foods, and foods to avoid for budgies, cockatiels, and parrots — Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/diet-guide-budgies-cockatiels-parrots"
+ },
+ "ear-infections-dogs": {
+  "slug": "ear-infections-dogs",
+  "title": "Ear Infections in Dogs — Signs, Causes & Treatment in Pune",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Head shaking, scratching, and bad odour are classic signs of a dog ear infection. Learn the causes, treatment, and how to prevent recurrence from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/ear-infections-dogs"
+ },
+ "hair-fall-dogs-cats": {
+  "slug": "hair-fall-dogs-cats",
+  "title": "Hair Fall in Dogs & Cats — When Is Shedding Normal vs a Medical Problem?",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Seasonal shedding is normal — patchy bald spots or sudden hair loss are not. Learn the causes, diagnosis, and treatment for excessive hair fall in dogs and cats at Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/hair-fall-dogs-cats"
+ },
+ "non-surgical-heat-management-cats": {
+  "slug": "non-surgical-heat-management-cats",
+  "title": "Non-Surgical Heat Control in Cats — Temporary Options & Why Spaying Still Wins",
+  "cat": "cat",
+  "catLabel": "Cats",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Can a cat's heat cycle be managed without surgery? Yes, but only temporarily and under veterinary supervision. Learn the real options and risks from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/non-surgical-heat-management-cats"
+ },
+ "respiratory-infections-pet-turtles": {
+  "slug": "respiratory-infections-pet-turtles",
+  "title": "Respiratory Infections in Pet Turtles — Symptoms, Causes & Treatment in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Wheezing, open-mouth breathing, or nasal discharge in a pet turtle can signal a life-threatening respiratory infection. Learn the causes and treatment from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/respiratory-infections-pet-turtles"
+ },
+ "sick-bird-syndrome-pet-birds": {
+  "slug": "sick-bird-syndrome-pet-birds",
+  "title": "Sick Bird Syndrome — Early Signs Every Bird Owner Should Know",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-11",
+  "read": "4",
+  "summary": "Birds hide illness until they are critically sick. Learn to recognise the early signs of a sick bird — and why acting within hours matters. From Dr. Pritesh Vidhate, Shivraj Pet Clinic & Lab Pune.",
+  "url": "/blog/sick-bird-syndrome-pet-birds"
+ },
+ "parrot-diseases-explained": {
+  "slug": "parrot-diseases-explained",
+  "title": "Parrot Diseases Explained: From Vitamin A Deficiency to Egg Binding",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-10",
+  "read": "6",
+  "summary": "A condition-by-condition guide to the most common parrot diseases — respiratory illness, nutritional deficiency, feather plucking, liver disease, egg binding, and heavy metal toxicity — and what each one means for treatment.",
+  "url": "/blog/parrot-diseases-explained"
+ },
+ "dog-heatstroke-symptoms-first-aid": {
+  "slug": "dog-heatstroke-symptoms-first-aid",
+  "title": "Dog Heatstroke: Symptoms, First Aid, and Emergency Treatment",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-09",
+  "read": "5",
+  "summary": "Heatstroke in dogs escalates fast and can be fatal within minutes. Learn the early warning signs, immediate first aid steps, and when to rush to a vet.",
+  "url": "/blog/dog-heatstroke-symptoms-first-aid"
+ },
+ "parrot-vomiting-regurgitating": {
+  "slug": "parrot-vomiting-regurgitating",
+  "title": "Parrot Vomiting or Regurgitating: What's Normal and What's Not?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-08",
+  "read": "5",
+  "summary": "Regurgitation can be a normal bonding behavior in parrots or a sign of illness. Learn the key differences.",
+  "url": "/blog/parrot-vomiting-regurgitating"
+ },
+ "veterinary-checkup-cost-pune": {
+  "slug": "veterinary-checkup-cost-pune",
+  "title": "How Much Does a Veterinary Health Checkup Cost in Pune?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-08",
+  "read": "5",
+  "summary": "A general guide to what factors affect veterinary checkup costs in Pune, without misleading fixed numbers.",
+  "url": "/blog/veterinary-checkup-cost-pune"
+ },
+ "dog-fleas-ticks-prevention-treatment": {
+  "slug": "dog-fleas-ticks-prevention-treatment",
+  "title": "Dog Fleas and Ticks: Prevention and Treatment Guide",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-07",
+  "read": "5",
+  "summary": "Flea and tick prevention is essential year-round, not just seasonally. Here's a practical prevention and treatment overview.",
+  "url": "/blog/dog-fleas-ticks-prevention-treatment"
+ },
+ "common-diseases-pet-rabbits": {
+  "slug": "common-diseases-pet-rabbits",
+  "title": "Common Diseases in Pet Rabbits and How to Prevent Them",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-06",
+  "read": "5",
+  "summary": "From GI stasis to dental disease, here are the most common health problems in pet rabbits and practical prevention strategies.",
+  "url": "/blog/common-diseases-pet-rabbits"
+ },
+ "dog-drinking-too-much-water": {
+  "slug": "dog-drinking-too-much-water",
+  "title": "Why Is My Dog Drinking Too Much Water?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-06",
+  "read": "5",
+  "summary": "Increased thirst in dogs can be an early sign of diabetes, kidney disease, or other conditions. Learn when excessive drinking warrants a vet visit.",
+  "url": "/blog/dog-drinking-too-much-water"
+ },
+ "vet-clinic-pimple-saudagar": {
+  "slug": "vet-clinic-pimple-saudagar",
+  "title": "Trusted Vet Clinic Serving Pimple Saudagar Pet Parents",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-05",
+  "read": "4",
+  "summary": "Trusted vet for Pimple Saudagar pet parents. In-house lab, digital X-ray, surgery & exotic animal care at Shivraj Pet Clinic & Lab, Pimple Nilakh.",
+  "url": "/blog/vet-clinic-pimple-saudagar"
+ },
+ "fast-diagnostics-veterinary-emergencies": {
+  "slug": "fast-diagnostics-veterinary-emergencies",
+  "title": "Why Fast Diagnostics Matter in Veterinary Emergencies",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-04",
+  "read": "5",
+  "summary": "In a true emergency, minutes matter. Here's why fast diagnostic turnaround directly affects outcomes for critically ill pets.",
+  "url": "/blog/fast-diagnostics-veterinary-emergencies"
+ },
+ "parrot-losing-feathers": {
+  "slug": "parrot-losing-feathers",
+  "title": "Why Is My Parrot Losing Feathers?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-04",
+  "read": "5",
+  "summary": "Feather loss can be normal molting or a sign of illness, stress, or nutritional deficiency. Learn how to tell them apart.",
+  "url": "/blog/parrot-losing-feathers"
+ },
+ "exotic-pet-vet-near-vishal-nagar": {
+  "slug": "exotic-pet-vet-near-vishal-nagar",
+  "title": "How to Find an Exotic Pet Vet Near Vishal Nagar",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-03",
+  "read": "5",
+  "summary": "Exotic pet owners in Vishal Nagar need a vet with specific species training. Here's how to find one nearby.",
+  "url": "/blog/exotic-pet-vet-near-vishal-nagar"
+ },
+ "dog-urine-problems-uti-stones": {
+  "slug": "dog-urine-problems-uti-stones",
+  "title": "Dog Urine Problems: Signs of UTI, Stones, and Urinary Blockage",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-07-02",
+  "read": "5",
+  "summary": "Straining to urinate, blood in urine, or frequent accidents can signal a UTI, bladder stones, or a life-threatening blockage in dogs. Here's how to tell them apart.",
+  "url": "/blog/dog-urine-problems-uti-stones"
+ },
+ "household-poisons-pets": {
+  "slug": "household-poisons-pets",
+  "title": "Rat Poison, Plants & Household Chemicals: Hidden Poisons in Your Home",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-07-02",
+  "read": "5",
+  "summary": "Beyond food — the household poisons pet owners overlook: rodenticide, common houseplants, and cleaning chemicals. What's dangerous, what to watch for, and what to do.",
+  "url": "/blog/household-poisons-pets"
+ },
+ "bird-droppings-health-signs": {
+  "slug": "bird-droppings-health-signs",
+  "title": "Changes in Bird Droppings: What They Can Tell You About Your Parrot's Health",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-07-01",
+  "read": "5",
+  "summary": "A bird's droppings offer daily health clues. Learn what normal looks like and what changes should concern you.",
+  "url": "/blog/bird-droppings-health-signs"
+ },
+ "neighbourhood-vet-pimple-nilakh": {
+  "slug": "neighbourhood-vet-pimple-nilakh",
+  "title": "Your Neighbourhood Vet in Pimple Nilakh Since 2013",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-30",
+  "read": "4",
+  "summary": "Shivraj Pet Clinic & Lab — Pimple Nilakh's multispecies veterinary clinic since 2013. In-house lab, digital X-ray, surgery, exotic animal care.",
+  "url": "/blog/neighbourhood-vet-pimple-nilakh"
+ },
+ "veterinary-clinic-near-wakad-checklist": {
+  "slug": "veterinary-clinic-near-wakad-checklist",
+  "title": "What to Look for in a Veterinary Clinic Near Wakad",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-29",
+  "read": "5",
+  "summary": "Practical guidance for Wakad pet owners choosing where to take their dog, cat, or exotic pet for veterinary care.",
+  "url": "/blog/veterinary-clinic-near-wakad-checklist"
+ },
+ "parrot-breathing-heavily": {
+  "slug": "parrot-breathing-heavily",
+  "title": "Parrot Breathing Heavily: Causes and Emergency Warning Signs",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-28",
+  "read": "5",
+  "summary": "Heavy or labored breathing in parrots can escalate quickly given their specialized respiratory system. Learn the warning signs.",
+  "url": "/blog/parrot-breathing-heavily"
+ },
+ "fleas-cause-pet-anemia": {
+  "slug": "fleas-cause-pet-anemia",
+  "title": "Can Fleas Make Your Pet Anemic?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-27",
+  "read": "5",
+  "summary": "Severe flea infestations can cause dangerous blood loss, particularly in puppies and kittens. Here's how and why.",
+  "url": "/blog/fleas-cause-pet-anemia"
+ },
+ "sudden-paralysis-dogs": {
+  "slug": "sudden-paralysis-dogs",
+  "title": "Sudden Paralysis in Dogs: Possible Causes and Why Immediate Care Matters",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-26",
+  "read": "5",
+  "summary": "Sudden paralysis or loss of coordination in a dog's legs is a medical emergency. Learn the possible causes and why every hour of delay matters.",
+  "url": "/blog/sudden-paralysis-dogs"
+ },
+ "dog-ate-chocolate-first-hour": {
+  "slug": "dog-ate-chocolate-first-hour",
+  "title": "Dog Ate Chocolate? What to Do in the First Hour",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-25",
+  "read": "5",
+  "summary": "Your dog ate chocolate. Here's exactly what to check, what to do in the first 60 minutes, and when it's an emergency versus a false alarm.",
+  "url": "/blog/dog-ate-chocolate-first-hour"
+ },
+ "good-pet-clinic-pimple-saudagar-services": {
+  "slug": "good-pet-clinic-pimple-saudagar-services",
+  "title": "What Services Should a Good Pet Clinic in Pimple Saudagar Offer?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-24",
+  "read": "5",
+  "summary": "A checklist of services worth expecting from a well-equipped pet clinic serving the Pimple Saudagar area.",
+  "url": "/blog/good-pet-clinic-pimple-saudagar-services"
+ },
+ "rabbit-losing-weight": {
+  "slug": "rabbit-losing-weight",
+  "title": "Why Is My Rabbit Losing Weight?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-23",
+  "read": "5",
+  "summary": "Weight loss in rabbits often signals dental disease, GI issues, or an underlying illness. Learn what to check and when to see a vet.",
+  "url": "/blog/rabbit-losing-weight"
+ },
+ "dog-skin-allergy-symptoms-treatment": {
+  "slug": "dog-skin-allergy-symptoms-treatment",
+  "title": "Dog Skin Allergy: Symptoms, Causes, and Treatment Options",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-22",
+  "read": "5",
+  "summary": "Skin allergies are among the most common reasons dogs visit the vet. Learn the causes and treatment approaches.",
+  "url": "/blog/dog-skin-allergy-symptoms-treatment"
+ },
+ "parrot-fluffed-up-all-day": {
+  "slug": "parrot-fluffed-up-all-day",
+  "title": "Why Is My Parrot Fluffed Up All Day?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-21",
+  "read": "5",
+  "summary": "Occasional fluffing is normal, but a parrot fluffed up all day may be signaling illness. Learn how to tell the difference.",
+  "url": "/blog/parrot-fluffed-up-all-day"
+ },
+ "ear-mites-cats-dogs": {
+  "slug": "ear-mites-cats-dogs",
+  "title": "Ear Mites in Cats and Dogs: Symptoms and Treatment",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-20",
+  "read": "5",
+  "summary": "Ear mites are a common, highly contagious cause of ear irritation in pets. Learn the symptoms and treatment approach.",
+  "url": "/blog/ear-mites-cats-dogs"
+ },
+ "how-to-choose-emergency-vet-pcmc": {
+  "slug": "how-to-choose-emergency-vet-pcmc",
+  "title": "How to Choose an Emergency Vet in PCMC",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-19",
+  "read": "5",
+  "summary": "Not every clinic is equipped for true emergencies. Here's what to look for specifically when choosing emergency veterinary care in PCMC.",
+  "url": "/blog/how-to-choose-emergency-vet-pcmc"
+ },
+ "dog-bite-wounds-veterinary-exam": {
+  "slug": "dog-bite-wounds-veterinary-exam",
+  "title": "Dog Bite Wounds: Why Even Small Wounds Need Veterinary Examination",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-18",
+  "read": "5",
+  "summary": "A small puncture from a dog bite can hide serious damage underneath. Here's why bite wounds need veterinary evaluation even when they look minor.",
+  "url": "/blog/dog-bite-wounds-veterinary-exam"
+ },
+ "cat-skin-problems-itching-hair-loss": {
+  "slug": "cat-skin-problems-itching-hair-loss",
+  "title": "Cat Skin Problems: Itching, Hair Loss, and Skin Infections",
+  "cat": "cat",
+  "catLabel": "Cats",
+  "dateISO": "2026-06-17",
+  "read": "5",
+  "summary": "Skin issues in cats can stem from allergies, parasites, or stress-related over-grooming. Learn to recognize the patterns.",
+  "url": "/blog/cat-skin-problems-itching-hair-loss"
+ },
+ "parrot-not-eating": {
+  "slug": "parrot-not-eating",
+  "title": "Parrot Not Eating: Causes and When to See an Avian Vet",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-16",
+  "read": "5",
+  "summary": "A parrot refusing food can deteriorate quickly given their fast metabolism. Learn the causes and urgency around this symptom.",
+  "url": "/blog/parrot-not-eating"
+ },
+ "how-to-choose-pet-clinic-pune": {
+  "slug": "how-to-choose-pet-clinic-pune",
+  "title": "How to Choose the Right Pet Clinic in Pune",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-06-15",
+  "read": "5",
+  "summary": "Choosing a vet clinic isn't just about proximity. Here's what actually matters when evaluating options in Pune.",
+  "url": "/blog/how-to-choose-pet-clinic-pune"
+ },
+ "why-dog-constantly-scratching": {
+  "slug": "why-dog-constantly-scratching",
+  "title": "Why Is My Dog Constantly Scratching?",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-14",
+  "read": "5",
+  "summary": "Persistent scratching in dogs has several possible causes, from allergies to parasites. Learn how to narrow it down.",
+  "url": "/blog/why-dog-constantly-scratching"
+ },
+ "toxic-foods-household-hazards-pet-birds": {
+  "slug": "toxic-foods-household-hazards-pet-birds",
+  "title": "Common Toxic Foods and Household Hazards for Pet Birds",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-13",
+  "read": "5",
+  "summary": "Several common foods and household items are toxic to birds. Learn what to keep away from your parrot.",
+  "url": "/blog/toxic-foods-household-hazards-pet-birds"
+ },
+ "dog-eats-foreign-object": {
+  "slug": "dog-eats-foreign-object",
+  "title": "What to Do If Your Dog Eats a Foreign Object",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-06-12",
+  "read": "5",
+  "summary": "Your dog swallowed something they shouldn't have. Here's how to assess the risk, what to watch for, and when it's a surgical emergency.",
+  "url": "/blog/dog-eats-foreign-object"
+ },
+ "exotic-pet-care-pune": {
+  "slug": "exotic-pet-care-pune",
+  "title": "Exotic Pet Care in Pune — Trusted Veterinary Support at Shivraj Pet Clinic & Lab",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-06-01",
+  "read": "4",
+  "summary": "Looking for a rabbit, bird, or reptile vet in Pune? Learn how Shivraj Pet Clinic & Lab offers expert care for exotic pets including parrots, turtles, hamsters, and more in Wakad & Pimple Saudagar.",
+  "url": "/blog/exotic-pet-care-pune"
+ },
+ "hip-dysplasia-dogs": {
+  "slug": "hip-dysplasia-dogs",
+  "title": "Hip Dysplasia in Dogs — Causes, Symptoms, and Treatment Options in Pune",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-05-30",
+  "read": "5",
+  "summary": "Hip dysplasia causes chronic pain and mobility problems in dogs. Learn the signs, breeds at risk, diagnosis, and treatment options available at Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/hip-dysplasia-dogs"
+ },
+ "new-puppy-kitten-guide": {
+  "slug": "new-puppy-kitten-guide",
+  "title": "New Puppy and Kitten Guide — First 6 Months Care Tips from Shivraj Pet Clinic & Lab",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-05-29",
+  "read": "5",
+  "summary": "Just brought home a puppy or kitten? This complete guide covers vaccination schedule, deworming, feeding, socialisation, and first vet visit — from Dr. Pritesh Vidhate, serving Wakad & Pimple Saudagar, Pune.",
+  "url": "/blog/new-puppy-kitten-guide"
+ },
+ "monsoon-pet-care-tips": {
+  "slug": "monsoon-pet-care-tips",
+  "title": "Monsoon Pet Care Tips for Dogs and Cats in Pune",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-05-28",
+  "read": "4",
+  "summary": "Monsoon brings ticks, fungal infections, and leptospirosis risks for Pune pets. Here are 8 essential monsoon care tips for dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic & Lab.",
+  "url": "/blog/monsoon-pet-care-tips"
+ },
+ "care-of-pet-birds": {
+  "slug": "care-of-pet-birds",
+  "title": "Care of Pet Birds — Common Mistakes to Avoid",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-05-27",
+  "read": "4",
+  "summary": "Pet birds bring joy and intelligence into our homes — but caring for them properly requires more than a cage and seeds. Learn the top bird care mistakes to avoid from Shivraj Pet Clinic & Lab, Pune.",
+  "url": "/blog/care-of-pet-birds"
+ },
+ "advanced-pet-diagnostics-pune": {
+  "slug": "advanced-pet-diagnostics-pune",
+  "title": "Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-05-26",
+  "read": "4",
+  "summary": "Is your pet feeling unwell but the symptoms are vague? Learn about modern diagnostic tests at Shivraj Pet Clinic & Lab for dogs, cats, rabbits, birds, and turtles.",
+  "url": "/blog/advanced-pet-diagnostics-pune"
+ },
+ "prp-injection-joint-diseases-dogs": {
+  "slug": "prp-injection-joint-diseases-dogs",
+  "title": "Platelet-Rich Plasma (PRP) Injection for Joint Disease in Dogs",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-05-13",
+  "read": "4",
+  "summary": "PRP therapy uses your dog's own blood to promote joint healing and reduce arthritis pain. Learn how platelet-rich plasma injections work, which conditions benefit, and what to expect.",
+  "url": "/blog/prp-injection-joint-diseases-dogs"
+ },
+ "food-allergies-dogs": {
+  "slug": "food-allergies-dogs",
+  "title": "Common Food Allergies & Allergens in Dogs — Complete Guide",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-05-12",
+  "read": "3",
+  "summary": "Food allergies in dogs are widely underdiagnosed. Learn the signs, most common triggers, how to diagnose properly, and what to feed a dog with allergies.",
+  "url": "/blog/food-allergies-dogs"
+ },
+ "environmental-allergens-atopy-dogs-cats": {
+  "slug": "environmental-allergens-atopy-dogs-cats",
+  "title": "Environmental Allergens That Trigger Atopy in Dogs and Cats",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-05-11",
+  "read": "5",
+  "summary": "Atopic dermatitis (environmental allergy) is the second most common cause of itching in dogs. Learn which allergens trigger it, how it is diagnosed, and treatment options from Shivraj Pet Clinic & Lab Pune.",
+  "url": "/blog/environmental-allergens-atopy-dogs-cats"
+ },
+ "noise-phobia-pets": {
+  "slug": "noise-phobia-pets",
+  "title": "Noise Phobia in Pets — Managing Thunder and Firecracker Anxiety in Dogs and Cats",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-05-01",
+  "read": "4",
+  "summary": "Diwali firecrackers and monsoon thunder cause real distress in pets. Learn how to recognise and manage noise phobia in dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic & Lab Pune.",
+  "url": "/blog/noise-phobia-pets"
+ },
+ "pet-blood-test-before-surgery": {
+  "slug": "pet-blood-test-before-surgery",
+  "title": "Pet Blood Test Before Surgery: Why Is It Necessary?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-30",
+  "read": "5",
+  "summary": "Pre-anesthetic blood testing helps identify hidden risks before your pet undergoes surgery. Here's why it's recommended.",
+  "url": "/blog/pet-blood-test-before-surgery"
+ },
+ "transport-parrot-avian-vet": {
+  "slug": "transport-parrot-avian-vet",
+  "title": "How to Safely Take a Parrot to an Avian Vet",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-04-28",
+  "read": "5",
+  "summary": "Transporting a parrot requires specific precautions around temperature, stress, and secure containment. Here's how to do it right.",
+  "url": "/blog/transport-parrot-avian-vet"
+ },
+ "exotic-vet-pcmc-turtle-rabbit-parrot": {
+  "slug": "exotic-vet-pcmc-turtle-rabbit-parrot",
+  "title": "Why Finding an Exotic Pet Vet in PCMC Matters for Your Turtle, Rabbit, or Parrot",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-04-27",
+  "read": "5",
+  "summary": "Most vets in PCMC focus on dogs and cats. Here's why exotic pets — birds, rabbits, turtles, guinea pigs — need a vet with specific species training, not general experience alone.",
+  "url": "/blog/exotic-vet-pcmc-turtle-rabbit-parrot"
+ },
+ "blood-tests-sick-cat-needs": {
+  "slug": "blood-tests-sick-cat-needs",
+  "title": "What Blood Tests Does a Sick Cat Need?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-26",
+  "read": "5",
+  "summary": "Blood testing priorities for a sick cat often differ from dogs, especially around kidney and thyroid function. Here's the breakdown.",
+  "url": "/blog/blood-tests-sick-cat-needs"
+ },
+ "toxic-foods-dogs-cats": {
+  "slug": "toxic-foods-dogs-cats",
+  "title": "Toxic Foods for Dogs and Cats — What Never to Feed Your Pet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-26",
+  "read": "5",
+  "summary": "Grapes, onions, chocolate, and xylitol are just some of the common foods that can kill pets. Learn what foods are toxic to dogs and cats from Dr. Pritesh Vidhate, Shivraj Pet Clinic & Lab Pune.",
+  "url": "/blog/toxic-foods-dogs-cats"
+ },
+ "high-rise-syndrome-cats": {
+  "slug": "high-rise-syndrome-cats",
+  "title": "High Rise Syndrome in Cats — Causes, Dangers & Every Pet Owner Must Know",
+  "cat": "cat",
+  "catLabel": "Cats",
+  "dateISO": "2026-04-24",
+  "read": "4",
+  "summary": "High Rise Syndrome is a growing danger for cats in Pune's apartments. Learn what injuries occur, exactly what to do immediately, and how to prevent it.",
+  "url": "/blog/high-rise-syndrome-cats"
+ },
+ "dangerous-human-medicines-dogs-cats": {
+  "slug": "dangerous-human-medicines-dogs-cats",
+  "title": "Dangerous Human Medicines for Dogs and Cats — What Never to Give Your Pet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-23",
+  "read": "4",
+  "summary": "Common human painkillers and medicines that are safe for people can be fatal to pets. Dr. Pritesh Vidhate from Shivraj Pet Clinic & Lab explains which medicines to keep away from dogs and cats.",
+  "url": "/blog/dangerous-human-medicines-dogs-cats"
+ },
+ "tick-fever-dogs": {
+  "slug": "tick-fever-dogs",
+  "title": "Tick Fever in Dogs — Why Regular Testing is Important",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-04-23",
+  "read": "4",
+  "summary": "Tick fever (Ehrlichiosis and Babesiosis) is dangerously common in Pune's green neighbourhoods. Early blood testing is the only reliable way to catch it before it becomes fatal.",
+  "url": "/blog/tick-fever-dogs"
+ },
+ "transport-sick-cat-safely": {
+  "slug": "transport-sick-cat-safely",
+  "title": "How to Transport a Sick Cat to the Veterinary Clinic",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-23",
+  "read": "5",
+  "summary": "Cats have specific transport needs that differ from dogs. Here's how to reduce stress and keep them safe on the way to the vet.",
+  "url": "/blog/transport-sick-cat-safely"
+ },
+ "blood-tests-sick-dog-needs": {
+  "slug": "blood-tests-sick-dog-needs",
+  "title": "What Blood Tests Does a Sick Dog Need?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-22",
+  "read": "5",
+  "summary": "The specific blood tests recommended for a sick dog depend on symptoms. Here's how vets decide what to run.",
+  "url": "/blog/blood-tests-sick-dog-needs"
+ },
+ "transport-sick-dog-safely": {
+  "slug": "transport-sick-dog-safely",
+  "title": "How to Transport a Sick Dog Safely to the Vet",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-19",
+  "read": "5",
+  "summary": "Moving a sick or injured dog incorrectly can worsen their condition. Here's how to do it safely.",
+  "url": "/blog/transport-sick-dog-safely"
+ },
+ "blood-biochemistry-tests-explained": {
+  "slug": "blood-biochemistry-tests-explained",
+  "title": "Blood Biochemistry Tests for Dogs and Cats: What Do the Results Mean?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-18",
+  "read": "5",
+  "summary": "Blood biochemistry panels reveal information about organ function and metabolism. Here's what the results actually tell your vet.",
+  "url": "/blog/blood-biochemistry-tests-explained"
+ },
+ "pre-post-operative-care-pets": {
+  "slug": "pre-post-operative-care-pets",
+  "title": "Pre-operative & Post-operative Care for Pets — Surgery Safety at Shivraj Pet Clinic & Lab",
+  "cat": "surgery",
+  "catLabel": "Surgery & lab",
+  "dateISO": "2026-04-18",
+  "read": "5",
+  "summary": "What to expect before and after your pet's surgery at Shivraj Pet Clinic & Lab. Our gas anaesthesia protocol, recovery monitoring and complete post-op care guide.",
+  "url": "/blog/pre-post-operative-care-pets"
+ },
+ "gastroenteritis-dogs-vaccination": {
+  "slug": "gastroenteritis-dogs-vaccination",
+  "title": "Gastroenteritis in Dogs — Why Early Vaccination Can Save Your Puppy's Life",
+  "cat": "dog",
+  "catLabel": "Dogs",
+  "dateISO": "2026-04-17",
+  "read": "4",
+  "summary": "Parvovirus kills hundreds of puppies in Pune every year. Early vaccination is the only prevention. Here is our complete vaccination protocol and what to watch for.",
+  "url": "/blog/gastroenteritis-dogs-vaccination"
+ },
+ "first-veterinary-visit-what-to-expect": {
+  "slug": "first-veterinary-visit-what-to-expect",
+  "title": "What to Expect During Your Pet's First Veterinary Visit",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-15",
+  "read": "5",
+  "summary": "A walkthrough of what typically happens during a new pet's first vet visit, so you know what to prepare for.",
+  "url": "/blog/first-veterinary-visit-what-to-expect"
+ },
+ "cbc-test-dogs-cats-explained": {
+  "slug": "cbc-test-dogs-cats-explained",
+  "title": "CBC Test for Dogs and Cats: What Does It Tell Your Veterinarian?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-14",
+  "read": "5",
+  "summary": "A Complete Blood Count is one of the most common diagnostic tests in veterinary medicine. Learn what it measures and why it matters.",
+  "url": "/blog/cbc-test-dogs-cats-explained"
+ },
+ "why-annual-pet-checkups-important": {
+  "slug": "why-annual-pet-checkups-important",
+  "title": "Why Annual Pet Health Checkups Are Important Even When Your Pet Looks Healthy",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-11",
+  "read": "5",
+  "summary": "A pet that looks perfectly fine can still be developing a health problem. Learn why annual checkups catch what visible symptoms miss.",
+  "url": "/blog/why-annual-pet-checkups-important"
+ },
+ "pet-clinic-vs-emergency-hospital": {
+  "slug": "pet-clinic-vs-emergency-hospital",
+  "title": "Pet Clinic vs Emergency Veterinary Hospital: What's the Difference?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-10",
+  "read": "5",
+  "summary": "Understanding the distinction between a regular pet clinic and an emergency veterinary hospital helps you know where to go and when.",
+  "url": "/blog/pet-clinic-vs-emergency-hospital"
+ },
+ "preventive-checkup-what-vet-checks": {
+  "slug": "preventive-checkup-what-vet-checks",
+  "title": "Pet Preventive Health Checkup: What Does a Vet Check?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-10",
+  "read": "5",
+  "summary": "A walkthrough of what actually happens during a standard preventive health checkup for dogs and cats.",
+  "url": "/blog/preventive-checkup-what-vet-checks"
+ },
+ "vet-visit-vs-home-treatment": {
+  "slug": "vet-visit-vs-home-treatment",
+  "title": "When Should You Visit a Vet Instead of Treating Your Pet at Home?",
+  "cat": "health",
+  "catLabel": "Health & prevention",
+  "dateISO": "2026-04-10",
+  "read": "5",
+  "summary": "Home care has real limits. Here's a practical guide to knowing when a symptom needs professional evaluation instead.",
+  "url": "/blog/vet-visit-vs-home-treatment"
+ },
+ "clinic-suitable-birds-rabbits-reptiles": {
+  "slug": "clinic-suitable-birds-rabbits-reptiles",
+  "title": "What Makes a Veterinary Clinic Suitable for Birds, Rabbits, and Reptiles?",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2026-04-02",
+  "read": "5",
+  "summary": "Treating exotic species well requires more than general veterinary training. Here's what genuine suitability looks like.",
+  "url": "/blog/clinic-suitable-birds-rabbits-reptiles"
+ },
+ "neutering-rabbits-pune": {
+  "slug": "neutering-rabbits-pune",
+  "title": "Neutering Rabbits — Why It Matters and How We Do It Safely in Pune",
+  "cat": "exotic",
+  "catLabel": "Exotic pets",
+  "dateISO": "2025-07-15",
+  "read": "4",
+  "summary": "Rabbit neutering prevents reproductive cancers, reduces aggression, and extends lifespan. Learn how Shivraj Pet Clinic & Lab performs safe rabbit surgery in Pune using gaseous anaesthesia.",
+  "url": "/blog/neutering-rabbits-pune"
+ }
+}

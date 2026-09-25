@@ -1,0 +1,54 @@
+{
+  "doctors": [
+    {
+      "id": "pritesh",
+      "name": "Dr. Pritesh S. Vidhate",
+      "role": "Head Veterinarian",
+      "creds": "B.V.Sc. & A.H., M.V.Sc.",
+      "reg": "MSVC Reg. No. 9959",
+      "photo": "dr-pritesh-microscope",
+      "alt": [
+        "dr-pritesh-turtle",
+        "dr-pritesh-dog",
+        "dr-pritesh-surgery"
+      ],
+      "bio": "Leads clinical care at Shivraj Pet Clinic & Lab, with a focus on exotic animal medicine, soft tissue surgery and diagnostic ultrasonography. Known for thorough, patient consultations, honest evidence-based care, and as the vet Pune pet parents come to for second opinions.",
+      "focus": [
+        "Exotic animal medicine",
+        "Surgery",
+        "Ultrasonography",
+        "Preventive medicine",
+        "Cardiology"
+      ]
+    },
+    {
+      "id": "shivaji",
+      "name": "Dr. Shivaji B. Vidhate",
+      "role": "Founder & Senior Veterinarian",
+      "creds": "M.V.Sc. (Pathology)",
+      "reg": "MSVC Reg. No. 3182",
+      "years": "33+",
+      "photo": "dr-shivaji-desk",
+      "alt": [
+        "dr-shivaji-stethoscope",
+        "dr-shivaji-parrot",
+        "dr-shivaji-portrait"
+      ],
+      "bio": "Retired District Animal Husbandry Officer, Pune, with 33+ years of experience in field and companion animal medicine and surgery. He founded Shivraj Pet Clinic & Lab in 2013 and remains the clinic’s pathology anchor.",
+      "focus": [
+        "Pathology",
+        "Field medicine",
+        "Surgery",
+        "Retired DAHO, Pune"
+      ]
+    }
+  ],
+  "team": [
+    {
+      "name": "Mr. Deepak Joshi",
+      "role": "Veterinary Technician",
+      "photo": "team-deepak",
+      "bio": "Known for gentle animal handling and a calm presence in the consultation room and operation theatre."
+    }
+  ]
+}

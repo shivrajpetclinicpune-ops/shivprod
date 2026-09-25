@@ -1,0 +1,3 @@
+# 14 / 27 / 29 — Booking journey & CRO
+Entry points: hero CTA, sticky nav "Book a visit", mobile action bar (Call · WhatsApp · Book), desktop cat dock, every service/blog CTA → `/#book` or `/contact#book`.
+Composer: species → reason → date (Wednesdays and past dates blocked, 60-day window, today's past slots disabled) → slot (morning 10:30–1:30, evening 5:00–8:30; 3–5 PM surgery note) → name/pet/note. Live WhatsApp preview; submit opens `wa.me/917756965169` with the full request. Copy states the appointment is confirmed only when the clinic replies. "Emergency" reason shows the opening-hours-only notice. GA4: `book_appointment_click`, `booking_submit`, `phone_click`, `whatsapp_click`, `directions_click`, `video_sound_on`.

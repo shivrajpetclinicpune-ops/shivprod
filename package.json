@@ -1,0 +1,21 @@
+{
+  "name": "shivraj-pet-clinic-rebuild",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Shivraj Pet Clinic & Lab — rebuilt static site (Pune/PCMC)",
+  "scripts": {
+    "images": "node scripts/optimize-images.js",
+    "build": "node build.js",
+    "serve": "http-server . -p 4321 -c-1 -e html --silent"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.6"
+  },
+  "devDependencies": {
+    "gsap": "^3.13.0",
+    "http-server": "^14.1.1",
+    "node-html-parser": "^9.0.4",
+    "sharp": "^0.34.0"
+  }
+}

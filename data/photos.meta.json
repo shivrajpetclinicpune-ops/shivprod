@@ -1,0 +1,718 @@
+{
+  "clinic-signboard": {
+    "id": "clinic-signboard",
+    "w": 1440,
+    "h": 810,
+    "widths": [
+      480,
+      960,
+      1440
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "clinic-storefront": {
+    "id": "clinic-storefront",
+    "w": 1360,
+    "h": 1020,
+    "widths": [
+      480,
+      960,
+      1360
+    ],
+    "fallback": 960,
+    "color": "#b8b8b8"
+  },
+  "pharmacy-shelves": {
+    "id": "pharmacy-shelves",
+    "w": 777,
+    "h": 1200,
+    "widths": [
+      480,
+      777
+    ],
+    "fallback": 777,
+    "color": "#484848"
+  },
+  "dr-pritesh-microscope": {
+    "id": "dr-pritesh-microscope",
+    "w": 634,
+    "h": 800,
+    "widths": [
+      480,
+      634
+    ],
+    "fallback": 634,
+    "color": "#f8f8f8"
+  },
+  "dr-pritesh-dog": {
+    "id": "dr-pritesh-dog",
+    "w": 765,
+    "h": 1020,
+    "widths": [
+      480,
+      765
+    ],
+    "fallback": 765,
+    "color": "#a8a8a8"
+  },
+  "dr-pritesh-turtle": {
+    "id": "dr-pritesh-turtle",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#f8f8f8"
+  },
+  "dr-pritesh-surgery": {
+    "id": "dr-pritesh-surgery",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8e8"
+  },
+  "dr-pritesh-dental": {
+    "id": "dr-pritesh-dental",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8e8"
+  },
+  "dr-shivaji-desk": {
+    "id": "dr-shivaji-desk",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "dr-shivaji-parrot": {
+    "id": "dr-shivaji-parrot",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#e8f8f8"
+  },
+  "dr-shivaji-portrait": {
+    "id": "dr-shivaji-portrait",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "dr-shivaji-stethoscope": {
+    "id": "dr-shivaji-stethoscope",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#585858"
+  },
+  "dr-shivaji-closeup": {
+    "id": "dr-shivaji-closeup",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#f8f8f8"
+  },
+  "dr-shivaji-notes": {
+    "id": "dr-shivaji-notes",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#f8f8e8"
+  },
+  "team-deepak": {
+    "id": "team-deepak",
+    "w": 672,
+    "h": 768,
+    "widths": [
+      480,
+      672
+    ],
+    "fallback": 672,
+    "color": "#c8c8c8"
+  },
+  "team-cat-care": {
+    "id": "team-cat-care",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8e8"
+  },
+  "lab-analysers": {
+    "id": "lab-analysers",
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#a8a8a8"
+  },
+  "xray-turtle-unit": {
+    "id": "xray-turtle-unit",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "xray-turtle-plate": {
+    "id": "xray-turtle-plate",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#280818"
+  },
+  "xray-review-turtle": {
+    "id": "xray-review-turtle",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#f8f8f8"
+  },
+  "xray-review-cat": {
+    "id": "xray-review-cat",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8d8"
+  },
+  "xray-room": {
+    "id": "xray-room",
+    "w": 944,
+    "h": 1200,
+    "widths": [
+      480,
+      944
+    ],
+    "fallback": 944,
+    "color": "#485868"
+  },
+  "xray-rabbit-tortoise": {
+    "id": "xray-rabbit-tortoise",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#d8d8d8"
+  },
+  "sonography-puppy": {
+    "id": "sonography-puppy",
+    "w": 988,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      988
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "sonography-machine": {
+    "id": "sonography-machine",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#888888"
+  },
+  "rabbit-sonography": {
+    "id": "rabbit-sonography",
+    "w": 2308,
+    "h": 1536,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "bladder-stones": {
+    "id": "bladder-stones",
+    "w": 966,
+    "h": 1288,
+    "widths": [
+      480,
+      960,
+      966
+    ],
+    "fallback": 960,
+    "color": "#587888"
+  },
+  "urinary-stones": {
+    "id": "urinary-stones",
+    "w": 1200,
+    "h": 900,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "ct-workstation": {
+    "id": "ct-workstation",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#e8e8e8"
+  },
+  "surgery-frenchie": {
+    "id": "surgery-frenchie",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#a8a8a8"
+  },
+  "surgery-ot-lights": {
+    "id": "surgery-ot-lights",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#080808"
+  },
+  "surgery-team-xray-arm": {
+    "id": "surgery-team-xray-arm",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#081818"
+  },
+  "surgery-cat-team": {
+    "id": "surgery-cat-team",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "surgery-supervision": {
+    "id": "surgery-supervision",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#d8d8d8"
+  },
+  "cat-anaesthesia-monitor": {
+    "id": "cat-anaesthesia-monitor",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8e8"
+  },
+  "dog-pug": {
+    "id": "dog-pug",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#080808"
+  },
+  "dog-maltese": {
+    "id": "dog-maltese",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#787878"
+  },
+  "dog-labrador": {
+    "id": "dog-labrador",
+    "w": 765,
+    "h": 1020,
+    "widths": [
+      480,
+      765
+    ],
+    "fallback": 765,
+    "color": "#b8b8a8"
+  },
+  "dog-exam": {
+    "id": "dog-exam",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#c8c8b8"
+  },
+  "dog-golden-stairs": {
+    "id": "dog-golden-stairs",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#383848"
+  },
+  "cat-persian-guinea-pigs": {
+    "id": "cat-persian-guinea-pigs",
+    "w": 1280,
+    "h": 1094,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "cat-persian-sitting": {
+    "id": "cat-persian-sitting",
+    "w": 720,
+    "h": 1280,
+    "widths": [
+      480,
+      720
+    ],
+    "fallback": 720,
+    "color": "#080808"
+  },
+  "cat-calico": {
+    "id": "cat-calico",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#98a8b8"
+  },
+  "cat-bella": {
+    "id": "cat-bella",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "cat-stethoscope": {
+    "id": "cat-stethoscope",
+    "w": 960,
+    "h": 1280,
+    "widths": [
+      480,
+      960
+    ],
+    "fallback": 960,
+    "color": "#e8e8d8"
+  },
+  "bird-alexandrine": {
+    "id": "bird-alexandrine",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "bird-parakeet-closeup": {
+    "id": "bird-parakeet-closeup",
+    "w": 990,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      990
+    ],
+    "fallback": 960,
+    "color": "#c8b888"
+  },
+  "bird-cockatiel-lutino": {
+    "id": "bird-cockatiel-lutino",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#888888"
+  },
+  "bird-parakeet-scale": {
+    "id": "bird-parakeet-scale",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#e8e8e8"
+  },
+  "bird-sun-conure": {
+    "id": "bird-sun-conure",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#787888"
+  },
+  "bird-stethoscope": {
+    "id": "bird-stethoscope",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#d8d8d8"
+  },
+  "bird-cockatiel-pied": {
+    "id": "bird-cockatiel-pied",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#1868a8"
+  },
+  "bird-cockatiel-cage": {
+    "id": "bird-cockatiel-cage",
+    "w": 1600,
+    "h": 1200,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "fallback": 960,
+    "color": "#181818"
+  },
+  "bird-hen": {
+    "id": "bird-hen",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#080808"
+  },
+  "rabbit-white": {
+    "id": "rabbit-white",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#383838"
+  },
+  "rabbit-exam": {
+    "id": "rabbit-exam",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#585858"
+  },
+  "guinea-pigs-pair": {
+    "id": "guinea-pigs-pair",
+    "w": 1280,
+    "h": 756,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "fallback": 960,
+    "color": "#080808"
+  },
+  "cat-guinea-pigs-edge": {
+    "id": "cat-guinea-pigs-edge",
+    "w": 1200,
+    "h": 1600,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#788888"
+  },
+  "squirrels-rescue": {
+    "id": "squirrels-rescue",
+    "w": 900,
+    "h": 1200,
+    "widths": [
+      480,
+      900
+    ],
+    "fallback": 900,
+    "color": "#a8b8b8"
+  },
+  "turtles-trio": {
+    "id": "turtles-trio",
+    "w": 1200,
+    "h": 911,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "fallback": 960,
+    "color": "#686868"
+  },
+  "turtle-exam": {
+    "id": "turtle-exam",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#e8e8e8"
+  },
+  "iguana-arm": {
+    "id": "iguana-arm",
+    "w": 1048,
+    "h": 795,
+    "widths": [
+      480,
+      960,
+      1048
+    ],
+    "fallback": 960,
+    "color": "#685848"
+  },
+  "iguanas-basket": {
+    "id": "iguanas-basket",
+    "w": 600,
+    "h": 800,
+    "widths": [
+      480,
+      600
+    ],
+    "fallback": 600,
+    "color": "#d8b818"
+  }
+}

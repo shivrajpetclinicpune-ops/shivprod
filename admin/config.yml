@@ -1,0 +1,180 @@
+backend:
+  name: github
+  repo: shivrajpetclinicpune-ops/shivprod
+  branch: main
+  base_url: https://cms-auth.shivrajpetclinicpune.workers.dev
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+
+collections:
+  # ------------------------------------------------------------------ Journal (unchanged format)
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true }
+      - label: "Category"
+        name: "cat"
+        widget: "select"
+        options:
+          - { label: "Dogs", value: "dog" }
+          - { label: "Cats", value: "cat" }
+          - { label: "Exotic Animals", value: "exotic" }
+          - { label: "Surgery & Lab", value: "surgery" }
+          - { label: "Vaccination & Health", value: "health" }
+      - { label: "Summary (shown in search results)", name: "summary", widget: "text" }
+      - { label: "Read Time (minutes)", name: "read", widget: "number", default: 3, value_type: "int" }
+      - { label: "Cover Image URL (optional; a real clinic photo is chosen automatically if it matches the topic)", name: "img", widget: "string", required: false }
+      - { label: "Full Article", name: "body", widget: "markdown" }
+
+  # ------------------------------------------------------------------ Gallery uploads
+  - name: "gallery"
+    label: "Gallery Photos"
+    folder: "images/gallery-data"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Description (used as photo caption and for Google — describe the animal and what's happening, e.g. 'Cockatiel check-up at Shivraj Pet Clinic & Lab, Pimple Nilakh')", name: "title", widget: "string" }
+      - { label: "Photo", name: "image", widget: "image" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Dogs", value: "dogs" }
+          - { label: "Cats", value: "cats" }
+          - { label: "Birds", value: "birds" }
+          - { label: "Rabbits & small pets", value: "rabbits" }
+          - { label: "Turtles & Reptiles", value: "reptiles" }
+          - { label: "Surgery", value: "surgery" }
+          - { label: "Team & Clinic", value: "team" }
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true }
+
+  # ------------------------------------------------------------------ Clinic settings
+  - name: "settings"
+    label: "Clinic settings"
+    editor: { preview: false }
+    files:
+      - name: "notice"
+        label: "Announcement bar (holidays, closures)"
+        file: "data/cms/notice.json"
+        fields:
+          - { label: "Show the announcement", name: "enabled", widget: "boolean", default: false }
+          - { label: "Text", name: "text", widget: "string", required: false }
+          - { label: "Link (optional)", name: "link", widget: "string", required: false }
+
+      - name: "site"
+        label: "Contact, hours & fees"
+        file: "data/cms/site.json"
+        fields:
+          - { label: "Phone (for tap-to-call, e.g. +917756965169)", name: "phone", widget: "string" }
+          - { label: "Phone as displayed", name: "phoneDisplay", widget: "string" }
+          - { label: "WhatsApp number (country code + number, digits only)", name: "whatsappNumber", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - label: "Address"
+            name: "address"
+            widget: "object"
+            fields:
+              - { label: "Street", name: "street", widget: "string" }
+              - { label: "Locality", name: "locality", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "State", name: "region", widget: "string" }
+              - { label: "PIN", name: "pin", widget: "string" }
+              - { label: "Country code", name: "country", widget: "string" }
+              - { label: "Landmark", name: "landmark", widget: "string" }
+          - { label: "Google Maps link", name: "mapsUrl", widget: "string" }
+          - { label: "Google Maps embed URL (src of the embed code)", name: "mapsEmbed", widget: "string" }
+          - label: "Opening hours"
+            name: "hours"
+            widget: "object"
+            fields:
+              - { label: "Open days", name: "openDays", widget: "select", multiple: true, options: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] }
+              - { label: "Closed day (text)", name: "closedDay", widget: "string" }
+              - label: "Sessions (24-hour time, e.g. 10:30 to 13:30)"
+                name: "sessions"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Opens", name: "open", widget: "string", pattern: ["^\\d{2}:\\d{2}$", "Use HH:MM"] }
+                  - { label: "Closes", name: "close", widget: "string", pattern: ["^\\d{2}:\\d{2}$", "Use HH:MM"] }
+              - { label: "Hours summary line", name: "summary", widget: "string" }
+          - label: "Booking time slots"
+            name: "slots"
+            widget: "object"
+            fields:
+              - { label: "Morning slots", name: "morning", widget: "list", field: { label: "Slot", name: "slot", widget: "string" } }
+              - { label: "Evening slots", name: "evening", widget: "list", field: { label: "Slot", name: "slot", widget: "string" } }
+          - label: "Consultation fees (₹)"
+            name: "fees"
+            widget: "object"
+            fields:
+              - { label: "Regular", name: "regular", widget: "number", value_type: "int" }
+              - { label: "Exotic pets", name: "exotic", widget: "number", value_type: "int" }
+          - { label: "Areas served", name: "areas", widget: "list", field: { label: "Area", name: "area", widget: "string" } }
+          - label: "Social links"
+            name: "socials"
+            widget: "object"
+            fields:
+              - { label: "Instagram", name: "instagram", widget: "string" }
+              - { label: "Facebook", name: "facebook", widget: "string" }
+              - { label: "Practo", name: "practo", widget: "string" }
+
+      - name: "team"
+        label: "Doctors & team"
+        file: "data/cms/team.json"
+        fields:
+          - label: "Doctors"
+            name: "doctors"
+            widget: "list"
+            fields:
+              - { label: "ID (do not change)", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Qualifications", name: "creds", widget: "string" }
+              - { label: "Registration", name: "reg", widget: "string", required: false }
+              - { label: "Years of experience (optional)", name: "years", widget: "string", required: false }
+              - { label: "Photo ID (from the site photo library)", name: "photo", widget: "string" }
+              - { label: "Extra photo IDs", name: "alt", widget: "list", required: false }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Focus areas", name: "focus", widget: "list" }
+          - label: "Team members"
+            name: "team"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Photo ID", name: "photo", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+
+      - name: "testimonials"
+        label: "Testimonials (only real, verifiable reviews)"
+        file: "data/cms/testimonials.json"
+        fields:
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Quote (exact words)", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Pet / reason", name: "pet", widget: "string" }
+
+      - name: "services"
+        label: "Services (names, descriptions, show/hide)"
+        file: "data/cms/services.json"
+        fields:
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            allow_add: false
+            fields:
+              - { label: "Slug (do not change)", name: "slug", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Short description", name: "blurb", widget: "text" }
+              - { label: "Hide from the site", name: "hidden", widget: "boolean", default: false }

@@ -1,0 +1,71 @@
+{
+  "phone": "+917756965169",
+  "phoneDisplay": "+91 77569 65169",
+  "whatsappNumber": "917756965169",
+  "email": "shivrajpetclinic@gmail.com",
+  "address": {
+    "street": "Shop No. B-4, Alpine Avenue, Aundh–Wakad Road, Vishal Nagar",
+    "locality": "Pimple Nilakh",
+    "city": "Pune",
+    "region": "Maharashtra",
+    "pin": "411027",
+    "country": "IN",
+    "landmark": "Near Jagtap Dairy, Aundh–Wakad Road"
+  },
+  "mapsUrl": "https://www.google.com/maps/place/Shivraj+Pet+Clinic+%26+lab,+Alpine+Avenue,+Shop+No+B-4,+Aundh-Wakad+Rd,+Vishal+Nagar,+Pimple+Nilakh,+Pimpri-Chinchwad,+Maharashtra+411027/data=!4m2!3m1!1s0x3bc2b93d19aeeeef:0xbb41140a3a0bac96!18m1!1e1",
+  "mapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.681510156904!2d73.77962977519334!3d18.588392082518382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b93d19aeeeef%3A0xbb41140a3a0bac96!2sShivraj%20Pet%20Clinic%20%26%20lab!5e0!3m2!1sen!2sin!4v1790280509148!5m2!1sen!2sin",
+  "hours": {
+    "openDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "closedDay": "Wednesday",
+    "sessions": [
+      {
+        "label": "Morning",
+        "open": "10:30",
+        "close": "13:30"
+      },
+      {
+        "label": "Evening",
+        "open": "15:00",
+        "close": "20:30"
+      }
+    ],
+    "summary": "Mon, Tue, Thu–Sun · 10:30 AM–1:30 PM & 3:00–8:30 PM · Wednesday closed"
+  },
+  "slots": {
+    "morning": [
+      "10:30–11:30 AM",
+      "11:30 AM–12:30 PM",
+      "12:30–1:30 PM"
+    ],
+    "evening": [
+      "5:00–6:00 PM",
+      "6:00–7:00 PM",
+      "7:00–8:00 PM",
+      "8:00–8:30 PM"
+    ]
+  },
+  "fees": {
+    "regular": 300,
+    "exotic": 400
+  },
+  "areas": [
+    "Pimple Nilakh",
+    "Vishal Nagar",
+    "Wakad",
+    "Pimple Saudagar",
+    "Baner",
+    "Aundh"
+  ],
+  "socials": {
+    "instagram": "https://www.instagram.com/shivraj_petclinic_pune/",
+    "facebook": "https://www.facebook.com/people/Shivraj-Pet-Clinic-Exotic-Animal-Centre/61559604395021/",
+    "practo": "https://www.practo.com/pune/clinic/shivraj-pet-clinic-and-lab-pimple-nilakh"
+  }
+}

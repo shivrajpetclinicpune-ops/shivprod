@@ -1,0 +1,23 @@
+# Legacy + migration redirects (docs/conditional/25-Redirect-URL-Map.md)
+/admin                     /admin/                         301
+/pet-hospital-near-me      /#book                          301
+/index                     /                               301
+
+# Old Wix URLs still listed by Google (returned 404 on the live site, 2026-09-25)
+/post/exotic-pet-care-in-pune-trusted-veterinary-support-at-shivraj-pet-clinic   /blog/exotic-pet-care-pune   301
+/post/*                    /blog                           301
+/service-page/consultation /services/clinical-medicine     301
+/service-page/in-house-sonography /services/sonography     301
+/service-page/pharmacy-mini-pet-shop /services/vet-pharmacy 301
+/service-page/whiskers-pet-shop /services/vet-pharmacy     301
+/service-page/*            /services/                      301
+/about-3                   /about                          301
+/book-online               /contact#book                   301
+/contact-us                /contact                        301
+
+# Duplicate post present only on the live site
+/blog/neutering-rabbits-pune /blog/neutering-rabbits       301
+
+# Blog index lives at /blog/
+/blog.html                 /blog/                          301
+/blog                      /blog/                          301

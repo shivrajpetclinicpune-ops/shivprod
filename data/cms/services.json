@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "slug": "preventive-medicine",
+      "name": "Preventive Medicine",
+      "blurb": "Vaccination schedules, deworming and wellness checks for dogs, cats and exotic pets.",
+      "hidden": false
+    },
+    {
+      "slug": "clinical-medicine",
+      "name": "Clinical Medicine",
+      "blurb": "Consultations, diagnosis and treatment plans. Walk-ins accepted, second opinions welcome.",
+      "hidden": false
+    },
+    {
+      "slug": "vet-pharmacy",
+      "name": "Vet Pharmacy",
+      "blurb": "Prescription medicines, parasite control, supplements, therapeutic diets and e-collars on site.",
+      "hidden": false
+    },
+    {
+      "slug": "exotic-animal-centre",
+      "name": "Exotic Animal Centre",
+      "blurb": "Birds, rabbits, turtles, reptiles, guinea pigs and hamsters, examined, diagnosed and operated on with species-appropriate care and gaseous anaesthesia.",
+      "hidden": false
+    },
+    {
+      "slug": "pathology-lab",
+      "name": "Pathology Lab",
+      "blurb": "In-house blood panels, urinalysis and cytology. CBC and biochemistry ready in 15–20 minutes.",
+      "hidden": false
+    },
+    {
+      "slug": "digital-xray",
+      "name": "Digital X-Ray",
+      "blurb": "On-site digital radiography with instant images, for dogs, cats and exotic patients alike.",
+      "hidden": false
+    },
+    {
+      "slug": "sonography",
+      "name": "Sonography",
+      "blurb": "Ultrasound imaging at the clinic, including pregnancy confirmation.",
+      "hidden": false
+    },
+    {
+      "slug": "dog-neutering",
+      "name": "Dog Neutering",
+      "blurb": "Routine same-day neutering under gas anaesthesia, with pre-surgery bloodwork in our own lab.",
+      "hidden": false
+    },
+    {
+      "slug": "cat-spaying",
+      "name": "Cat Spaying",
+      "blurb": "Safe spaying for female cats, with a 10-day suture check.",
+      "hidden": false
+    },
+    {
+      "slug": "soft-tissue-surgery",
+      "name": "Soft Tissue Surgery",
+      "blurb": "Hernia, cherry eye, anal gland and bladder surgery.",
+      "hidden": false
+    },
+    {
+      "slug": "orthopedic-surgery",
+      "name": "Orthopedic Surgery",
+      "blurb": "Fracture repair with plating, intramedullary pinning and external fixation.",
+      "hidden": false
+    },
+    {
+      "slug": "dog-tumor-surgery",
+      "name": "Dog Tumor Surgery",
+      "blurb": "Lump evaluation by fine-needle aspirate, surgical removal and histopathology.",
+      "hidden": false
+    },
+    {
+      "slug": "foreign-body-removal-surgery",
+      "name": "Foreign Body Removal",
+      "blurb": "X-ray confirmation and removal of swallowed objects.",
+      "hidden": false
+    },
+    {
+      "slug": "emergency-surgery",
+      "name": "Emergency Surgery",
+      "blurb": "GDV, trauma and C-sections during opening hours. Call the clinic first so the team can prepare.",
+      "hidden": false
+    },
+    {
+      "slug": "ct-scan-mri",
+      "name": "CT Scan & MRI (referral)",
+      "blurb": "Referral coordination for advanced imaging.",
+      "hidden": true
+    }
+  ]
+}
