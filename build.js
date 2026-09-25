@@ -61,7 +61,9 @@ const imagesOf = (html) => {
     .filter(([, src]) => !seen.has(src) && seen.add(src)).slice(0, 60)
     .map(([, src, alt]) => `<image:image><image:loc>${clinic.site}${src}</image:loc>${alt ? `<image:caption>${alt}</image:caption>` : ''}</image:image>`).join('');
 };
-const urls = written.filter((pg) => !pg.noindex).map((pg) =>
+// URLs that redirect elsewhere (vercel.json) must not be listed in the sitemap.
+const redirected = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, 'vercel.json'), 'utf8')).redirects.map((r) => r.source));
+const urls = written.filter((pg) => !pg.noindex && !redirected.has(pg.path)).map((pg) =>
   `  <url><loc>${clinic.site}${pg.path}</loc><lastmod>${lastmod(pg)}</lastmod><priority>${priority(pg.path)}</priority>${imagesOf(pg.html || '')}</url>`);
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.join('\n')}\n</urlset>\n`);
 
