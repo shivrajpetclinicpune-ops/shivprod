@@ -8,7 +8,7 @@ const clinic = {
   phone: '+917756965169',
   phoneDisplay: '+91 77569 65169',
   whatsapp: 'https://wa.me/917756965169',
-  email: 'shivrajpetclinic@gmail.com', // visiting card (supplied asset) — C19
+  email: 'shivrajclinic@gmail.com', // owner-confirmed 2026-10-17 (replaces visiting-card address) — C19
   address: {
     street: 'Shop No. B-4, Alpine Avenue, Aundh–Wakad Road, Vishal Nagar',
     locality: 'Pimple Nilakh',

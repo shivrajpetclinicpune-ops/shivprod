@@ -1,47 +1,66 @@
 ---
-title: "Care of Pet Birds — Common Mistakes to Avoid"
+title: "Care of Pet Birds: Common Mistakes That Make Birds Sick"
 date: "2026-05-27"
+updated: "2026-10-17"
 cat: "exotic"
-catLabel: "🦜 Exotic Animals"
+read: 4
 img: "/images/gallery/exotic-bird.jpg"
-summary: "Pet birds bring joy and intelligence into our homes — but caring for them properly requires more than a cage and seeds. Learn the top bird care mistakes to avoid from Shivraj Pet Clinic, Pune."
-read: "4"
+summary: "Most illness we treat in budgies, cockatiels and parrots comes from a handful of everyday habits: an all-seed diet, kitchen fumes, ceiling fans, hot balconies and lonely cages. What to change, and why."
 ---
+Most of the sick birds we see at our Exotic Animal Centre aren't sick because of bad luck. They're sick because of a few common habits that seem harmless. The good news is that each of them is easy to fix.
 
-Pet birds bring joy, colour, and intelligence into our homes — but caring for them properly requires more than just a cage and seeds. At **Shivraj Pet Clinic & Lab, serving Wakad & Pimple Saudagar, Pune**, we treat many birds suffering from entirely preventable issues. Here is how to ensure your feathered friends stay healthy and happy.
+## Mistake 1: An all-seed diet
 
-## Essentials of Bird Care
+Seed mixes, especially sunflower-heavy ones, are like a diet of only chips. They're high in fat and **very low in vitamin A, calcium and protein**. Over months, this leads to:
+- Respiratory infections (vitamin A deficiency damages the airway lining)
+- Fatty liver and obesity, especially in budgies and Amazon-type parrots
+- Egg binding and soft bones in females (calcium deficiency)
+- Overgrown beaks and poor feathers
 
-### 1. Spacious and Enriched Cage
+**Fix:** Move gradually towards a **formulated pellet** as the base (60–70% for most parrots, a little less for budgies and cockatiels), plus fresh vegetables daily (carrot, capsicum, broccoli, leafy greens, cooked sweet potato) and a little fruit. Keep seeds as treats and training rewards. Some birds take weeks to accept pellets. Mix them in gradually, and weigh your bird weekly during the switch.
 
-Birds need room to fly, not just perch. Cramped cages lead to stress, feather plucking, and behavioural problems. Enrich the cage with mirrors, natural perches of varying diameters, swings, and toys. Change toys regularly to prevent boredom. The cage should be placed away from kitchen fumes, draughts, and direct afternoon sunlight.
+## Mistake 2: Keeping the bird near the kitchen
 
-### 2. Proper Nutrition
+Birds have extremely efficient lungs, which also makes them extremely sensitive to fumes.
+- **Overheated non-stick (Teflon/PTFE) pans** release fumes that can kill a bird within minutes.
+- **Tadka smoke**, frying, and burnt food irritate airways.
+- **Mosquito vaporisers, coils, agarbatti, dhoop**, room fresheners and aerosol sprays cause chronic breathing problems.
 
-Avoid seed-only diets — they are high in fat and nutritionally incomplete. A balanced bird diet includes fresh fruits, leafy vegetables, calcium supplements, and species-appropriate pellets. Budgies, cockatiels, and African greys each have different dietary requirements. Ask our vets for a species-specific diet chart during your next visit.
+**Fix:** Keep the cage in a well-ventilated living area away from the kitchen. Switch to stainless steel or cast iron cookware if possible, and never leave non-stick pans heating empty.
 
-### 3. Clean Environment
+## Mistake 3: Free flight with ceiling fans on
 
-Daily cleaning of the cage tray, water bowl, and feeding dishes is essential. Dust and accumulated droppings can trigger respiratory issues in birds, who have extremely sensitive respiratory systems. Wash perches weekly.
+Fan injuries are one of the commonest bird emergencies in Indian homes. **Switch off every fan, close windows and doors**, and check for gaps before letting a bird out of the cage. Mirrors and glass are also hazards. Put stickers on large windows.
 
-### 4. Fresh Water Daily
+## Mistake 4: The hot balcony
 
-Change drinking water every single day. Stale water harbours bacteria that can cause crop infections and diarrhoea in birds.
+Many cages hang on balconies. In April and May, Pune afternoons cross 38–40 °C, and a cage in direct sun can kill a bird with heatstroke. Signs include panting, open beak, wings held away from the body, and sitting on the floor. In the monsoon, wet and windy balconies cause chills and damp, mouldy food.
 
-## Common Mistakes Bird Owners Make
+**Fix:** Shade at all times, good airflow, and bring the cage indoors during the hottest hours and heavy rain.
 
-**Using Teflon (non-stick) cookware** — The fumes released when non-stick pans overheat are immediately toxic to birds. Switch to stainless steel or cast iron cookware if you have a bird at home.
+## Mistake 5: Too small a cage, too little to do
 
-**Neglecting flight time** — Birds need supervised out-of-cage time daily for physical and mental stimulation. Without it, they develop obesity, feather plucking, and aggression.
+Parrots are intelligent, social animals. A bird with nothing to do often starts **plucking its feathers**, screaming or becoming aggressive.
+- The cage should be wide enough for the bird to fully stretch and flap its wings, with horizontal bars for climbing in parrots.
+- Provide perches of **different thicknesses** (natural, untreated branches are ideal), which also helps prevent foot problems.
+- Rotate toys weekly, offer foraging toys, and spend daily time with your bird.
+- Budgies, cockatiels and lovebirds are flock birds and usually do better with a companion of their own species.
 
-**Ignoring beak and nail overgrowth** — Overgrown beaks prevent normal eating. Overgrown nails can catch on cage bars and cause injury. Both require professional trimming.
+## Mistake 6: Dirty water and food bowls
 
-**Self-medicating or using online remedies** — Birds deteriorate extremely fast when unwell. A bird that looks slightly off today can be critically ill within 24 hours. Professional veterinary care, not home remedies, is always the right call.
+Seed husks on top of a bowl can hide the fact that it is empty. Stale water grows bacteria within a day in Pune's humid months. **Fix:** Wash bowls daily, refill fresh, and blow away husks to check the real food level.
 
-**Keeping a bird alone without social interaction** — Birds are flock animals. Isolation causes depression and feather-destructive behaviour. Daily interaction or a companion bird is important.
+## Mistake 7: Waiting to see if the bird gets better
 
-## When to Visit Shivraj Pet Clinic
+Birds hide illness. A fluffed-up bird sleeping more is already sick. Learn the early signs: changes in droppings, less chatter, sitting low, tail bobbing and weight loss. A **kitchen gram scale** is one of the best tools a bird owner can own.
 
-Bring your bird in if you notice tail bobbing while breathing, fluffed feathers for extended periods, discharge from the nares or eyes, changes in dropping colour or consistency, or sudden weight loss. These are all signs that need same-day veterinary attention.
+## Frequently Asked Questions
 
-We offer exotic bird health checkups, beak and nail trimming, nutritional counselling, and treatment for feather plucking, infections, and injuries. Call **077569 65169** to book a bird consultation.
+**How often should my bird see a vet?**\
+A check-up when you first get the bird, then once a year, including weight, beak, nails, a faecal test and a diet review.
+
+**Should I clip my bird's wings?**\
+It depends on your home and the bird. Discuss it with us first. Poorly done clipping causes falls and chest injuries.
+
+**Is it legal to keep any parrot in India?**\
+Native Indian birds, including Indian ring-necked and Alexandrine parakeets and munias, are protected under the Wildlife (Protection) Act and cannot legally be kept as pets. Budgies, cockatiels, lovebirds, African greys, conures and macaws are exotic species and can be kept legally, with any registration required under current government rules.

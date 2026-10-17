@@ -1,35 +1,61 @@
 ---
-title: "Cat Diarrhea: Common Causes and When to Visit a Vet"
+title: "Cat Diarrhoea: Common Causes and When to Visit a Vet"
 date: "2026-08-10"
-cat: "health"
-catLabel: "🩺 General Health"
+updated: "2026-10-17"
+cat: "cat"
+read: 3
 img: "https://images.pexels.com/photos/33585483/pexels-photo-33585483.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Diarrhea in cats ranges from a mild diet-related upset to a sign of serious illness. Learn what's manageable at home and what needs a vet visit."
-read: "5"
-slug: "cat-diarrhea-causes-vet-visit"
+summary: "One soft stool after a food change is different from diarrhoea with vomiting in a kitten. The common causes in Indian homes (milk, diet switches, worms, panleukopenia), what to try at home, and when it can't wait."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+Diarrhoea is one of the most common reasons cats visit us. Many cases are short-lived and caused by a diet slip, but diarrhoea in **kittens** and in cats who are also **vomiting or not eating** can become serious quickly, because small bodies dehydrate fast.
 
-<p>Cat diarrhea gets dismissed more often than it should — cats are good at hiding how unwell they feel, so visible digestive symptoms deserve more weight than they often get.</p>
+## Come in the same day if
 
-<h2>Common, Milder Causes</h2>
-<p>Sudden diet changes, mild dietary indiscretion, or stress can cause short-lived diarrhea in an otherwise well cat, often resolving within a day or two.</p>
+<div class="post-warning">There is <strong>vomiting as well as diarrhoea</strong>; the cat is a <strong>kitten</strong> or not fully vaccinated; there is <strong>blood or black stool</strong>; your cat is <strong>not eating, lethargic or hiding</strong>; the diarrhoea is very watery and frequent; or it has lasted <strong>more than 48 hours</strong>. In unvaccinated kittens, vomiting and diarrhoea are classic signs of <strong>feline panleukopenia</strong>, which needs urgent treatment.</div>
 
-<h2>When It Signals Something More</h2>
-<p>Diarrhea lasting more than a couple of days, blood in the stool, diarrhea combined with vomiting or appetite loss, or diarrhea in a kitten or senior cat should prompt a veterinary visit rather than continued home management.</p>
+## Common causes
 
-<h2>Possible Underlying Causes</h2>
-<p>Parasites, dietary intolerance, infections, inflammatory bowel disease, and thyroid or other systemic conditions can all present with diarrhea as a symptom.</p>
+**Food-related (most common)**
+- **Milk and dairy:** many adult cats are lactose intolerant, so a saucer of milk often leads to diarrhoea.
+- **Sudden diet change:** switching food brands overnight. Change over 7–10 days instead.
+- **Table scraps:** gravy, fried fish, festival sweets, chicken skin.
+- **Spoiled food** left out in Pune's warm months.
 
-<h2>Why Kittens Need Faster Attention</h2>
-<p>Kittens dehydrate much faster than adult cats, so diarrhea that might be manageable in an adult can become dangerous quickly in a kitten.</p>
+**Parasites:** roundworms, hookworms, coccidia and Giardia, especially in rescued kittens and cats from multi-cat homes. Routine dewormers don't treat coccidia or Giardia.
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>Should I change my cat's food if they have diarrhea?</strong><br>Not without veterinary guidance — an abrupt additional diet change can sometimes make things worse. A bland, vet-recommended option is safer.</p>
-<p><strong>Is diarrhea with normal appetite less concerning?</strong><br>Somewhat, but persistence beyond a couple of days still warrants evaluation regardless of appetite.</p>
-<p><strong>Can indoor-only cats get parasites?</strong><br>Yes — indoor cats can still pick up parasites through contaminated surfaces, other pets, or even insects.</p>
-<p><strong>What should I bring to the vet visit?</strong><br>A fresh stool sample if possible, and notes on duration, frequency, and any other changes in behavior or appetite.</p>
+**Infections:** feline panleukopenia (parvovirus), and bacterial infections from contaminated food.
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+**Stress:** moving house, a new pet, boarding, or Diwali fireworks can trigger short-lived "stress colitis" with mucus and a little fresh blood.
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+**Chronic problems in adult and older cats:** inflammatory bowel disease, food allergy, hyperthyroidism (with weight loss and a big appetite), pancreatitis, and intestinal lymphoma in older cats.
+
+## What you can do at home for a mild case
+
+For an **adult** cat that is bright, eating and not vomiting:
+- Make sure fresh water is always available. Add water to wet food.
+- Stop milk, treats and table food.
+- Offer small, frequent meals of its normal food, or a bland option we recommend (for example, plain boiled chicken) for a day or two.
+- **Don't** give human anti-diarrhoea medicines, antibiotics from home, or ORS made for people without asking us first.
+
+If there's no improvement in 24–48 hours, or things get worse, bring your cat in.
+
+## What we check
+
+- **Faecal examination** under the microscope in our in-house lab: worms, coccidia, Giardia.
+- **Panleukopenia rapid test** for kittens and unvaccinated cats.
+- **CBC and biochemistry** (about 15–20 minutes) for dehydration, infection and organ function.
+- **Thyroid test** (sent to an external lab) for cats over 8 with weight loss.
+- **X-ray** if we suspect a foreign body or an abdominal problem.
+
+**Bring a fresh stool sample** (less than a few hours old) in a clean, sealed container. It saves time.
+
+## Frequently Asked Questions
+
+**Should I stop food completely for a day?**\
+Not for cats. Unlike dogs, cats should not be starved. A cat that goes without food for a long time, especially an overweight one, risks fatty liver disease. Offer small, bland meals.
+
+**Can probiotics help?**\
+Some pet-specific probiotics can help. Human probiotic products may not contain the right strains or doses. Ask us which one to use.
+
+**My kitten keeps getting diarrhoea after deworming. What's wrong?**\
+Coccidia and Giardia often need specific medicine. A stool test will tell us.

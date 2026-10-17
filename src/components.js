@@ -57,7 +57,7 @@ const waLink = (text) => `${clinic.whatsapp}?text=${encodeURIComponent(text)}`;
 // The supplied cat artwork is the clinic's contact identity: used for every Call / WhatsApp control.
 const CAT = {
   call: { src: '/images/ui/call-cat-button-shivraj-pet-clinic', w: 192, h: 190 },
-  wa: { src: '/images/ui/whatsapp-cat-button-shivraj-pet-clinic', w: 192, h: 192 },
+  wa: { src: '/images/ui/whatsapp-cat-button-shivraj-pet-clinic', w: 192, h: 204 },
 };
 const catImg = (kind, px = 96) => `<img class="cat cat--${kind}" src="${CAT[kind].src}-${px > 96 ? 192 : 96}.webp" srcset="${CAT[kind].src}-96.webp 96w, ${CAT[kind].src}-192.webp 192w, ${CAT[kind].src}-320.webp 320w" sizes="${px}px" width="${CAT[kind].w}" height="${CAT[kind].h}" alt="" decoding="async" loading="lazy">`;
 

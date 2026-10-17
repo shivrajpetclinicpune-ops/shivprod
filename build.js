@@ -53,7 +53,7 @@ fs.writeFileSync(path.join(ROOT, 'posts.json'), JSON.stringify(Object.fromEntrie
 
 // ── sitemap.xml (clean canonical URLs only; 404 excluded)
 const priority = (p) => (p === '/' ? '1.0' : p.startsWith('/blog/') ? '0.6' : p.startsWith('/services/') ? '0.85' : '0.8');
-const lastmod = (pg) => (posts.find((p) => `/blog/${p.slug}` === pg.path)?.dateISO || TODAY);
+const lastmod = (pg) => { const p = posts.find((q) => `/blog/${q.slug}` === pg.path); return p ? (p.updatedISO || p.dateISO) : TODAY; };
 // Image sitemap: every real clinic photo on each page, with its caption (alt text).
 const imagesOf = (html) => {
   const seen = new Set();

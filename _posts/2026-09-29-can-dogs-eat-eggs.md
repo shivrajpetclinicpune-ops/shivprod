@@ -1,31 +1,53 @@
 ---
-title: "Can Dogs Eat Eggs? Benefits, Risks, and Safe Feeding"
+title: "Can Dogs Eat Eggs? Benefits, Risks and How Many Are Safe"
 date: "2026-09-29"
-cat: "health"
-catLabel: "🩺 General Health"
+updated: "2026-10-17"
+cat: "dog"
+read: 3
 img: "https://images.pexels.com/photos/133163/pexels-photo-133163.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Eggs can be a healthy addition to a dog's diet when prepared correctly. Here's what to know about benefits and risks."
-read: "5"
-slug: "can-dogs-eat-eggs"
+summary: "Cooked eggs are a good protein treat for most dogs. Why raw egg is a poor idea, how many eggs fit into a balanced diet for different sizes of dog, and when eggs should be avoided."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+Yes. **Cooked eggs are safe and nutritious for most dogs.** Eggs provide high-quality protein, fat, vitamin A, B vitamins including riboflavin and B12, selenium and iron. They're affordable, available everywhere, and most dogs love them.
 
-<p>Eggs are a genuinely useful, protein-rich addition to many dogs' diets — as long as they're prepared and portioned correctly.</p>
+The important questions are **how they're cooked** and **how many**.
 
-<h2>Benefits</h2>
-<p>Eggs provide high-quality protein and various nutrients that can be a healthy addition for many dogs in appropriate amounts.</p>
+## Cook them, plain
 
-<h2>Preparation Matters</h2>
-<p>Cooked eggs are generally recommended over raw, due to salmonella risk and biotin absorption concerns associated with raw egg whites.</p>
+- **Boiled or scrambled without oil, butter, salt, masala, onion or garlic** is best. An Indian-style omelette or egg bhurji with onions and chilli is not suitable for dogs.
+- **Avoid raw egg.** Raw egg can carry *Salmonella*, which can make dogs ill and infect people handling the bowl. Raw egg white also contains avidin, which blocks biotin (a B vitamin) if fed often.
+- **Shell:** finely ground, baked eggshell can be a calcium source in carefully planned home-cooked diets. Large shell pieces can scrape the gut. Don't add shell without a vet-designed recipe.
 
-<h2>Portion Control</h2>
-<p>Eggs should be an addition to, not a replacement for, a balanced diet — moderation matters.</p>
+## How many eggs?
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>**Are raw eggs ever safe for dogs?**</strong><br>Cooked is generally the safer recommendation due to bacterial risk and nutrient absorption concerns.</p>
-<p><strong>**Can eggs cause allergies in dogs?**</strong><br>Yes, some dogs can be allergic or sensitive to eggs — introduce gradually and watch for reactions.</p>
-<p><strong>**How many eggs can a dog have?**</strong><br>This depends on size and overall diet — ask your vet for guidance specific to your dog.</p>
+Treats and extras should make up **no more than about 10%** of a dog's daily calories. One large egg is roughly 70–80 kcal. As a rough guide for an adult dog on a complete diet:
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+| Dog size | Approximate safe amount |
+|---|---|
+| Toy (under 5 kg) like a Chihuahua or Pomeranian | ¼ egg, a few times a week |
+| Small (5–10 kg) like a Shih Tzu or Beagle puppy | ½ egg, a few times a week |
+| Medium (10–25 kg) like an Indie or Beagle | 1 egg, a few times a week |
+| Large (25 kg+) like a Labrador or German Shepherd | 1 egg a day at most, if the diet is adjusted |
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+If your dog eats eggs every day, reduce the main food slightly to avoid weight gain. Obesity is far more common in Pune pets than protein deficiency.
+
+## When eggs are not a good idea
+
+- **Pancreatitis**, or dogs prone to it (such as Miniature Schnauzers): the fat in yolk may trigger episodes.
+- **Kidney disease**, where protein and phosphorus are restricted.
+- **Egg allergy**: uncommon but possible. Watch for itching, ear infections or diarrhoea after starting eggs.
+- **Overweight dogs** on a weight-loss plan: egg white only, in small amounts, if at all.
+
+## Eggs for sick or recovering dogs
+
+Plain scrambled egg with plain boiled rice is a useful, gentle meal for a dog recovering from mild stomach upset, for a day or two, as advised by your vet. For longer recovery, a complete recovery or prescription diet is better balanced.
+
+## Frequently Asked Questions
+
+**Can puppies eat eggs?**\
+A little cooked egg is fine for puppies over 8–10 weeks, but a growing puppy needs a complete puppy food. Too many extras can unbalance calcium and phosphorus.
+
+**Will eggs make my dog's coat shiny?**\
+Eggs contain nutrients that support skin and coat, but a dull coat usually has a cause (diet, parasites, skin disease or a hormone problem) that is worth checking.
+
+**Can I give eggs to my dog with diarrhoea?**\
+Plain scrambled egg is often tolerated. If diarrhoea lasts more than 24–48 hours, contains blood, or comes with vomiting, see a vet.

@@ -45,8 +45,8 @@
   "cat": "health",
   "catLabel": "Health & prevention",
   "dateISO": "2026-10-30",
-  "read": "5",
-  "summary": "A newly adopted puppy or kitten refusing food is common but shouldn't be ignored for long. Here's how to respond.",
+  "read": "3",
+  "summary": "Some appetite loss in the first two days after adoption is stress. Hours without food matter far more in a puppy or kitten than in an adult. What to try at home, and the signs that mean parvo, panleukopenia or low blood sugar.",
   "url": "/blog/adopted-puppy-kitten-not-eating"
  },
  "rescue-pet-health-checkup-tests": {
@@ -145,8 +145,8 @@
   "cat": "health",
   "catLabel": "Health & prevention",
   "dateISO": "2026-10-20",
-  "read": "5",
-  "summary": "Pets can catch respiratory illness, but it's usually not the same virus as human flu or colds. Here's the actual relationship.",
+  "read": "3",
+  "summary": "Your cold is very unlikely to pass to your dog or cat, but a few infections do cross between people and pets. What 'kennel cough' and 'cat flu' really are, which pets are most at risk, and sensible hygiene when someone at home is ill.",
   "url": "/blog/can-pets-get-human-flu-colds"
  },
  "tick-season-pune-protect-dog-cat": {
@@ -185,8 +185,8 @@
   "cat": "health",
   "catLabel": "Health & prevention",
   "dateISO": "2026-10-16",
-  "read": "5",
-  "summary": "Dengue is a mosquito-borne human disease — here's what pet owners should actually know about dengue and their pets.",
+  "read": "3",
+  "summary": "No. Dengue is a human disease, and pets don't catch it or spread it. But the same monsoon brings tick fever, leptospirosis and heartworm, which can look like 'dengue' in a dog. How to tell, and how to protect your pet.",
   "url": "/blog/can-dogs-cats-get-dengue"
  },
  "senior-pets-regular-blood-tests": {
@@ -201,12 +201,12 @@
  },
  "cancer-dogs-cats-early-warning-signs": {
   "slug": "cancer-dogs-cats-early-warning-signs",
-  "title": "Cancer in Dogs and Cats: Early Warning Signs Pet Parents Should Know",
+  "title": "Cancer in Dogs and Cats: Early Warning Signs to Know",
   "cat": "health",
   "catLabel": "Health & prevention",
   "dateISO": "2026-10-14",
-  "read": "5",
-  "summary": "Cancer is increasingly diagnosed in pets, partly due to longer lifespans. Learn the early warning signs worth acting on.",
+  "read": "3",
+  "summary": "Most lumps are harmless, but you can't tell by touch. The warning signs worth acting on, why a needle test takes minutes, and the cancers we see most in Pune pets, from mammary tumours to TVT.",
   "url": "/blog/cancer-dogs-cats-early-warning-signs"
  },
  "heartworm-disease-dogs-prevention": {
@@ -272,11 +272,11 @@
  "arthritis-in-dogs-signs-treatment": {
   "slug": "arthritis-in-dogs-signs-treatment",
   "title": "Arthritis in Dogs: Early Signs and Treatment Options",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "dog",
+  "catLabel": "Dogs",
   "dateISO": "2026-10-07",
-  "read": "5",
-  "summary": "Arthritis is common in aging dogs but often mistaken for normal slowing down. Learn to recognize the real early signs.",
+  "read": "3",
+  "summary": "Most dogs with arthritis don't cry or limp at first. They hesitate on the stairs and sleep more. The early signs, how X-ray confirms it, and the treatments that keep older dogs moving.",
   "url": "/blog/arthritis-in-dogs-signs-treatment"
  },
  "senior-cat-care-common-problems": {
@@ -331,32 +331,32 @@
  },
  "can-cats-eat-human-food": {
   "slug": "can-cats-eat-human-food",
-  "title": "Can Cats Eat Human Food? Foods That Are Safe and Unsafe",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Can Cats Eat Human Food? What Is Safe and What Is Dangerous",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-10-01",
-  "read": "5",
-  "summary": "Some human foods are fine for cats in small amounts; others are genuinely dangerous. Here's a practical breakdown.",
+  "read": "3",
+  "summary": "Plain boiled chicken and fish are fine treats. Onion-garlic gravies, milk, grapes, paracetamol and lily flowers are not. A practical list for Indian kitchens, and why cats need meat-based food.",
   "url": "/blog/can-cats-eat-human-food"
  },
  "can-dogs-eat-rice-milk-curd": {
   "slug": "can-dogs-eat-rice-milk-curd",
-  "title": "Can Dogs Eat Rice, Milk, or Curd?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Can Dogs Eat Rice, Milk or Curd?",
+  "cat": "dog",
+  "catLabel": "Dogs",
   "dateISO": "2026-09-30",
-  "read": "5",
-  "summary": "A practical breakdown of whether rice, milk, and curd are safe additions to a dog's diet.",
+  "read": "3",
+  "summary": "Curd-rice and doodh-roti are traditional dog meals in India, but are they enough? What rice, milk and curd each offer, who should avoid them, and why a 'ghar ka khana' diet often falls short.",
   "url": "/blog/can-dogs-eat-rice-milk-curd"
  },
  "can-dogs-eat-eggs": {
   "slug": "can-dogs-eat-eggs",
-  "title": "Can Dogs Eat Eggs? Benefits, Risks, and Safe Feeding",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Can Dogs Eat Eggs? Benefits, Risks and How Many Are Safe",
+  "cat": "dog",
+  "catLabel": "Dogs",
   "dateISO": "2026-09-29",
-  "read": "5",
-  "summary": "Eggs can be a healthy addition to a dog's diet when prepared correctly. Here's what to know about benefits and risks.",
+  "read": "3",
+  "summary": "Cooked eggs are a good protein treat for most dogs. Why raw egg is a poor idea, how many eggs fit into a balanced diet for different sizes of dog, and when eggs should be avoided.",
   "url": "/blog/can-dogs-eat-eggs"
  },
  "healthy-diet-for-dogs-what-to-feed": {
@@ -401,22 +401,22 @@
  },
  "cat-dental-disease-signs-missed": {
   "slug": "cat-dental-disease-signs-missed",
-  "title": "Cat Dental Disease: Signs Pet Parents Often Miss",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Cat Dental Disease: The Signs Pet Parents Often Miss",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-09-24",
-  "read": "5",
-  "summary": "Dental disease in cats is common but easy to miss since cats hide discomfort well. Learn the subtle signs.",
+  "read": "3",
+  "summary": "Cats keep eating through serious tooth pain. The subtle signs of resorptive lesions and gingivostomatitis, how to look inside your cat's mouth safely, and why dental X-rays and anaesthesia are part of proper treatment.",
   "url": "/blog/cat-dental-disease-signs-missed"
  },
  "bad-breath-dogs-dental-disease-sign": {
   "slug": "bad-breath-dogs-dental-disease-sign",
   "title": "Bad Breath in Dogs: When Is It a Sign of Dental Disease?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "dog",
+  "catLabel": "Dogs",
   "dateISO": "2026-09-23",
-  "read": "5",
-  "summary": "Not all bad breath is normal — persistent odor is often an early sign of dental disease in dogs. Learn what to watch for.",
+  "read": "3",
+  "summary": "Dog breath should not make you turn away. Persistent bad breath is usually periodontal disease, and sometimes kidney disease or a mouth tumour. A 2-minute home check, and what professional scaling involves.",
   "url": "/blog/bad-breath-dogs-dental-disease-sign"
  },
  "dog-dental-care-prevent-disease": {
@@ -461,12 +461,12 @@
  },
  "blood-in-cat-urine-blockage": {
   "slug": "blood-in-cat-urine-blockage",
-  "title": "Blood in Cat Urine: Causes, Urinary Blockage, and Emergency Care",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Blood in Cat Urine: Cystitis, Urinary Blockage and When It's an Emergency",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-31",
-  "read": "5",
-  "summary": "Blood in a cat's urine can range from a treatable infection to a life-threatening blockage — especially in male cats. Learn the warning signs.",
+  "read": "3",
+  "summary": "A male cat straining in the litter box with little or no urine can die within 24–72 hours. How to tell a blockage from cystitis, the common causes of bloody urine in cats, and what treatment involves.",
   "url": "/blog/blood-in-cat-urine-blockage"
  },
  "pet-missed-vaccine-booster": {
@@ -481,12 +481,12 @@
  },
  "cat-health-checkup-frequency": {
   "slug": "cat-health-checkup-frequency",
-  "title": "How Often Should You Take Your Cat for a Health Checkup?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "How Often Should Your Cat Have a Health Check-up?",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-29",
-  "read": "5",
-  "summary": "Cats hide illness exceptionally well, which makes regular checkups more important than owners often realize. Here's a recommended frequency by life stage.",
+  "read": "3",
+  "summary": "Kittens every few weeks, adults once a year, seniors every six months. What happens at each visit, the tests worth adding as cats age, and how to make vet visits less stressful for your cat.",
   "url": "/blog/cat-health-checkup-frequency"
  },
  "dog-diarrhea-causes": {
@@ -522,11 +522,11 @@
  "cat-breathing-problems-respiratory-distress": {
   "slug": "cat-breathing-problems-respiratory-distress",
   "title": "Cat Breathing Problems: Signs of Respiratory Distress",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-24",
-  "read": "5",
-  "summary": "Cats hide breathing difficulty exceptionally well. Learn the subtle and obvious signs of respiratory distress and why it's always an emergency.",
+  "read": "3",
+  "summary": "A cat breathing with its mouth open is an emergency, unlike a dog. How to count your cat's resting breathing rate, the causes from asthma to fluid around the lungs, and how to transport a breathless cat safely.",
   "url": "/blog/cat-breathing-problems-respiratory-distress"
  },
  "puppy-vaccination-after-adoption": {
@@ -562,11 +562,11 @@
  "cat-deworming-frequency": {
   "slug": "cat-deworming-frequency",
   "title": "How Often Should Cats Be Dewormed?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-17",
-  "read": "5",
-  "summary": "Deworming frequency for adult cats depends on indoor/outdoor status and lifestyle. Here's a general guide.",
+  "read": "3",
+  "summary": "Kittens every two weeks, adults usually every three months, and more often for hunters and balcony cats in contact with strays. The schedule we follow, which worms are common in Pune cats, and why fleas matter too.",
   "url": "/blog/cat-deworming-frequency"
  },
  "why-is-my-cat-hiding-suddenly": {
@@ -601,12 +601,12 @@
  },
  "cat-fever-symptoms": {
   "slug": "cat-fever-symptoms",
-  "title": "Cat Fever Symptoms and When to See a Veterinarian",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Cat Fever: Symptoms, Causes and When to See a Vet",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-12",
-  "read": "5",
-  "summary": "Recognizing fever in cats is harder than in dogs since cats hide illness so well. Learn the real signs and when a fever needs veterinary attention.",
+  "read": "3",
+  "summary": "Warm ears aren't a reliable sign. Normal cat temperature, the real signs of fever, the most common causes (abscesses from fights, cat flu, panleukopenia), and why paracetamol must never be given.",
   "url": "/blog/cat-fever-symptoms"
  },
  "dog-not-eating-drinking": {
@@ -621,12 +621,12 @@
  },
  "bird-breathing-problem": {
   "slug": "bird-breathing-problem",
-  "title": "Bird Breathing Problems — Warning Signs & When to Rush to the Vet in Pune",
+  "title": "Bird Breathing Problems: Warning Signs and When to Rush to the Vet",
   "cat": "exotic",
   "catLabel": "Exotic pets",
   "dateISO": "2026-08-11",
-  "read": "5",
-  "summary": "Tail-bobbing, open-beak breathing, or a fluffed-up posture in a pet bird can signal a respiratory emergency. Learn the warning signs from Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "read": "4",
+  "summary": "A bird that bobs its tail with every breath or breathes with an open beak is already seriously ill. The signs to recognise early, common causes in Pune homes (including non-stick pans and mosquito vaporisers), and safe first steps.",
   "url": "/blog/bird-breathing-problem"
  },
  "guinea-pig-dental-problem": {
@@ -661,12 +661,12 @@
  },
  "cat-diarrhea-causes-vet-visit": {
   "slug": "cat-diarrhea-causes-vet-visit",
-  "title": "Cat Diarrhea: Common Causes and When to Visit a Vet",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "title": "Cat Diarrhoea: Common Causes and When to Visit a Vet",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-08-10",
-  "read": "5",
-  "summary": "Diarrhea in cats ranges from a mild diet-related upset to a sign of serious illness. Learn what's manageable at home and what needs a vet visit.",
+  "read": "3",
+  "summary": "One soft stool after a food change is different from diarrhoea with vomiting in a kitten. The common causes in Indian homes (milk, diet switches, worms, panleukopenia), what to try at home, and when it can't wait.",
   "url": "/blog/cat-diarrhea-causes-vet-visit"
  },
  "is-my-dog-cat-in-heat": {
@@ -711,12 +711,12 @@
  },
  "bird-first-aid-before-avian-vet": {
   "slug": "bird-first-aid-before-avian-vet",
-  "title": "Bird First Aid: What to Do Before Reaching an Avian Vet",
+  "title": "Bird First Aid: What to Do Before You Reach an Avian Vet",
   "cat": "exotic",
   "catLabel": "Exotic pets",
   "dateISO": "2026-08-05",
-  "read": "5",
-  "summary": "Basic first-aid steps for common bird emergencies before you can get to an avian vet — bleeding, injury, and shock.",
+  "read": "4",
+  "summary": "Warmth, quiet, darkness and a short journey save more birds than any home remedy. Step-by-step first aid for bleeding feathers, cat or dog bites, fan injuries, burns and a bird found on the cage floor.",
   "url": "/blog/bird-first-aid-before-avian-vet"
  },
  "prepare-dog-xray-ultrasound": {
@@ -781,12 +781,12 @@
  },
  "blood-in-dog-stool": {
   "slug": "blood-in-dog-stool",
-  "title": "Blood in Dog Stool: Causes and When It Requires Immediate Care",
+  "title": "Blood in Dog Stool: Causes and When It Needs Immediate Care",
   "cat": "dog",
   "catLabel": "Dogs",
   "dateISO": "2026-08-02",
-  "read": "5",
-  "summary": "Blood in your dog's stool can look alarming or barely noticeable — both matter. Learn what bright red versus dark, tarry stool means and when to see a vet.",
+  "read": "3",
+  "summary": "Bright red streaks after a dietary slip-up are very different from dark, tarry stool or raspberry-jam diarrhoea. How to describe what you see, which signs point to parvo or bleeding disorders, and what we test for.",
   "url": "/blog/blood-in-dog-stool"
  },
  "how-to-tell-bird-in-pain": {
@@ -852,11 +852,11 @@
  "cat-not-eating-how-long": {
   "slug": "cat-not-eating-how-long",
   "title": "Cat Not Eating: How Long Is Too Long?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-07-27",
-  "read": "5",
-  "summary": "Cats can develop serious complications from not eating faster than dogs. Learn how long is genuinely safe to wait and when it becomes an emergency.",
+  "read": "3",
+  "summary": "Unlike dogs, cats shouldn't fast. After 24 hours without food, and sooner for kittens and overweight cats, the risk of fatty liver disease rises. Common causes, what to try at home, and what we check.",
   "url": "/blog/cat-not-eating-how-long"
  },
  "dog-seizures-what-to-do": {
@@ -1101,22 +1101,22 @@
  },
  "acral-lick-dermatitis-dogs": {
   "slug": "acral-lick-dermatitis-dogs",
-  "title": "Acral Lick Dermatitis in Dogs — Why Your Dog Won't Stop Licking One Spot",
+  "title": "Acral Lick Dermatitis in Dogs: Why Your Dog Won't Stop Licking One Spot",
   "cat": "dog",
   "catLabel": "Dogs",
   "dateISO": "2026-07-11",
   "read": "4",
-  "summary": "Constant paw or leg licking can turn into a painful, thickened wound called a lick granuloma. Learn the causes, treatment, and prevention of acral lick dermatitis from Shivraj Pet Clinic & Lab, Pune.",
+  "summary": "A raw, hairless patch on the wrist or ankle that your dog licks every evening is a lick granuloma. Why it starts, why bitter sprays rarely fix it, and the tests that find the real cause.",
   "url": "/blog/acral-lick-dermatitis-dogs"
  },
  "bird-feather-dna-sexing-test": {
   "slug": "bird-feather-dna-sexing-test",
-  "title": "Bird Feather DNA Sexing Test in Pune — Accurate Gender Testing for Parrots & Budgies",
+  "title": "Bird Feather DNA Sexing in Pune: How to Find Out if Your Parrot Is Male or Female",
   "cat": "exotic",
   "catLabel": "Exotic pets",
   "dateISO": "2026-07-11",
-  "read": "5",
-  "summary": "Can't tell if your bird is male or female? Feather DNA sexing gives 99%+ accurate results in 7-10 days without a blood draw. Learn how the test works at Shivraj Pet Clinic & Lab, Wakad & Pimple Saudagar, Pune.",
+  "read": "3",
+  "summary": "Most parrots, cockatiels and lovebirds look identical whether male or female. How feather DNA sexing works, how we collect the sample, how long results take, and when knowing the sex really matters.",
   "url": "/blog/bird-feather-dna-sexing-test"
  },
  "complete-diet-guide-turtles-tortoises": {
@@ -1331,12 +1331,12 @@
  },
  "bird-droppings-health-signs": {
   "slug": "bird-droppings-health-signs",
-  "title": "Changes in Bird Droppings: What They Can Tell You About Your Parrot's Health",
+  "title": "Changes in Bird Droppings: What They Tell You About Your Parrot's Health",
   "cat": "exotic",
   "catLabel": "Exotic pets",
   "dateISO": "2026-07-01",
-  "read": "5",
-  "summary": "A bird's droppings offer daily health clues. Learn what normal looks like and what changes should concern you.",
+  "read": "3",
+  "summary": "Droppings are the best daily health check you have for a pet bird. How to read the three parts, which colour changes are harmless after fruit, and which mean liver disease, bleeding or infection.",
   "url": "/blog/bird-droppings-health-signs"
  },
  "neighbourhood-vet-pimple-nilakh": {
@@ -1471,12 +1471,12 @@
  },
  "cat-skin-problems-itching-hair-loss": {
   "slug": "cat-skin-problems-itching-hair-loss",
-  "title": "Cat Skin Problems: Itching, Hair Loss, and Skin Infections",
+  "title": "Cat Skin Problems: Itching, Hair Loss and Skin Infections",
   "cat": "cat",
   "catLabel": "Cats",
   "dateISO": "2026-06-17",
-  "read": "5",
-  "summary": "Skin issues in cats can stem from allergies, parasites, or stress-related over-grooming. Learn to recognize the patterns.",
+  "read": "3",
+  "summary": "Round bald patches, scabs along the back, over-grooming of the belly. The common causes in Pune cats (fleas, ringworm, ear mites, allergies, stress), the in-house tests that sort them out, and why dog flea products can kill cats.",
   "url": "/blog/cat-skin-problems-itching-hair-loss"
  },
  "parrot-not-eating": {
@@ -1571,22 +1571,22 @@
  },
  "care-of-pet-birds": {
   "slug": "care-of-pet-birds",
-  "title": "Care of Pet Birds — Common Mistakes to Avoid",
+  "title": "Care of Pet Birds: Common Mistakes That Make Birds Sick",
   "cat": "exotic",
   "catLabel": "Exotic pets",
   "dateISO": "2026-05-27",
   "read": "4",
-  "summary": "Pet birds bring joy and intelligence into our homes — but caring for them properly requires more than a cage and seeds. Learn the top bird care mistakes to avoid from Shivraj Pet Clinic & Lab, Pune.",
+  "summary": "Most illness we treat in budgies, cockatiels and parrots comes from a handful of everyday habits: an all-seed diet, kitchen fumes, ceiling fans, hot balconies and lonely cages. What to change, and why.",
   "url": "/blog/care-of-pet-birds"
  },
  "advanced-pet-diagnostics-pune": {
   "slug": "advanced-pet-diagnostics-pune",
-  "title": "Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need",
+  "title": "Pet Diagnostics in Pune: Which Tests Your Pet Might Need and Why",
   "cat": "health",
   "catLabel": "Health & prevention",
   "dateISO": "2026-05-26",
-  "read": "4",
-  "summary": "Is your pet feeling unwell but the symptoms are vague? Learn about modern diagnostic tests at Shivraj Pet Clinic & Lab for dogs, cats, rabbits, birds, and turtles.",
+  "read": "3",
+  "summary": "Blood count, biochemistry, urine, cytology, X-ray, ultrasound. What each test actually answers, which ones we run in-house during your visit, and which samples go to outside labs.",
   "url": "/blog/advanced-pet-diagnostics-pune"
  },
  "prp-injection-joint-diseases-dogs": {
@@ -1662,11 +1662,11 @@
  "blood-tests-sick-cat-needs": {
   "slug": "blood-tests-sick-cat-needs",
   "title": "What Blood Tests Does a Sick Cat Need?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "cat",
+  "catLabel": "Cats",
   "dateISO": "2026-04-26",
-  "read": "5",
-  "summary": "Blood testing priorities for a sick cat often differ from dogs, especially around kidney and thyroid function. Here's the breakdown.",
+  "read": "3",
+  "summary": "Cats hide illness until it is advanced, so blood tests often find what the examination can't. The core panel for a sick cat, the extra tests for specific symptoms, and how stress affects cat results.",
   "url": "/blog/blood-tests-sick-cat-needs"
  },
  "toxic-foods-dogs-cats": {
@@ -1701,12 +1701,12 @@
  },
  "tick-fever-dogs": {
   "slug": "tick-fever-dogs",
-  "title": "Tick Fever in Dogs — Why Regular Testing is Important",
+  "title": "Tick Fever in Dogs: Symptoms, Blood Tests and Treatment in Pune",
   "cat": "dog",
   "catLabel": "Dogs",
   "dateISO": "2026-04-23",
-  "read": "4",
-  "summary": "Tick fever (Ehrlichiosis and Babesiosis) is dangerously common in Pune's green neighbourhoods. Early blood testing is the only reliable way to catch it before it becomes fatal.",
+  "read": "5",
+  "summary": "Ehrlichia and Babesia from the brown dog tick are the commonest serious infections we diagnose in PCMC dogs. The signs, the blood tests that confirm it, and how long treatment takes.",
   "url": "/blog/tick-fever-dogs"
  },
  "transport-sick-cat-safely": {
@@ -1722,11 +1722,11 @@
  "blood-tests-sick-dog-needs": {
   "slug": "blood-tests-sick-dog-needs",
   "title": "What Blood Tests Does a Sick Dog Need?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "dog",
+  "catLabel": "Dogs",
   "dateISO": "2026-04-22",
-  "read": "5",
-  "summary": "The specific blood tests recommended for a sick dog depend on symptoms. Here's how vets decide what to run.",
+  "read": "3",
+  "summary": "Not every sick dog needs every test. The core blood panel, the extra tests we add for fever, vomiting, thirst or bleeding, and how same-visit results change treatment in Pune's tick-fever season.",
   "url": "/blog/blood-tests-sick-dog-needs"
  },
  "transport-sick-dog-safely": {
@@ -1742,11 +1742,11 @@
  "blood-biochemistry-tests-explained": {
   "slug": "blood-biochemistry-tests-explained",
   "title": "Blood Biochemistry Tests for Dogs and Cats: What Do the Results Mean?",
-  "cat": "health",
-  "catLabel": "Health & prevention",
+  "cat": "surgery",
+  "catLabel": "Surgery & lab",
   "dateISO": "2026-04-18",
-  "read": "5",
-  "summary": "Blood biochemistry panels reveal information about organ function and metabolism. Here's what the results actually tell your vet.",
+  "read": "3",
+  "summary": "ALT, ALP, BUN, creatinine, glucose, albumin, electrolytes. A plain-language guide to your pet's biochemistry report, why one high value isn't always bad news, and when we repeat a test.",
   "url": "/blog/blood-biochemistry-tests-explained"
  },
  "pre-post-operative-care-pets": {

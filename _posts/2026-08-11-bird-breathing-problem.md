@@ -1,77 +1,71 @@
 ---
-title: "Bird Breathing Problems — Warning Signs & When to Rush to the Vet in Pune"
+title: "Bird Breathing Problems: Warning Signs and When to Rush to the Vet"
 date: "2026-08-11"
+updated: "2026-10-17"
 cat: "exotic"
-catLabel: "🐦 Exotic Animals"
+read: 4
 img: "/images/gallery/bird-2.jpg"
-summary: "Tail-bobbing, open-beak breathing, or a fluffed-up posture in a pet bird can signal a respiratory emergency. Learn the warning signs from Shivraj Pet Clinic, Wakad & Pimple Saudagar, Pune."
-read: "5"
+summary: "A bird that bobs its tail with every breath or breathes with an open beak is already seriously ill. The signs to recognise early, common causes in Pune homes (including non-stick pans and mosquito vaporisers), and safe first steps."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Medicine), Head Veterinarian at Shivraj Pet Clinic &amp; Exotic Animal Centre.</em></p>
+Birds hide illness extremely well. In the wild, a bird that looks weak gets eaten, so pet birds keep up appearances until they physically cannot. By the time breathing changes are **visible**, a bird is usually much sicker than it looks. Treat any breathing change as urgent.
 
-<p>Birds are prey animals by instinct, which means they hide illness extremely well — by the time breathing difficulty is visible, the underlying problem is often already advanced. At <strong>Shivraj Pet Clinic &amp; Exotic Animal Centre, Wakad &amp; Pimple Saudagar, Pune</strong>, we treat respiratory distress in pet birds as an emergency.</p>
+## What normal breathing looks like
 
-<div class="post-quickfacts">
-<h4>Quick Facts</h4>
-<table>
-<tr><td>Species affected</td><td>Budgies, cockatiels, conures, and other pet birds</td></tr>
-<tr><td>Severity</td><td>Can be life-threatening; birds decline quickly once visibly distressed</td></tr>
-<tr><td>Common causes</td><td>Respiratory infection, air sac issues, inhaled irritants, egg-related complications</td></tr>
-<tr><td>Emergency signs</td><td>Tail-bobbing with each breath, open-beak breathing, audible clicking or wheezing</td></tr>
-<tr><td>Prevention</td><td>Good ventilation, avoiding aerosols/fumes near birds, routine wellness checks</td></tr>
-</table>
-</div>
+At rest, a healthy budgie, cockatiel or parrot breathes quietly. The chest and belly move gently, the beak is closed, and you shouldn't hear anything. Breathing faster for a few seconds after flying is normal and should settle within a minute or two.
 
-<h2>Why Breathing Problems in Birds Are Always Urgent</h2>
-<p>A bird's respiratory system is different from a mammal's — it's highly efficient at extracting oxygen, but that also means a bird already breathing visibly hard has very little reserve left. What looks like a "sudden" breathing problem is frequently the final, visible stage of something that's been developing quietly for days.</p>
+## Warning signs
 
-<h2>Common Causes</h2>
-<ul>
-<li><strong>Respiratory infections</strong> — bacterial, fungal, or viral, often affecting the airway or air sacs</li>
-<li><strong>Inhaled irritants</strong> — non-stick cookware fumes, aerosols, scented candles, and smoke are genuinely dangerous to birds</li>
-<li><strong>Air sac or lung disease</strong> — including chronic conditions that worsen gradually</li>
-<li><strong>Egg-related complications</strong> — such as egg binding in female birds, which can restrict normal breathing</li>
-<li><strong>Obesity or fatty liver disease</strong> — can reduce normal breathing capacity over time</li>
-</ul>
+- **Tail bobbing:** the tail pumps up and down with each breath while the bird is sitting still. This is one of the most important signs to learn.
+- **Open-beak breathing** at rest, when it isn't hot.
+- **Clicking, wheezing or squeaking** sounds with each breath.
+- **Sneezing with discharge**, wet or crusty nostrils, or staining of the feathers above the beak.
+- **Swelling around the eyes**, or watery eyes.
+- **Voice change**, or a bird that stops talking or whistling.
+- **Fluffed up, sitting low on the perch or on the cage floor.** This is a late, serious sign.
 
-<h2>Warning Signs to Watch For</h2>
-<ul>
-<li>Tail bobbing up and down with each breath</li>
-<li>Open-beak breathing, especially at rest</li>
-<li>Audible clicking, wheezing, or a change in voice/chirp</li>
-<li>Fluffed-up feathers with lethargy</li>
-<li>Sitting low on the perch or at the bottom of the cage</li>
-<li>Discharge from the nostrils (nares) or around the eyes</li>
-</ul>
+<div class="post-warning"><strong>Open-mouth breathing, tail bobbing at rest, or a bird sitting on the cage floor is an emergency.</strong> Call us and come in during opening hours (Mon, Tue, Thu–Sun; closed Wednesday). Outside our hours, find the nearest vet with avian experience. Don't wait overnight.</div>
 
-<div class="post-warning">⚠️ Any bird showing tail-bobbing, open-beak breathing, or audible respiratory sounds needs to be seen immediately. Birds can decline within hours once breathing distress is visibly obvious — this is not a "wait and watch" situation.</div>
+## Common causes we see in Pune homes
 
-<h2>What Happens at the Clinic</h2>
-<ul>
-<li><strong>Low-stress handling and examination</strong> — birds can decompensate from stress alone, so handling is kept brief and calm</li>
-<li><strong>Oxygen support</strong> — provided immediately where needed, often before a full workup</li>
-<li><strong>Diagnostic imaging</strong> — X-rays to assess the lungs, air sacs, and check for egg-related causes</li>
-<li><strong>Laboratory testing</strong> — to identify infection and guide antibiotic or antifungal treatment</li>
-<li><strong>Environmental correction</strong> — advice on removing any household irritant contributing to the problem</li>
-</ul>
+**Airborne toxins (very common, often missed)**
+- **Non-stick (PTFE/Teflon) cookware** that is overheated releases fumes that can kill a bird within minutes, even in another room. This is the classic cause of sudden death in pet birds.
+- **Mosquito liquid vaporisers, coils, agarbatti, dhoop and camphor** used daily in a closed room irritate bird airways over time.
+- Room fresheners, aerosol sprays, fresh paint and cleaning chemicals.
+- Cigarette smoke.
 
-<h2>Prevention</h2>
-<ul>
-<li>Never use non-stick cookware, aerosol sprays, scented candles, or air fresheners in rooms where birds are kept — fumes that are mild for humans can be fatal to birds</li>
-<li>Ensure good ventilation and avoid smoking near your bird</li>
-<li>Watch daily for subtle changes in activity, voice, or posture, since birds mask illness until it's advanced</li>
-<li>Book routine wellness checks even when your bird seems healthy</li>
-<li>Maintain a healthy weight and balanced diet to reduce the risk of fatty liver and related breathing issues</li>
-</ul>
+**Infections**
+- Bacterial and fungal infections of the airways and air sacs. **Aspergillosis**, a fungal infection, is linked to damp, mouldy seed and poor ventilation, a real risk during Pune's monsoon.
+- **Psittacosis (chlamydiosis).** This can also infect people, so tell us if anyone at home has flu-like illness.
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>My bird's tail moves a little when it breathes — is that normal?</strong><br>A very slight movement can be normal, but pronounced, rhythmic bobbing with every breath is a warning sign and should be checked promptly.</p>
-<p><strong>Could a scented candle really affect my bird's breathing?</strong><br>Yes — birds have an extremely sensitive respiratory system, and fumes from non-stick cookware, aerosols, and some scented products can cause acute, sometimes fatal, respiratory distress.</p>
-<p><strong>Is breathing difficulty always respiratory, or could it be something else?</strong><br>Not always — conditions like egg binding or fatty liver disease can also restrict normal breathing, which is why a full exam matters rather than assuming it's a lung infection.</p>
-<p><strong>How is a bird's breathing problem diagnosed?</strong><br>Through a calm physical exam, often combined with X-rays and lab testing once the bird is stable enough for handling.</p>
-<p><strong>My bird seems fine most of the day but breathes harder after activity — should I be concerned?</strong><br>Yes, reduced exercise tolerance is worth a check — it can be an early sign before breathing problems appear at rest.</p>
-<p><strong>Do you treat budgies and cockatiels as well as larger birds?</strong><br>Yes, we see a wide range of pet bird species at our Exotic Animal Centre.</p>
+**Nutrition**
+- **Vitamin A deficiency** from an all-seed diet damages the lining of the airways and makes infections far more likely. It is extremely common in budgies and parrots fed only sunflower seeds.
 
-<p>Explore our <a href="services/exotic-animal-centre.html" class="internal-link">Exotic Animal Centre</a> for full avian care services.</p>
+**Other causes**
+- In female birds, an egg or an enlarged abdomen pressing on the air sacs.
+- Heatstroke in summer, when cages hang on hot balconies (April–May afternoons in Pune).
+- Inhaled seed husks, or thyroid enlargement in budgies.
 
-<p>If your bird is showing any breathing difficulty, don't wait. <a href="index.html#book" class="internal-link">Book an urgent consultation</a> at Shivraj Pet Clinic, Wakad &amp; Pimple Saudagar, Pune, or call 077569 65169.</p>
+## What to do on the way to the clinic
+
+1. **Move the bird to fresh air** away from any fumes, smoke or sprays. Open windows.
+2. **Keep it warm but not hot.** Around 28–30 °C is ideal for a sick bird. Partly cover the cage or carrier with a light cloth.
+3. **Lower the perches** or remove them so the bird doesn't fall.
+4. **Use a small carrier** and keep handling to a minimum. Stress can tip a breathless bird over.
+5. **Bring a photo or video** of the breathing, the cage set-up and a sample of the food it eats.
+
+Don't give any human medicines, and don't put drops in the beak. A struggling bird can inhale liquid.
+
+## What we do at the clinic
+
+A breathless bird may need **oxygen and warmth first**, before handling. Once it is stable, we examine it, weigh it on a gram scale, and may take a **digital X-ray** to look at the lungs, air sacs and abdomen. Where it is safe, we take small blood samples for in-house tests. Treatment may include nebulisation, injectable or oral medicines, fluids and hand-feeding support.
+
+## Frequently Asked Questions
+
+**My cockatiel sneezes sometimes. Is that a breathing problem?**\
+Occasional dry sneezing to clear dust is normal. Repeated sneezing, discharge, or sneezing with any other sign above needs a check-up.
+
+**Can I give my bird the antibiotic I have at home?**\
+Please don't. Doses for birds are tiny and species-specific, and the wrong drug can make fungal infections worse.
+
+**Is it safe to keep my bird in the kitchen?**\
+Not recommended. Cooking fumes, especially from non-stick pans, are a serious risk. Keep birds in a well-ventilated room away from the kitchen.

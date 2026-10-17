@@ -1,31 +1,52 @@
 ---
 title: "Can Dogs and Cats Get Dengue?"
 date: "2026-10-16"
+updated: "2026-10-17"
 cat: "health"
-catLabel: "🚨 Emergency Care"
+read: 3
 img: "https://images.pexels.com/photos/4684645/pexels-photo-4684645.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Dengue is a mosquito-borne human disease — here's what pet owners should actually know about dengue and their pets."
-read: "5"
-slug: "can-dogs-cats-get-dengue"
+summary: "No. Dengue is a human disease, and pets don't catch it or spread it. But the same monsoon brings tick fever, leptospirosis and heartworm, which can look like 'dengue' in a dog. How to tell, and how to protect your pet."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+Every monsoon, when dengue cases rise in Pune and PCMC, we are asked the same question: can my dog or cat get dengue too?
 
-<p>With dengue a genuine seasonal concern for households, pet owners reasonably wonder whether their dog or cat is at similar risk.</p>
+**The short answer: no.** Dengue virus infects humans (and some primates). Dogs and cats do not develop dengue fever, and they cannot pass dengue to people. A dog with dengue-like symptoms (fever, weakness, low platelets) has something else, and it needs a correct diagnosis.
 
-<h2>The Short Answer</h2>
-<p>Dengue virus, as understood in human medicine, is not considered a significant natural disease concern in dogs and cats the way it is in humans.</p>
+## Why owners get confused
 
-<h2>Why Mosquito Control Still Matters for Pets</h2>
-<p>While dengue itself isn't the primary pet concern, mosquitoes do transmit other diseases relevant to pets, like heartworm, making control still worthwhile.</p>
+Dengue in people is known for **low platelets**. Dogs in Pune often get **tick fever** (*Ehrlichia*, *Anaplasma*), which also causes fever, weakness and very low platelets, sometimes with nosebleeds or bruising. When an owner hears "platelets are low" for a dog during dengue season, it's natural to assume the same disease. It isn't, and the treatment is completely different.
 
-<h2>What to Actually Watch For</h2>
-<p>If your pet shows fever, lethargy, or other illness during a household dengue concern, treat it as its own medical situation and consult your vet rather than assuming dengue.</p>
+## Monsoon illnesses that **do** affect pets
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>**Should I worry about my dog if my family has dengue?**</strong><br>Focus on standard mosquito control for the household; dengue isn't considered a primary natural risk for dogs specifically.</p>
-<p><strong>**Are pets a source of dengue transmission?**</strong><br>No, dengue transmission is mosquito-to-human, not through pet contact.</p>
-<p><strong>**Should mosquito control still be a priority for pet owners?**</strong><br>Yes, for other pet-relevant mosquito-borne risks like heartworm.</p>
+| Disease | Spread by | Key signs |
+|---|---|---|
+| **Tick fever** (Ehrlichia, Babesia, Anaplasma) | Brown dog tick | Fever, dullness, pale gums, low platelets, dark urine |
+| **Leptospirosis** | Rat urine in stagnant water and flooded lanes | Fever, vomiting, red eyes, jaundice, kidney failure. **Can infect humans.** |
+| **Heartworm** | Mosquitoes | Cough, tiring easily, and a swollen belly in later stages |
+| **Gastroenteritis** (including parvovirus) | Contaminated water, other dogs | Vomiting, bloody diarrhoea |
+| **Skin and ear infections** | Humidity, wet fur | Itching, smell, hot spots |
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+## What to do if your dog has fever during dengue season
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+1. **Don't give paracetamol or other human fever medicines.** In dogs they can damage the liver and make bleeding worse. In cats, paracetamol is deadly.
+2. **Check the gums.** Pale, white or yellow gums mean come in the same day.
+3. **Look for bleeding**: nosebleeds, red spots on the belly, or red or dark urine.
+4. **Come in for a blood test.** A CBC in our in-house lab gives the platelet and red cell count in about 15–20 minutes. A blood smear can show *Babesia* directly. If leptospirosis is possible, we check kidney and liver values and discuss specific tests.
+
+## Protecting your pet (and your family) in the monsoon
+
+- **Tick control without gaps**, all year round, and a tick check after every walk.
+- **Avoid letting dogs drink or wade in puddles** and flooded areas. Wash and dry paws after walks.
+- **Keep vaccination current.** The yearly DHPPiL vaccine includes leptospirosis protection, which matters most before the monsoon.
+- **Mosquito control** at home helps prevent dengue for the family and heartworm for the dog. Use screens and nets, and remove standing water from coolers, flower pots and trays. Avoid using mosquito vaporisers in rooms where pet birds are kept.
+- **Rodent control** around the house and parking areas reduces leptospirosis risk.
+
+## Frequently Asked Questions
+
+**Can a dog's fever be a sign that someone at home has dengue?**\
+No. The two are unrelated. If both a family member and a pet are ill at the same time, think about shared exposures like stagnant water (leptospirosis) and get both checked.
+
+**Is papaya leaf juice useful for dogs with low platelets?**\
+There's no good evidence for it in dogs, and it delays the real treatment of tick fever. Please don't rely on it.
+
+**Can cats get tick fever?**\
+Cats are much less commonly affected by tick-borne disease than dogs, but they can get blood parasites spread by fleas. A cat with fever and pale gums should be tested.

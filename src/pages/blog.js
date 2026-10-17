@@ -94,10 +94,11 @@ function loadPosts() {
     const { data, content } = matter(fs.readFileSync(path.join(POSTS_DIR, f), 'utf8'));
     const slug = data.slug || slugFromFilename(f);
     const dateISO = data.date ? new Date(data.date).toISOString().split('T')[0] : '2026-01-01';
+    const updatedISO = data.updated ? new Date(data.updated).toISOString().split('T')[0] : '';
     const cat = CATS[data.cat] ? data.cat : 'health';
     const title = brandText(data.title || slug);
     return {
-      slug, title, cat, catName: CATS[cat], dateISO, read: String(data.read || 3), img: data.img || '', summary: brandText(data.summary || ''),
+      slug, title, cat, catName: CATS[cat], dateISO, updatedISO, read: String(data.read || 3), img: data.img || '', summary: brandText(data.summary || ''),
       photo: coverFor(slug, title, data.img, cat), content: brandHtml(fixLinks(marked.parse(content.trim()))),
     };
   });
@@ -119,12 +120,14 @@ function tocOf(html) {
   return { html: out, heads };
 }
 
+// Markdown output is HTML-escaped; schema text must be plain.
+const plain = (h) => h.replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 function faqSchemaOf(p) {
   const m = p.content.match(/<h2>Frequently Asked Questions<\/h2>([\s\S]*?)(?:<h2>|$)/);
   if (!m) return null;
   const pairs = [...m[1].matchAll(/<p><strong>(.*?)<\/strong><br>(.*?)<\/p>/g)];
   if (!pairs.length) return null;
-  return { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: pairs.map(([, q, a]) => ({ '@type': 'Question', name: q.replace(/<[^>]*>/g, ''), acceptedAnswer: { '@type': 'Answer', text: a.replace(/<[^>]*>/g, '') } })) };
+  return { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: pairs.map(([, q, a]) => ({ '@type': 'Question', name: plain(q), acceptedAnswer: { '@type': 'Answer', text: plain(a) } })) };
 }
 
 function postPage(p, all) {
@@ -133,7 +136,9 @@ function postPage(p, all) {
   const { html, heads } = tocOf(p.content);
   const pagePath = `/blog/${p.slug}`;
   const vids = videosFor(pagePath);
-  const date = new Date(`${p.dateISO}T12:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+  const fmt = (iso) => new Date(`${iso}T12:00:00`).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+  const date = fmt(p.dateISO);
+  const updated = p.updatedISO && p.updatedISO > p.dateISO ? `<br>Updated <time datetime="${p.updatedISO}">${fmt(p.updatedISO)}</time>` : '';
   const body = `<article class="post" data-post>
   <div class="post__progress" aria-hidden="true"><span data-read-progress></span></div>
   <header class="post__head wrap">
@@ -141,7 +146,7 @@ function postPage(p, all) {
     <h1 class="display display--post">${esc(p.title)}</h1>
     <div class="post__intro">
       <p class="post__summary">${esc(p.summary)}</p>
-      <p class="post__meta"><span class="post__by">${picture('dr-pritesh-microscope', { sizes: '44px', alt: '', pos: '62% 22%' })}</span><span>By <a href="/about#pritesh">Dr. Pritesh Vidhate</a><br><time datetime="${p.dateISO}">${date}</time> · ${p.read} min read</span></p>
+      <p class="post__meta"><span class="post__by">${picture('dr-pritesh-microscope', { sizes: '44px', alt: '', pos: '62% 22%' })}</span><span>By <a href="/about#pritesh">Dr. Pritesh Vidhate</a><br><time datetime="${p.dateISO}">${date}</time> · ${p.read} min read${updated}</span></p>
     </div>
   </header>
   <figure class="post__cover">${postCover(p, { sizes: '100vw', eager: true, alt: p.photo ? undefined : '' })}<figcaption class="wrap">${p.photo ? `${esc(photo(p.photo).alt)}. Photographed at Shivraj Pet Clinic &amp; Lab.` : 'Illustrative stock photo, not a clinic patient.'}</figcaption></figure>
@@ -164,7 +169,7 @@ function postPage(p, all) {
   const article = {
     '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.summary, image: coverUrl(p),
     author: { '@type': 'Person', name: 'Dr. Pritesh Vidhate', url: `${clinic.site}/about#pritesh` },
-    publisher: { '@id': `${clinic.site}/#clinic` }, datePublished: p.dateISO, dateModified: p.dateISO,
+    publisher: { '@id': `${clinic.site}/#clinic` }, datePublished: p.dateISO, dateModified: p.updatedISO || p.dateISO,
     mainEntityOfPage: clinic.site + pagePath, articleSection: p.catName,
   };
   return {

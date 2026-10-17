@@ -1,59 +1,59 @@
 ---
-title: "Advanced Pet Diagnostics in Pune — What Tests Your Pet Might Need"
+title: "Pet Diagnostics in Pune: Which Tests Your Pet Might Need and Why"
 date: "2026-05-26"
+updated: "2026-10-17"
 cat: "health"
-catLabel: "💉 Vaccination"
+read: 3
 img: "/images/services/lab.jpg"
-summary: "Is your pet feeling unwell but the symptoms are vague? Learn about modern diagnostic tests at Shivraj Pet Clinic for dogs, cats, rabbits, birds, and turtles."
-read: "4"
+summary: "Blood count, biochemistry, urine, cytology, X-ray, ultrasound. What each test actually answers, which ones we run in-house during your visit, and which samples go to outside labs."
 ---
+"Let's do some tests" can sound vague and expensive. In practice, each test answers a specific question, and a good vet only orders the ones whose answer would change what happens next. This guide explains the common tests in plain language, and is clear about which ones we run in our own lab at Shivraj Pet Clinic & Lab and which ones we send out.
 
-Is your pet feeling unwell, but the symptoms are vague? That's where advanced veterinary diagnostics come in. At **Shivraj Pet Clinic & Lab, serving Wakad & Pimple Saudagar, Pune**, we offer a range of modern diagnostic tests that help us detect and treat diseases in **dogs, cats, rabbits, birds, turtles**, and other exotic pets — quickly and accurately.
+## The question each test answers
 
-## Why Pet Diagnostics Matter
+| Test | What it answers | Where it is done |
+|---|---|---|
+| **CBC (complete blood count)** | Is there anaemia, infection, inflammation, or a platelet problem (for example from tick fever)? | In-house, about 15–20 minutes |
+| **Biochemistry** | How are the liver and kidneys working? What are the blood sugar, protein and electrolyte levels? | In-house, about 15–20 minutes |
+| **Urinalysis** | Is there a urinary infection, crystals, sugar, or early kidney change? | In-house |
+| **Faecal exam** | Are there worms, coccidia or Giardia? | In-house microscope |
+| **Skin scraping / ear cytology** | Mites, yeast, bacteria? | In-house microscope |
+| **Fine-needle aspirate (FNA)** | What kind of cells is this lump made of? | In-house first look; sent out when a pathologist report is needed |
+| **Digital X-ray** | Bones, chest, swallowed objects, bladder stones, the size and shape of organs | In-house, images in seconds |
+| **Ultrasound (sonography)** | Internal soft tissue in real time, pregnancy confirmation | In-house |
+| **Histopathology (biopsy)** | Exact diagnosis of a removed tumour or tissue | Sent to an external lab |
+| **PCR / culture / hormone tests** | Specific infections, which antibiotic will work, thyroid or adrenal disease | Sent to an external lab |
+| **CT / MRI** | Brain, spine, complex orthopaedic or cancer staging | Referral centre; we coordinate |
 
-Animals can't tell us what's wrong. Early detection through diagnostics can prevent serious illness, help tailor precise treatments, and save lives in emergencies. We're equipped with in-clinic diagnostic tools, reducing the need for external referrals and speeding up treatment.
+## Why in-house matters for a sick pet
 
-## Key Diagnostic Services at Shivraj Pet Clinic
+Our founder, Dr. Shivaji B. Vidhate, holds an M.V.Sc. in Veterinary Pathology, and the lab has always been central to how this clinic works. When CBC and biochemistry results come back during the consultation, the treatment plan is based on numbers, not guesses.
 
-### 1. Digital X-Rays (Radiography)
+Take a dog with a fever and no appetite. If platelets are very low, we think of tick fever. If the white cell count is very high, we look for a source of infection, such as the uterus in an unspayed female. If the kidney values are raised, fluids become urgent. Each answer leads to a different first treatment, and you get it **in the same visit**, not the next day.
 
-Digital X-rays detect fractures, foreign bodies, tumours, pneumonia, bladder stones, and spinal issues. Non-invasive, fast, and pet-safe — they are routinely used for orthopedic and abdominal cases. Results are available within minutes at our clinic.
+## Common test combinations
 
-### 2. Ultrasound (USG)
+- **A sick dog or cat with fever or vomiting:** CBC + biochemistry, and often a rapid test for parvovirus or panleukopenia in young animals.
+- **Before anaesthesia:** CBC + kidney and liver values. Older pets may also need a chest X-ray.
+- **Increased thirst and urination:** biochemistry + urinalysis, to separate diabetes, kidney disease and other causes.
+- **A lump:** fine-needle aspirate first. If it is removed, histopathology.
+- **Limping or a suspected swallowed object:** X-ray.
+- **Senior wellness (7+ years):** CBC, biochemistry and urinalysis once a year, to catch kidney and liver changes early.
 
-Ultrasound is used for abdominal scans, pregnancy detection, and organ health monitoring — liver, kidney, spleen. Painless and safe for all species including birds and rabbits, it provides real-time images without any radiation.
+## How to prepare
 
-### 3. Blood Tests — CBC, LFT, KFT
+- **Fasting:** for biochemistry, keep your pet off food for about 8–12 hours (water is fine) unless we tell you otherwise. Don't fast puppies, kittens, diabetic pets or small exotic pets. Ask us first.
+- **Urine:** a fresh morning sample in a clean, dry container is best. Bring it within an hour or two.
+- **Stool:** a fresh, thumb-sized sample in a sealed container.
+- **Previous reports:** bring them. Trends over time are often more useful than a single result.
 
-- **CBC (Complete Blood Count):** Detects infections, anaemia, and immune response
-- **LFT (Liver Function Test):** Evaluates liver health through enzymes such as ALT, AST, ALP, and bilirubin. Especially useful for pets with vomiting, jaundice, or chronic illness
-- **KFT (Kidney Function Test):** Checks creatinine, urea, and electrolyte balance to detect kidney disease early
+## Frequently Asked Questions
 
-Available for dogs, cats, rabbits, and turtles. Results in 15–20 minutes at our in-house lab.
+**Do you do tests for birds, rabbits and turtles too?**\
+Yes. Blood tests and X-rays are adapted for small exotic patients. Blood volumes are tiny in small birds, so we choose tests carefully.
 
-### 4. Urine and Stool Analysis
+**Can I get a printout of the results?**\
+Yes. You will get a copy of the in-house results to keep for your records.
 
-Essential for identifying UTIs, crystals, worms, and gut infections. Recommended when pets show frequent urination, diarrhoea, or blood in stools.
-
-### 5. Exotic Pet Diagnostics
-
-We tailor diagnostics for small mammals, reptiles, and birds with specialised sampling and sedation protocols where needed.
-
-## When Should You Book a Diagnostic Test?
-
-- Vomiting, diarrhoea, or appetite loss for more than 24 hours
-- Sudden weight loss or gain
-- Laboured breathing or persistent coughing
-- Behavioural changes or unusual lethargy
-- Post-trauma or accident
-- Annual health screenings (recommended for all pets over 7 years)
-
-## Benefits of In-Clinic Diagnostics at Shivraj
-
-- No long waits or referrals — everything under one roof
-- CBC and biochemistry results in 15–20 minutes
-- Better treatment accuracy — diagnosis drives targeted treatment
-- Full transparency with pet parents — we explain every result clearly
-
-We are conveniently located near **Wakad and Pimple Saudagar, Pune**, close to Baner, Vishal Nagar, and Aundh. Call **077569 65169** to schedule a diagnostic appointment today.
+**What does testing cost?**\
+Consultation is ₹300 (₹400 for exotic pets). We explain which tests we recommend, and why, before running them, so there are no surprises.

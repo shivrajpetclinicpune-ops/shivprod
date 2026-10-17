@@ -1,35 +1,62 @@
 ---
 title: "Cat Not Eating: How Long Is Too Long?"
 date: "2026-07-27"
-cat: "health"
-catLabel: "🩺 General Health"
+updated: "2026-10-17"
+cat: "cat"
+read: 3
 img: "https://images.pexels.com/photos/680994/pexels-photo-680994.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Cats can develop serious complications from not eating faster than dogs. Learn how long is genuinely safe to wait and when it becomes an emergency."
-read: "5"
-slug: "cat-not-eating-how-long"
+summary: "Unlike dogs, cats shouldn't fast. After 24 hours without food, and sooner for kittens and overweight cats, the risk of fatty liver disease rises. Common causes, what to try at home, and what we check."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+A cat that misses one meal may simply be fussy, too warm, or upset by a change at home. But **cats are not built to go without food**. When a cat stops eating, its body breaks down fat for energy and sends it to the liver. In cats, the liver can't process that fat quickly enough, and it builds up, causing **hepatic lipidosis (fatty liver disease)**, a serious condition that can be fatal without treatment. Overweight cats are at the highest risk.
 
-<p>Cats are not just small dogs when it comes to appetite loss — a cat that stops eating faces a specific, serious risk that makes this symptom more urgent than it might seem.</p>
+## The timeline
 
-<h2>Why This Is More Urgent in Cats</h2>
-<p>Cats that don't eat for an extended period are at risk of a condition called hepatic lipidosis (fatty liver disease), where the body mobilizes fat too quickly and overwhelms the liver — this can happen within just a few days of reduced eating, especially in overweight cats.</p>
+| Situation | What to do |
+|---|---|
+| Kitten under 3 months not eating for 8–12 hours | Come in the same day |
+| Adult cat skipped one meal, otherwise normal | Watch, and try the tips below |
+| Adult cat not eating for **24 hours** | Book a visit |
+| Not eating for 24 hours plus vomiting, hiding, or not drinking | Come in the same day |
+| Not eating for **2–3 days** | Urgent: fatty liver risk is high |
+| Not eating **and** straining in the litter box (especially males) | Emergency: possible urinary blockage |
 
-<h2>The 24-Hour Rule</h2>
-<p>A cat that hasn't eaten anything in 24 hours should be seen by a vet — this is a shorter window than most owners assume, precisely because of the liver risk described above.</p>
+## Common reasons cats stop eating
 
-<h2>What Might Be Behind It</h2>
-<p>Dental pain, nausea, stress, respiratory infection affecting smell (which drives appetite in cats), or systemic illness can all cause appetite loss. The cause needs identifying, not just managing symptomatically.</p>
+- **Mouth pain:** tooth resorption, gum disease, mouth ulcers from cat flu
+- **Blocked nose** from cat flu. Cats eat by smell, and if they can't smell food, they won't eat
+- **Nausea:** kidney disease, liver disease, pancreatitis, hairballs, or medication
+- **Fever** from infection or abscesses
+- **Stress:** a new pet or baby, visitors, moving house, construction noise, festival crackers
+- **Food change** or food that has gone stale, or a dirty bowl
+- **Urinary blockage** in males
+- **Swallowed string or thread** (common with kittens and sewing thread, tinsel, or rakhi threads)
+- In older cats: kidney disease, hyperthyroidism, cancer
 
-<h2>What Not to Do</h2>
-<p>Don't wait it out hoping your cat will eat when hungry enough — cats don't reliably self-correct this the way some other species might, and the liver risk means time matters.</p>
+## What to try at home first (only for an otherwise bright adult cat)
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>My cat is still drinking water but not eating — is that better?</strong><br>It's a positive sign for hydration but doesn't eliminate the appetite-loss risk. Still see a vet within 24 hours.</p>
-<p><strong>Are overweight cats at higher risk?</strong><br>Yes, significantly — hepatic lipidosis risk is elevated in overweight cats that stop eating.</p>
-<p><strong>Can stress alone explain a cat not eating?</strong><br>It can cause short-term appetite loss, but the 24-hour rule still applies regardless of suspected cause.</p>
-<p><strong>Should I try tempting foods before calling the vet?</strong><br>You can offer a favorite food, but don't let that delay a vet visit if 24 hours has passed without genuine eating.</p>
+- **Warm wet food** slightly to body temperature, which releases smell.
+- **Offer a fresh pouch or tin** with a strong smell, or a small amount of plain boiled chicken.
+- **Use a wide, shallow dish.** Some cats dislike their whiskers touching deep bowl sides.
+- **Feed in a quiet place**, away from other pets, the litter box, and noise.
+- **Wipe a blocked nose** gently with a warm, damp cloth.
+- Don't force-feed with a syringe without our advice. Cats can inhale food and develop pneumonia, and a bad experience makes food aversion worse.
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+## What we check at the clinic
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+- **Temperature, hydration, mouth, abdomen**, and the bladder in males.
+- **CBC and biochemistry** in our in-house lab (about 15–20 minutes), looking at liver values (ALT, ALP, bilirubin), kidney values and glucose.
+- **X-ray** if we suspect a foreign body, or to assess liver size.
+- Urinalysis, and further tests depending on what we find.
+
+Treatment targets the cause, with anti-nausea medicine, pain relief, fluids and appetite stimulants. Cats with fatty liver may need **assisted feeding through a feeding tube** for some weeks. This sounds dramatic, but it's well tolerated, can be done at home, and saves lives.
+
+## Frequently Asked Questions
+
+**My cat eats treats but not her food. Is she okay?**\
+She may be fussy, or she may have early nausea or mouth pain where only very tasty food tempts her. If her regular meals stop for over a day, get her checked.
+
+**Can stress alone stop a cat eating?**\
+Yes, especially after moving house or a new pet joining the family. But stress can trigger fatty liver too, so don't wait more than 24 hours.
+
+**Should I give my cat an appetite medicine from the pharmacy?**\
+No. Appetite stimulants should only be used after the cause is identified, and some are unsafe in cats with certain conditions.

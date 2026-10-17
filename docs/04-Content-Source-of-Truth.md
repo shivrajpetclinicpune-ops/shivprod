@@ -51,7 +51,7 @@ Rule: conflicts are **documented, not silently reconciled**. The "Site decision"
 | C17 | Service page links | "Rabbit Neutering" → dog-neutering; lab/sonography links → `index#services` | Fixed to the correct pages. |
 
 | C18 | Doctor in the grey-scrubs photos | Owner's rename manifest says the senior doctor is Dr. Shivaji. The image audit thinks he may differ from the man in the legacy "Dr. Shivaji" photos | Captioned as Dr. Shivaji per the manifest (owner-provided, highest priority). **Owner to confirm.** |
-| C19 | Email and branches | The visiting card shows shivrajpetclinic@gmail.com and **Branch 1: Samarth Colony, Jagtap Dairy, Pimple Nilakh**. The signboard shows "Branch-2", and M.V.Sc. (Medicine) Reg. MSVC 9959 / M.V.Sc. (Pathology) Reg. MSVC 3182 | The email and registration numbers are shown. Only the Alpine Avenue branch is listed. **Owner to confirm whether Branch 1 is still operating.** |
+| C19 | Email and branches | **Owner (2026-10-17): email is shivrajclinic@gmail.com** (the visiting card showed shivrajpetclinic@gmail.com). The card also shows **Branch 1: Samarth Colony, Jagtap Dairy, Pimple Nilakh**. The signboard shows "Branch-2", and M.V.Sc. (Medicine) Reg. MSVC 9959 / M.V.Sc. (Pathology) Reg. MSVC 3182 | The email and registration numbers are shown. Only the Alpine Avenue branch is listed. **Owner to confirm whether Branch 1 is still operating.** |
 | C20 | Emergency service | Legacy FAQ implied Wednesday emergency help | **Owner (2026-09-25): no emergency service outside opening hours.** Site copy, service FAQ, booking form and footer were updated. |
 | C21 | Testimonial (new) | Review text visible in owner reel V1 (Vikash Shelke, cat spay) | Only the clearly legible sentences are quoted. |
 
@@ -62,7 +62,7 @@ Rule: conflicts are **documented, not silently reconciled**. The "Site decision"
 - AI-generated or 80s-reel imagery is not used as clinic photography.
 
 ## 4. Missing information (flagged)
-- Email address (none exists).
+- ~~Email address~~ — resolved 2026-10-17: shivrajclinic@gmail.com.
 - Emergency / after-hours policy beyond "call first".
 - Owner-approved review quotes; Google Business profile URL (only the Maps place link is known).
 - Parking/landmark directions beyond "near Jagtap Dairy, Aundh–Wakad Road".

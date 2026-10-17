@@ -20,6 +20,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true }
+      - { label: "Last updated (optional)", name: "updated", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD-MM-YYYY", time_format: false, picker_utc: true, required: false }
       - label: "Category"
         name: "cat"
         widget: "select"

@@ -1,35 +1,65 @@
 ---
-title: "How Often Should You Take Your Cat for a Health Checkup?"
+title: "How Often Should Your Cat Have a Health Check-up?"
 date: "2026-08-29"
-cat: "health"
-catLabel: "💉 Preventive Care"
+updated: "2026-10-17"
+cat: "cat"
+read: 3
 img: "https://images.pexels.com/photos/30239303/pexels-photo-30239303.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Cats hide illness exceptionally well, which makes regular checkups more important than owners often realize. Here's a recommended frequency by life stage."
-read: "5"
-slug: "cat-health-checkup-frequency"
+summary: "Kittens every few weeks, adults once a year, seniors every six months. What happens at each visit, the tests worth adding as cats age, and how to make vet visits less stressful for your cat."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+Cats age faster than people in their first two years, and they hide illness instinctively. A cat who "seems fine" can have early kidney disease, dental pain or high blood pressure. Regular check-ups catch these problems while they're still easy to manage.
 
-<p>Cats are the masters of looking fine right up until they're not — which is exactly the argument for scheduled checkups rather than waiting for visible symptoms to prompt a visit.</p>
+## How often
 
-<h2>Young, Healthy Adult Cats</h2>
-<p>An annual checkup is generally recommended for healthy adult cats — covering a physical exam, weight tracking, and a conversation about vaccination and preventive care status.</p>
+| Life stage | Approximate age | How often | Focus |
+|---|---|---|---|
+| **Kitten** | 6 weeks – 6 months | Every 3–4 weeks during the vaccine course | Vaccines, deworming, growth, diet, spay or neuter planning |
+| **Young adult** | 1 – 7 years | Once a year | Weight, teeth, booster vaccines, parasite control |
+| **Mature** | 7 – 11 years | Once a year, with blood and urine tests | Kidneys, thyroid, teeth, weight changes |
+| **Senior** | 11+ years | Every 6 months | Kidneys, blood pressure, thyroid, arthritis, weight |
 
-<h2>Senior Cats</h2>
-<p>Cats generally considered senior (roughly 7+ years, with "geriatric" starting later) benefit from more frequent checkups — often every six months — since several common feline conditions (kidney disease, hyperthyroidism, dental disease) become more likely with age and progress faster without monitoring.</p>
+Cats with ongoing conditions (kidney disease, diabetes, hyperthyroidism, heart disease) need check-ups on the schedule we set together, often every 2–3 months.
 
-<h2>Why Frequency Increases with Age</h2>
-<p>Many age-related conditions develop gradually and produce few early symptoms — regular bloodwork and exams catch changes before they become obvious problems, which matters more as risk increases.</p>
+## What happens at a check-up
 
-<h2>Between Scheduled Visits</h2>
-<p>Any new symptom — appetite change, weight change, litter box habit change, behavior change — warrants an unscheduled visit regardless of when the last checkup was.</p>
+- **Weight and body condition.** A 300 g loss in a 4 kg cat is like a person losing over 5 kg. We record it at every visit.
+- **Mouth:** gums, teeth, tooth resorption, ulcers.
+- **Eyes, ears, nose, skin and coat:** mites, fleas, ringworm, lumps.
+- **Heart and lungs:** murmurs, abnormal rhythms, breathing sounds.
+- **Abdomen:** kidney size and shape, bladder, any masses.
+- **Joints:** older cats often have arthritis that shows as not jumping, not as limping.
+- **Vaccines and deworming** as due.
+- **A chat about behaviour, litter habits, appetite and thirst.** These are often the earliest clues.
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>Is an annual checkup enough for a healthy 3-year-old cat?</strong><br>Generally yes, assuming no ongoing health concerns — your vet can confirm what's appropriate for your specific cat.</p>
-<p><strong>What age is considered senior for cats?</strong><br>Roughly 7 years and older is commonly used as the starting point for increased monitoring, though this can vary.</p>
-<p><strong>Does checkup frequency change for cats with chronic conditions?</strong><br>Yes — cats managing an ongoing condition often need more frequent monitoring than the general age-based guideline.</p>
-<p><strong>What does a standard checkup include?</strong><br>Typically a physical exam, weight and body condition assessment, and a discussion of vaccination and preventive care status; bloodwork is often added for senior cats or as clinically indicated.</p>
+## Tests worth adding as cats age
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+From about 7–8 years, a yearly **blood panel (CBC and biochemistry)** and **urinalysis** help detect kidney disease early. Many cats have lost a large share of kidney function before creatinine rises. Older cats may also need a **thyroid (T4) test**, sent to an external lab, if they're losing weight while eating well. Our in-house lab gives CBC and biochemistry results in about 15–20 minutes.
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+## Signs that mean don't wait for the annual visit
+
+- Drinking more, or bigger urine clumps in the litter
+- Weight loss, even with a good appetite
+- Not eating for 24 hours
+- Vomiting more than once a week
+- Peeing outside the litter box, or straining
+- Hiding, or a change in personality
+- Bad breath or drooling
+
+## Making visits easier for your cat
+
+- Leave the **carrier out at home** with a soft blanket and treats inside, so it isn't only linked with vet trips.
+- **Cover the carrier** with a towel during travel and in the waiting area.
+- **Bring a small towel** that smells of home.
+- **Don't feed a large meal just before travel** if your cat gets car-sick.
+- Tell us if your cat is very nervous. We'll handle it calmly and keep it away from barking dogs where possible.
+
+## Frequently Asked Questions
+
+**My indoor cat never gets sick. Does she still need yearly visits?**\
+Yes. Indoor cats have a lower infection risk, but they're prone to obesity, dental disease, urinary problems and kidney disease, all of which are picked up at check-ups.
+
+**How much does a check-up cost?**\
+The consultation is ₹300. Vaccines and any tests are additional. We'll explain what is recommended before going ahead.
+
+**Can you check my cat's blood pressure?**\
+Ask us at the visit. High blood pressure is common in older cats with kidney or thyroid disease and can affect the eyes.

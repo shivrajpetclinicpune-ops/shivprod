@@ -14,14 +14,15 @@
   --sky-2: #d9eaf8;
   --ink: #0c2236;          /* navy text + dark bands */
   --ink-2: #3b5169;
-  --ink-3: #5f7489;        /* 4.9:1 on white */
+  --ink-3: #586c80;        /* 5.4:1 on white, 5.0:1 on --tint (AA for small labels) */
   --navy: #0c2236;
   --navy-2: #102c45;
   --blue: #1769d1;         /* primary action (5.1:1 with white) */
   --blue-d: #0e54ad;
   --blue-l: #8fc0ff;       /* accent on navy (8.4:1) */
   --red: #e4532f;          /* logo red: paw marks, live dot only */
-  --ok: #1f8a4c;
+  --red-text: #c03d1c;     /* logo red darkened for text: 5.4:1 on white */
+  --ok: #187a42;           /* 5.4:1 on white (AA as text) */
   --line: rgba(12, 34, 54, .12);
   --line-2: rgba(12, 34, 54, .24);
   --line-d: rgba(255, 255, 255, .16);
@@ -218,7 +219,7 @@ svg.i { width: 20px; height: 20px; flex: none; }
 /* ---------- 8. Status + hours ---------- */
 .status { display: inline-flex; align-items: center; gap: 9px; font-size: .95rem; font-weight: 600; color: var(--ink-2); }
 .status__dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); flex: none; }
-.status.is-open .status__dot { background: var(--ok); box-shadow: 0 0 0 4px rgba(31, 138, 76, .16); }
+.status.is-open .status__dot { background: var(--ok); box-shadow: 0 0 0 4px rgba(24, 122, 66, .16); }
 .status.is-open { color: var(--ok); }
 [data-theme="dark"] .status { color: rgba(255, 255, 255, .78); }
 [data-theme="dark"] .status.is-open { color: #7fe0a7; }
@@ -227,7 +228,7 @@ svg.i { width: 20px; height: 20px; flex: none; }
 .hours__row { display: grid; grid-template-columns: 7.5rem 1fr; gap: 12px; padding: 11px 0; border-top: 1px solid var(--line); font-size: .98rem; }
 .hours__day { font-weight: 600; }
 .hours__time { color: var(--ink-2); }
-.hours__row.is-closed .hours__time { color: var(--red); font-weight: 600; }
+.hours__row.is-closed .hours__time { color: var(--red-text); font-weight: 600; }
 .hours__row.is-today { position: relative; font-weight: 700; }
 .hours__row.is-today .hours__day::after { content: 'Today'; margin-left: 8px; font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); }
 

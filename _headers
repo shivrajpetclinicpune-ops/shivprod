@@ -27,3 +27,7 @@
 
 /assets/*
   Cache-Control: public, max-age=604800
+
+# Keep the Cloudflare Pages preview host out of search results (canonical domain is www.shivrajpetclinicpune.com)
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex

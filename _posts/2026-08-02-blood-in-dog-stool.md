@@ -1,35 +1,62 @@
 ---
-title: "Blood in Dog Stool: Causes and When It Requires Immediate Care"
+title: "Blood in Dog Stool: Causes and When It Needs Immediate Care"
 date: "2026-08-02"
+updated: "2026-10-17"
 cat: "dog"
-catLabel: "🐕 Dogs"
+read: 3
 img: "https://images.pexels.com/photos/16019884/pexels-photo-16019884.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-summary: "Blood in your dog's stool can look alarming or barely noticeable — both matter. Learn what bright red versus dark, tarry stool means and when to see a vet."
-read: "5"
-slug: "blood-in-dog-stool"
+summary: "Bright red streaks after a dietary slip-up are very different from dark, tarry stool or raspberry-jam diarrhoea. How to describe what you see, which signs point to parvo or bleeding disorders, and what we test for."
 ---
-<p><em>Medically reviewed by <strong>Dr. Pritesh Vidhate</strong>, BVSc &amp; AH, MVSc (Veterinary Epidemiology &amp; Preventive Medicine).</em></p>
+Seeing blood in your dog's stool is alarming, but the **colour and pattern** tell us a lot about where it is coming from and how urgent it is. Before you clean up, take a photo. It is one of the most useful things you can bring to the vet.
 
-<p>Not all blood in stool looks the same, and the difference matters. Bright red blood and dark, tarry stool point to different problems in the digestive tract, and both deserve attention rather than a wait-and-see approach.</p>
+## Read the colour
 
-<h2>Bright Red Blood (Hematochezia)</h2>
-<p>This usually indicates bleeding lower in the digestive tract — the colon or rectum. Common causes include colitis, straining from constipation, parasites, or anal gland issues. It's often less immediately dangerous than dark stool, but still needs veterinary evaluation, especially if it recurs.</p>
+**Bright red blood (haematochezia)** comes from the large intestine or rectum.
+- Streaks on the outside of a normal or soft stool, or a few drops at the end.
+- Often with mucus (a jelly-like coating) and straining.
+- Common causes: colitis after eating something unusual (street food, garbage, a sudden diet change), stress, whipworms, and anal gland problems.
 
-<h2>Dark, Tarry Stool (Melena)</h2>
-<p>This indicates digested blood, meaning the bleeding is higher up — the stomach or small intestine. Possible causes include ulcers, certain medications, ingested toxins, or more serious internal conditions. Dark tarry stool should be treated with more urgency than bright red blood.</p>
+**Dark, black, tarry stool (melaena)** comes from **higher up**: the stomach or small intestine. The blood has been digested.
+- Sticky, shiny black stool with a strong smell.
+- Causes: stomach ulcers (often from **human painkillers** like ibuprofen or diclofenac, or a dog NSAID with steroids), swallowed blood, tumours, and severe infections.
+- **Always needs a vet visit the same day.**
 
-<h2>When It's an Emergency</h2>
-<p>Large volumes of blood, blood combined with vomiting or lethargy, pale gums, or a dog that seems weak alongside the bloody stool all point toward a more serious problem — get to a vet immediately rather than monitoring at home.</p>
+**"Raspberry jam" diarrhoea**: large amounts of watery, red, foul-smelling diarrhoea, often with vomiting. Seen with **parvovirus** in puppies and with acute haemorrhagic diarrhoea syndrome (AHDS) in small breeds. Both can cause dangerous dehydration within hours.
 
-<h2>What Your Vet Will Check</h2>
-<p>A physical exam, fecal testing for parasites, and bloodwork are common first steps; depending on findings, X-rays or ultrasound may follow to look for a structural cause.</p>
+## Signs that make it urgent
 
-<h2>Frequently Asked Questions</h2>
-<p><strong>Is a small streak of blood always a problem?</strong><br>A single small streak in an otherwise well dog can be minor, but recurring streaks or any volume of blood alongside other symptoms should be checked.</p>
-<p><strong>Can diet cause blood in stool?</strong><br>Yes — a sudden diet change or dietary indiscretion can cause colitis with visible blood, but this should still be evaluated if it doesn't resolve quickly.</p>
-<p><strong>Are puppies more at risk from blood in stool?</strong><br>Yes — parasites and infections causing bloody stool can dehydrate and weaken puppies much faster than adult dogs.</p>
-<p><strong>What should I bring to the vet visit?</strong><br>A fresh stool sample if possible — it speeds up parasite testing and diagnosis.</p>
+<div class="post-warning"><strong>Come in the same day if there is:</strong> blood with vomiting; black tarry stool; large amounts of blood; a puppy or unvaccinated dog with bloody diarrhoea; weakness, pale gums or collapse; a swollen, painful belly; or any chance your dog ate rat poison. Rat poison stops blood clotting, and bleeding can show up in the stool, urine, gums or under the skin.</div>
 
-<div class="post-warning">⚠️ If you notice these signs in your pet, don't wait it out at home.</div>
+## Common causes we see in Pune dogs
 
-<p>Call <strong>Shivraj Pet Clinic &amp; Lab</strong> at <a href="tel:+917756965169">077569 65169</a> or <a href="../index.html#book" class="internal-link">book an appointment online</a> — we serve pet parents across Pimple Nilakh, Wakad, Pimple Saudagar, and Vishal Nagar, with same-visit lab results and full diagnostic support under one roof.</p>
+- **Dietary indiscretion:** garbage, leftover biryani, bones, festival sweets, and grass and plastic on walks.
+- **Parasites:** hookworms (which also cause anaemia), whipworms, coccidia and Giardia, especially in puppies and rescue dogs.
+- **Parvovirus** in unvaccinated or incompletely vaccinated puppies.
+- **Tick fever:** low platelets from *Ehrlichia* can cause bleeding from the gut as well as the nose.
+- **Stress colitis** after boarding, travel, or Diwali fireworks.
+- **Medicine side effects:** NSAIDs, steroids, or human painkillers given at home.
+- **Foreign objects:** sharp bone pieces, sticks or toys scraping the gut.
+- **Anal gland abscess, or polyps and tumours** in older dogs.
+
+## What we check
+
+- **Faecal microscopy** in our in-house lab for worms, coccidia and Giardia.
+- **Parvovirus rapid test** for puppies and unvaccinated dogs.
+- **CBC** (about 15–20 minutes) for anaemia, infection and platelet count, and **biochemistry** for dehydration and organ involvement.
+- **Digital X-ray** if we suspect a foreign object or an abdominal problem.
+- A rectal examination for anal gland problems and masses.
+
+## At home, for a mild case
+
+If your adult dog is bright, eating, not vomiting, and has only small streaks of red blood after a known diet slip-up, call us for advice. A short bland-diet plan may be enough. But **don't give** human anti-diarrhoea medicines, painkillers or antibiotics left over from a previous illness. If it isn't better within 24–48 hours, or gets worse, bring your dog in.
+
+## Frequently Asked Questions
+
+**Is a little blood after a hard stool normal?**\
+A tiny streak after straining can come from irritation, but it isn't "normal". If it happens more than once, get it checked.
+
+**Can stress really cause bloody diarrhoea?**\
+Yes. Stress colitis is common after boarding, travel or firecracker nights, and usually settles with treatment. Rule out other causes first.
+
+**My puppy is vaccinated. Can it still be parvo?**\
+If the vaccine course isn't complete (the last puppy dose around 16 weeks), protection may not be full. Test any puppy with bloody diarrhoea.
