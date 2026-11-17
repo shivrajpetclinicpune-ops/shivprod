@@ -3,6 +3,76 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/docs/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/src/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/scripts/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/_posts/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/_original/:path*",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/build.js",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/package.json",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/package-lock.json",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/vercel.json",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/_redirects",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/_headers",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/.gitignore",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
+      "source": "/.vercelignore",
+      "destination": "/not-found",
+      "statusCode": 302
+    },
+    {
       "source": "/pet-hospital-near-me",
       "destination": "/#book",
       "statusCode": 301
