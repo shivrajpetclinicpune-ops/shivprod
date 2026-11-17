@@ -6,3 +6,27 @@ Thumbs.db
 .claude/
 .omc/
 .geo-work/
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+AUDIT_REPORT.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+COMPETITOR_ANALYSIS.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+DEPLOYMENT_CHECKLIST.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+GEO_SEO_BASELINE.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+IMPLEMENTATION_REPORT.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+MISSION_STATUS.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+REVIEW_REQUEST_TEMPLATES.md
+
+# Owner reports: local only (Git deploys serve every tracked file; .vercelignore was not applied)
+TASK_LOG.md
