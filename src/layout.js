@@ -22,7 +22,8 @@ function orgSchema() {
     telephone: clinic.phone,
     email: clinic.email,
     foundingDate: String(clinic.founded),
-    priceRange: '₹₹',
+    priceRange: `₹${clinic.fees.regular}–₹${clinic.fees.exotic} consultation`,
+    isAcceptingNewPatients: true,
     currenciesAccepted: 'INR',
     address: {
       '@type': 'PostalAddress',
@@ -38,8 +39,20 @@ function orgSchema() {
     openingHoursSpecification: clinic.hours.map((h) => ({
       '@type': 'OpeningHoursSpecification', dayOfWeek: clinic.openDays, opens: h.open, closes: h.close,
     })),
-    employee: clinic.doctors.map((d) => ({ '@type': 'Person', name: d.name, jobTitle: d.role })),
-    sameAs: [clinic.socials.instagram, clinic.socials.facebook, clinic.socials.practo],
+    founder: { '@type': 'Person', '@id': `${SITE}/about#shivaji`, name: clinic.doctors.find((d) => d.id === 'shivaji')?.name },
+    employee: clinic.doctors.map((d) => ({ '@type': 'Person', '@id': `${SITE}/about#${d.id}`, name: d.name, jobTitle: d.role, honorificSuffix: d.creds })),
+    contactPoint: { '@type': 'ContactPoint', telephone: clinic.phone, contactType: 'appointments', areaServed: 'IN', email: clinic.email },
+    knowsAbout: ['Dogs', 'Cats', 'Pet birds and parrots', 'Rabbits', 'Turtles and tortoises', 'Iguanas and lizards', 'Guinea pigs, hamsters and gerbils', 'Veterinary pathology', 'Veterinary surgery', 'Exotic animal medicine'],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Veterinary services',
+      itemListElement: services.filter((s) => !s.hidden).map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', '@id': `${SITE}/services/${s.slug}#service`, name: s.name, url: `${SITE}/services/${s.slug}` } })),
+    },
+    makesOffer: [
+      { '@type': 'Offer', name: 'Veterinary consultation', price: clinic.fees.regular, priceCurrency: 'INR' },
+      { '@type': 'Offer', name: 'Exotic pet consultation', price: clinic.fees.exotic, priceCurrency: 'INR' },
+    ],
+    sameAs: [clinic.socials.instagram, clinic.socials.facebook, clinic.socials.practo, ...clinic.reviews.filter((r) => r.name === 'Justdial').map((r) => r.url)],
   };
 }
 

@@ -1,0 +1,13 @@
+# Mission/report docs and source PDFs are for the owner, not the public site.
+MISSION_STATUS.md
+TASK_LOG.md
+GEO_SEO_BASELINE.md
+COMPETITOR_ANALYSIS.md
+AUDIT_REPORT.md
+IMPLEMENTATION_REPORT.md
+DEPLOYMENT_CHECKLIST.md
+*.pdf
+.omc
+.claude
+.geo-work
+REVIEW_REQUEST_TEMPLATES.md

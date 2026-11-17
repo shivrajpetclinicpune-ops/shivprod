@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SKIP = new Set(['node_modules', '_posts', 'admin', '.git', 'docs', 'scripts', 'src', 'data']);
+const SKIP = new Set(['node_modules', '_posts', 'admin', '.git', '.geo-work', '.claude', '.omc', 'docs', 'scripts', 'src', 'data']);
 const files = [];
 (function walk(d) {
   for (const f of fs.readdirSync(d)) {

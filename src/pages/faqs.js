@@ -9,6 +9,13 @@ const GROUP_META = {
   'turtle-faqs': ['turtle', 'Turtles & tortoises', 'turtles-trio'], 'reptile-faqs': ['lizard', 'Reptiles', 'iguana-arm'],
   'rabbit-faqs': ['rabbit', 'Rabbits', 'rabbit-white'], 'guineapig-faqs': ['guinea', 'Guinea pigs', 'guinea-pigs-pair'],
 };
+// Each species group links to the page for that care.
+const GROUP_LINK = {
+  'dog-faqs': ['/services/clinical-medicine', 'Dog care at the clinic'], 'cat-faqs': ['/services/clinical-medicine', 'Cat care at the clinic'],
+  'bird-faqs': ['/services/bird-vet', 'Bird & parrot vet'], 'turtle-faqs': ['/services/turtle-reptile-vet', 'Turtle & reptile vet'],
+  'reptile-faqs': ['/services/turtle-reptile-vet', 'Turtle & reptile vet'], 'rabbit-faqs': ['/services/rabbit-vet', 'Rabbit vet'],
+  'guineapig-faqs': ['/services/guinea-pig-hamster-vet', 'Guinea pig & hamster vet'],
+};
 const strip = (h) => h.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 
 module.exports = function faqs() {
@@ -23,7 +30,7 @@ module.exports = function faqs() {
     return `<section class="faqg" id="${g.id}" aria-labelledby="${g.id}-h" data-faq-group>
       <header class="faqg__head">
         <figure class="faqg__img">${picture(pic, { sizes: '(min-width:1024px) 14rem, 30vw', alt: '' })}</figure>
-        <div><h2 class="display display--sm" id="${g.id}-h">${name}</h2><p class="muted">${g.items.length} questions</p></div>
+        <div><h2 class="display display--sm" id="${g.id}-h">${name}</h2><p class="muted">${g.items.length} questions${GROUP_LINK[g.id] ? ` · <a href="${GROUP_LINK[g.id][0]}">${GROUP_LINK[g.id][1]}</a>` : ''}</p></div>
       </header>
       ${faqList(g.items.map((it) => ({ q: brandText(it.q), aHtml: brandHtml(it.a) })))}
     </section>`;
@@ -47,7 +54,7 @@ module.exports = function faqs() {
   };
   return {
     path: '/pet-care-faqs',
-    title: 'Dog, Cat, Bird & Exotic Pet FAQs | Shivraj Pet Clinic & Lab Pune',
+    title: 'Pet Health FAQs | Shivraj Pet Clinic & Lab, Pune',
     description: `${total} answers to common dog, cat, bird, rabbit, turtle, reptile and guinea pig health questions from the vets at Shivraj Pet Clinic & Lab, Pimple Nilakh, Pune.`,
     image: absImg('turtles-trio'),
     schema: [breadcrumbs([['Home', '/'], ['Pet Care FAQs', '/pet-care-faqs']]), schema],

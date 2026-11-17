@@ -7,6 +7,22 @@ const { breadcrumbs } = require('./service');
 // about.html lists: [1] qualifications, [2] continuing education (both Dr. Pritesh).
 const [, QUALS = [], CE = []] = extracted.aboutLists;
 
+// Full Person entities; other pages (blog authors, service reviewers) reference them by @id.
+const personSchema = (d) => ({
+  '@type': 'Person',
+  '@id': `${clinic.site}/about#${d.id}`,
+  name: d.name,
+  jobTitle: d.role,
+  honorificSuffix: d.creds,
+  description: d.bio,
+  image: absImg(d.photo),
+  url: `${clinic.site}/about#${d.id}`,
+  knowsAbout: d.focus,
+  ...(d.reg ? { identifier: { '@type': 'PropertyValue', propertyID: 'Maharashtra State Veterinary Council registration', value: d.reg.replace(/^MSVC Reg\. No\. /, '') } } : {}),
+  hasOccupation: { '@type': 'Occupation', name: 'Veterinarian', occupationLocation: { '@type': 'City', name: 'Pune' } },
+  worksFor: { '@id': `${clinic.site}/#clinic` },
+});
+
 module.exports = function about() {
   const [pritesh, shivaji] = clinic.doctors;
   const list = (title, items) => (items.length ? `<details class="creds"><summary>${label(title)} <span class="muted">${items.length}</span><span class="faq__ic">${icon('plus')}</span></summary><ul>${items.map((q) => `<li>${esc(q)}</li>`).join('')}</ul></details>` : '');
@@ -66,12 +82,12 @@ module.exports = function about() {
 
   return {
     path: '/about',
-    title: 'Doctors | Dr. Pritesh & Dr. Shivaji Vidhate | Shivraj Pet Clinic & Lab, Pune',
-    description: 'Meet Dr. Shivaji B. Vidhate (M.V.Sc. Pathology, 33+ years, retired DAHO Pune) and Dr. Pritesh S. Vidhate, the father-and-son vets behind Shivraj Pet Clinic & Lab, Pimple Nilakh, since 2013.',
+    title: 'Our Vets | Shivraj Pet Clinic & Lab, Pimple Nilakh, Pune',
+    description: 'Meet Dr. Pritesh S. Vidhate and Dr. Shivaji B. Vidhate (M.V.Sc. Pathology, 33+ years), the father-and-son vets of Shivraj Pet Clinic & Lab, Pune, since 2013.',
     image: absImg('team-cat-care'),
     schema: [breadcrumbs([['Home', '/'], ['Doctors', '/about']]), {
       '@context': 'https://schema.org', '@type': 'AboutPage', url: `${clinic.site}/about`, about: { '@id': `${clinic.site}/#clinic` },
-      mainEntity: clinic.doctors.map((d) => ({ '@type': 'Person', name: d.name, jobTitle: d.role, worksFor: { '@id': `${clinic.site}/#clinic` }, image: absImg(d.photo) })),
+      mainEntity: clinic.doctors.map((d) => personSchema(d)),
     }],
     body,
     bodyClass: 'page-about',

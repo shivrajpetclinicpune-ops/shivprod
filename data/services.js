@@ -16,6 +16,15 @@ const services = [
     blurb: 'Prescription medicines, parasite control, supplements, therapeutic diets and e-collars on site.', related: ['clinical-medicine', 'preventive-medicine', 'exotic-animal-centre'] },
   { slug: 'exotic-animal-centre', name: 'Exotic Animal Centre', group: 'exotic', icon: 'bird', photo: 'bird-sun-conure', blogCat: 'exotic',
     blurb: 'Birds, rabbits, turtles, reptiles, guinea pigs and hamsters, examined, diagnosed and operated on with species-appropriate care and gaseous anaesthesia.', related: ['pathology-lab', 'digital-xray', 'soft-tissue-surgery'] },
+  // Species pages (GEO 2026-11-17): content in data/species-pages.js.
+  { slug: 'rabbit-vet', name: 'Rabbit Vet', group: 'exotic', icon: 'rabbit', photo: 'rabbit-exam', blogCat: 'exotic',
+    blurb: 'GI stasis, dental disease, spaying and neutering for pet rabbits, with in-house blood tests and ultrasound.', related: ['exotic-animal-centre', 'pathology-lab', 'sonography'] },
+  { slug: 'bird-vet', name: 'Bird & Parrot Vet', group: 'exotic', icon: 'bird', photo: 'bird-stethoscope', blogCat: 'exotic',
+    blurb: 'Budgies, cockatiels, lovebirds, conures, African greys and macaws: illness, egg binding and feather DNA sexing.', related: ['exotic-animal-centre', 'digital-xray', 'pathology-lab'] },
+  { slug: 'turtle-reptile-vet', name: 'Turtle & Reptile Vet', group: 'exotic', icon: 'turtle', photo: 'turtle-exam', blogCat: 'exotic',
+    blurb: 'Turtles, tortoises, iguanas and lizards: shell rot, soft shell, eye problems and X-ray.', related: ['exotic-animal-centre', 'digital-xray', 'pathology-lab'] },
+  { slug: 'guinea-pig-hamster-vet', name: 'Guinea Pig & Hamster Vet', group: 'exotic', icon: 'guinea', photo: 'guinea-pigs-pair', blogCat: 'exotic',
+    blurb: 'Guinea pigs, hamsters and gerbils: overgrown teeth, vitamin C deficiency, wet tail and bladder stones.', related: ['exotic-animal-centre', 'pathology-lab', 'digital-xray'] },
   { slug: 'pathology-lab', name: 'Pathology Lab', group: 'diagnostics', icon: 'microscope', photo: 'lab-analysers', blogCat: 'surgery',
     blurb: 'In-house blood panels, urinalysis and cytology. CBC and biochemistry ready in 15–20 minutes.', related: ['digital-xray', 'sonography', 'clinical-medicine'] },
   { slug: 'digital-xray', name: 'Digital X-Ray', group: 'diagnostics', icon: 'xray', photo: 'xray-review-turtle', blogCat: 'surgery',
@@ -48,13 +57,13 @@ const species = [
   { id: 'cats', name: 'Cats', word: 'Cat', latin: 'Felis catus', photos: ['cat-persian-sitting', 'cat-bella', 'cat-stethoscope'],
     line: 'Calm, cat-aware handling for check-ups, dental care and surgery.', link: '/services/cat-spaying', faq: '/pet-care-faqs#cat-faqs' },
   { id: 'rabbits', name: 'Rabbits', word: 'Rabbit', latin: 'Oryctolagus cuniculus', photos: ['rabbit-exam', 'rabbit-white', 'xray-rabbit-tortoise'],
-    line: 'Rabbit medicine, dental rasping, ultrasound and gaseous anaesthesia.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#rabbit-faqs' },
+    line: 'Rabbit medicine, dental rasping, ultrasound and gaseous anaesthesia.', link: '/services/rabbit-vet', faq: '/pet-care-faqs#rabbit-faqs' },
   { id: 'birds', name: 'Birds', word: 'Bird', latin: 'Aves', photos: ['bird-sun-conure', 'bird-cockatiel-lutino', 'bird-stethoscope'],
-    line: 'African greys, macaws, budgies, cockatiels, conures, finches and lovebirds.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#bird-faqs' },
+    line: 'African greys, macaws, budgies, cockatiels, conures, finches and lovebirds.', link: '/services/bird-vet', faq: '/pet-care-faqs#bird-faqs' },
   { id: 'reptiles', name: 'Turtles & reptiles', word: 'Reptile', latin: 'Testudines · Squamata', photos: ['turtle-exam', 'iguanas-basket', 'xray-turtle-plate'],
-    line: 'Turtles, tortoises and iguanas: shell, skin, nutrition and X-ray.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#turtle-faqs' },
+    line: 'Turtles, tortoises and iguanas: shell, skin, nutrition and X-ray.', link: '/services/turtle-reptile-vet', faq: '/pet-care-faqs#turtle-faqs' },
   { id: 'exotics', name: 'Small exotics', word: 'Exotic', latin: 'Rodentia & more', photos: ['guinea-pigs-pair', 'squirrels-rescue', 'cat-guinea-pigs-edge'],
-    line: 'Guinea pigs, hamsters and gerbils, and the occasional rescued squirrel.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#guineapig-faqs' },
+    line: 'Guinea pigs, hamsters and gerbils, and the occasional rescued squirrel.', link: '/services/guinea-pig-hamster-vet', faq: '/pet-care-faqs#guineapig-faqs' },
 ];
 
 // CMS overrides (/admin → "Services").

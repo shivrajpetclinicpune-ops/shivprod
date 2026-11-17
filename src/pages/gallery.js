@@ -89,8 +89,8 @@ module.exports = function gallery() {
 
   return {
     path: '/gallery',
-    title: 'Gallery: Real Patients & Clinic Photos | Shivraj Pet Clinic & Lab, Pune',
-    description: 'Photos from Shivraj Pet Clinic & Lab, Pimple Nilakh: dogs, cats, parrots, rabbits, guinea pigs, turtles and iguanas, plus our lab, digital X-ray, sonography, surgery and team.',
+    title: 'Clinic & Patient Photos | Shivraj Pet Clinic & Lab, Pune',
+    description: 'Real photos from Shivraj Pet Clinic & Lab, Pimple Nilakh: dogs, cats, parrots, rabbits, turtles and iguanas, plus our lab, X-ray, surgery and team.',
     image: absImg('bird-alexandrine'),
     schema: [breadcrumbs([['Home', '/'], ['Gallery', '/gallery']]), {
       '@context': 'https://schema.org', '@type': 'ImageGallery', name: 'Shivraj Pet Clinic & Lab gallery', url: `${clinic.site}/gallery`,

@@ -130,9 +130,44 @@ function faqSchemaOf(p) {
   return { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: pairs.map(([, q, a]) => ({ '@type': 'Question', name: plain(q), acceptedAnswer: { '@type': 'Answer', text: plain(a) } })) };
 }
 
+// Topic → most relevant service page, so every article links into the care it describes.
+const TOPIC_SERVICE = [
+  [/\b(rabbits?|bunn(y|ies))\b/i, 'rabbit-vet'],
+  [/\b(parrots?|birds?|budgies?|cockatiels?|avian|lovebirds?|conures?|macaws?|finches|canar(y|ies))\b/i, 'bird-vet'],
+  [/\b(turtles?|tortoises?|iguanas?|lizards?|reptiles?)\b/i, 'turtle-reptile-vet'],
+  [/\b(guinea pigs?|hamsters?|gerbils?)\b/i, 'guinea-pig-hamster-vet'],
+  [/\b(foreign (body|object)|swallow(ed)?|ate a)\b/i, 'foreign-body-removal-surgery'],
+  [/\b(tumou?rs?|lumps?|cancer|masses)\b/i, 'dog-tumor-surgery'],
+  [/\b(fractures?|hip dysplasia|orthop(a)?edic|ligament|limping|broken (leg|bone))\b/i, 'orthopedic-surgery'],
+  [/\b(hernia|cherry eye|anal glands?|bladder stones?)\b/i, 'soft-tissue-surgery'],
+  [/\b(gdv|bloat|c-section|caesarean)\b/i, 'emergency-surgery'],
+  [/\bspay\w*\b.*\b(cats?|kittens?|feline)\b|\b(cats?|kittens?|feline)\b.*\bspay/i, 'cat-spaying'],
+  [/\b(neuter\w*|castrat\w*|spay\w*)\b/i, 'dog-neutering'],
+  [/\b(x-?rays?|radiograph\w*)\b/i, 'digital-xray'],
+  [/\b(ultrasound|sonograph\w*|pregnan\w*)\b/i, 'sonography'],
+  [/\b(blood tests?|cbc|biochemistry|urine tests?|urinalysis|lab(oratory)? tests?|diagnostics?)\b/i, 'pathology-lab'],
+  [/\b(supplements?|prescriptions?|therapeutic diets?|prescription diets?|e-collars?)\b/i, 'vet-pharmacy'],
+  [/\b(vaccin\w*|deworm\w*|ticks?|fleas?|parasites?|check-?ups?|preventive)\b/i, 'preventive-medicine'],
+];
+function servicesFor(p) {
+  const text = `${p.title} ${p.summary}`;
+  const hit = TOPIC_SERVICE.find(([re]) => re.test(text));
+  const slugs = [hit && hit[1], CAT_SERVICE[p.cat]].filter(Boolean);
+  return [...new Set(slugs)].map((sl) => services.find((s) => s.slug === sl && !s.hidden)).filter(Boolean);
+}
+// Search titles: keep the brand when it fits in 60 characters.
+const fitTitle = (t) => [`${t} | Shivraj Pet Clinic & Lab, Pune`, `${t} | Shivraj Pet Clinic & Lab`].find((x) => x.length <= 60) || t;
+// Meta descriptions: ≤160 characters, cut at a sentence or word boundary.
+function clip(s, n = 160) {
+  if (s.length <= n) return s;
+  const cut = s.slice(0, n - 1);
+  const dot = cut.lastIndexOf('. ');
+  return dot > n * 0.6 ? cut.slice(0, dot + 1) : `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:—–-]+$/, '')}…`;
+}
+
 function postPage(p, all) {
   const related = all.filter((o) => o.slug !== p.slug && o.cat === p.cat).slice(0, 4);
-  const svc = services.find((s) => s.slug === CAT_SERVICE[p.cat]);
+  const svcs = servicesFor(p);
   const { html, heads } = tocOf(p.content);
   const pagePath = `/blog/${p.slug}`;
   const vids = videosFor(pagePath);
@@ -160,7 +195,7 @@ function postPage(p, all) {
       <div>
         <a class="btn btn--light" href="/#book"><span class="btn__label">Book an appointment</span><span class="btn__ic">${icon('arrow')}</span></a>
         ${contactPair({ cls: 'cpair--light', waText: `Hi Shivraj Pet Clinic & Lab, I read "${p.title}" and have a question.` })}
-        ${svc ? `<p class="post__cta-svc">Related care: <a href="/services/${svc.slug}">${svc.name}</a></p>` : ''}
+        ${svcs.length ? `<p class="post__cta-svc">Related care: ${svcs.map((s) => `<a href="/services/${s.slug}">${s.name}</a>`).join(' · ')}</p>` : ''}
       </div>
     </div>
   </aside>
@@ -168,14 +203,16 @@ function postPage(p, all) {
 </article>`;
   const article = {
     '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.summary, image: coverUrl(p),
-    author: { '@type': 'Person', name: 'Dr. Pritesh Vidhate', url: `${clinic.site}/about#pritesh` },
+    author: { '@type': 'Person', '@id': `${clinic.site}/about#pritesh`, name: 'Dr. Pritesh S. Vidhate', jobTitle: 'Head Veterinarian', url: `${clinic.site}/about#pritesh`, worksFor: { '@id': `${clinic.site}/#clinic` } },
+    about: svcs.map((s) => ({ '@id': `${clinic.site}/services/${s.slug}#service` })),
+    inLanguage: 'en-IN',
     publisher: { '@id': `${clinic.site}/#clinic` }, datePublished: p.dateISO, dateModified: p.updatedISO || p.dateISO,
     mainEntityOfPage: clinic.site + pagePath, articleSection: p.catName,
   };
   return {
     path: pagePath,
-    title: `${p.title} | Shivraj Pet Clinic & Lab, Pune`,
-    description: p.summary,
+    title: fitTitle(p.title),
+    description: clip(p.summary),
     image: coverUrl(p),
     imageAlt: p.photo ? photo(p.photo).alt : p.title,
     ogType: 'article',
@@ -210,7 +247,7 @@ function blogIndex(posts) {
   return {
     path: '/blog/',
     title: 'Pet Health Blog | Shivraj Pet Clinic & Lab Pune',
-    description: `${posts.length} vet-written articles on dog, cat, bird, rabbit and turtle health: vaccination schedules, emergencies, diagnostics and exotic pet care from Shivraj Pet Clinic & Lab, Pune.`,
+    description: `${posts.length} vet-written articles on dog, cat, bird, rabbit and turtle health, from vaccination to emergencies and exotic pet care, by Shivraj Pet Clinic & Lab, Pune.`,
     image: coverUrl(feat),
     schema: [breadcrumbs([['Home', '/'], ['Blog', '/blog/']]), {
       '@context': 'https://schema.org', '@type': 'Blog', name: 'Shivraj Pet Clinic & Lab blog', url: `${clinic.site}/blog/`, publisher: { '@id': `${clinic.site}/#clinic` },

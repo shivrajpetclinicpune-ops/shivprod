@@ -25,6 +25,30 @@
       "hidden": false
     },
     {
+      "slug": "rabbit-vet",
+      "name": "Rabbit Vet",
+      "blurb": "GI stasis, dental disease, spaying and neutering for pet rabbits, with in-house blood tests and ultrasound.",
+      "hidden": false
+    },
+    {
+      "slug": "bird-vet",
+      "name": "Bird & Parrot Vet",
+      "blurb": "Budgies, cockatiels, lovebirds, conures, African greys and macaws: illness, egg binding and feather DNA sexing.",
+      "hidden": false
+    },
+    {
+      "slug": "turtle-reptile-vet",
+      "name": "Turtle & Reptile Vet",
+      "blurb": "Turtles, tortoises, iguanas and lizards: shell rot, soft shell, eye problems and X-ray.",
+      "hidden": false
+    },
+    {
+      "slug": "guinea-pig-hamster-vet",
+      "name": "Guinea Pig & Hamster Vet",
+      "blurb": "Guinea pigs, hamsters and gerbils: overgrown teeth, vitamin C deficiency, wet tail and bladder stones.",
+      "hidden": false
+    },
+    {
       "slug": "pathology-lab",
       "name": "Pathology Lab",
       "blurb": "In-house blood panels, urinalysis and cytology. CBC and biochemistry ready in 15–20 minutes.",

@@ -17,11 +17,11 @@ const HERO_CYCLE = [
 const SPECIES = [
   { id: 'dogs', name: 'Dogs', a: 'dog-pug', b: 'dog-labrador', line: 'Puppies to seniors: vaccinations, medicine, diagnostics and surgery.', link: '/services/clinical-medicine', faq: '/pet-care-faqs#dog-faqs' },
   { id: 'cats', name: 'Cats', a: 'cat-calico', b: 'cat-bella', line: 'Calm, cat-aware handling for check-ups, dental care and surgery.', link: '/services/cat-spaying', faq: '/pet-care-faqs#cat-faqs' },
-  { id: 'rabbits', name: 'Rabbits', a: 'rabbit-white', b: 'rabbit-exam', line: 'Rabbit medicine, dental rasping, ultrasound and gaseous anaesthesia.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#rabbit-faqs' },
-  { id: 'birds', name: 'Birds', a: 'bird-sun-conure', b: 'bird-cockatiel-pied', line: 'African greys, macaws, budgies, cockatiels, conures, finches and lovebirds.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#bird-faqs' },
-  { id: 'turtles', name: 'Turtles & tortoises', a: 'turtles-trio', b: 'xray-turtle-plate', line: 'Shell, skin and nutrition, with digital X-ray for shells and skeletons.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#turtle-faqs' },
-  { id: 'reptiles', name: 'Reptiles', a: 'iguana-arm', b: 'iguanas-basket', line: 'Iguanas and other lizards: handling, diet, skin and diagnostics.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#reptile-faqs' },
-  { id: 'small', name: 'Guinea pigs & small pets', a: 'guinea-pigs-pair', b: 'squirrels-rescue', line: 'Guinea pigs, hamsters and gerbils, and the occasional rescued squirrel.', link: '/services/exotic-animal-centre', faq: '/pet-care-faqs#guineapig-faqs' },
+  { id: 'rabbits', name: 'Rabbits', a: 'rabbit-white', b: 'rabbit-exam', line: 'Rabbit medicine, dental rasping, ultrasound and gaseous anaesthesia.', link: '/services/rabbit-vet', faq: '/pet-care-faqs#rabbit-faqs' },
+  { id: 'birds', name: 'Birds', a: 'bird-sun-conure', b: 'bird-cockatiel-pied', line: 'African greys, macaws, budgies, cockatiels, conures, finches and lovebirds.', link: '/services/bird-vet', faq: '/pet-care-faqs#bird-faqs' },
+  { id: 'turtles', name: 'Turtles & tortoises', a: 'turtles-trio', b: 'xray-turtle-plate', line: 'Shell, skin and nutrition, with digital X-ray for shells and skeletons.', link: '/services/turtle-reptile-vet', faq: '/pet-care-faqs#turtle-faqs' },
+  { id: 'reptiles', name: 'Reptiles', a: 'iguana-arm', b: 'iguanas-basket', line: 'Iguanas and other lizards: handling, diet, skin and diagnostics.', link: '/services/turtle-reptile-vet', faq: '/pet-care-faqs#reptile-faqs' },
+  { id: 'small', name: 'Guinea pigs & small pets', a: 'guinea-pigs-pair', b: 'squirrels-rescue', line: 'Guinea pigs, hamsters and gerbils, and the occasional rescued squirrel.', link: '/services/guinea-pig-hamster-vet', faq: '/pet-care-faqs#guineapig-faqs' },
 ];
 
 // Ordered care journey: the one place numbering carries meaning (owner decision 2026-09-25).
@@ -322,11 +322,15 @@ const sectionHead = (kicker, title, id) => `<header class="shead"><p class="kick
 
 module.exports = function home(posts) {
   const faqs = [
+    { q: 'Where is Shivraj Pet Clinic & Lab?', a: `At ${clinic.address.street}, ${clinic.address.locality}, Pune ${clinic.address.pin}, on Aundh–Wakad Road near Jagtap Dairy, a few minutes from Wakad, Pimple Saudagar, Baner and Aundh.` },
+    { q: 'Who are the vets?', a: `Dr. Pritesh S. Vidhate (${clinic.doctors[0].creds}) leads clinical care and the Exotic Animal Centre. The clinic was founded in ${clinic.founded} by his father, Dr. Shivaji B. Vidhate (M.V.Sc. Pathology, 33+ years, retired District Animal Husbandry Officer, Pune).` },
     { q: 'What animals do you treat?', a: 'Dogs, cats, birds (including parrots, cockatiels, conures, budgies, lovebirds and finches), rabbits, guinea pigs, hamsters and gerbils, turtles and tortoises, and reptiles such as iguanas.' },
     { q: 'What are your timings?', a: `${clinic.hoursText}.` },
     { q: 'How much is a consultation?', a: `Regular consultation is ₹${clinic.fees.regular} and exotic pet consultation is ₹${clinic.fees.exotic}, payable at the clinic.` },
     { q: 'How fast are lab results?', a: 'CBC and biochemistry results from our in-house pathology lab are usually ready in 15–20 minutes, so treatment can start the same visit.' },
     { q: 'Do you handle emergencies?', a: 'Emergencies are seen during opening hours only. Please call +91 77569 65169 before you travel so the team can prepare. We do not offer after-hours or Wednesday emergency service.' },
+    { q: 'Are you open on Wednesday?', a: 'No. The clinic is closed every Wednesday. It is open Monday, Tuesday and Thursday to Sunday, 10:30 AM–1:30 PM and 3:00–8:30 PM.' },
+    { q: 'Do you offer pet grooming?', a: 'No. Shivraj Pet Clinic & Lab is a veterinary clinic and does not offer grooming. Medical care such as nail, beak and dental treatment for exotic pets is done by the vets when needed.' },
     { q: 'How do I book?', a: `Use the appointment form to send a WhatsApp request, message us directly, or call ${clinic.phoneDisplay}. Your appointment is confirmed when the clinic replies. Walk-ins are welcome during opening hours.` },
   ];
   const quick = `<section class="qfaq" aria-labelledby="qfaq-title"><div class="wrap qfaq__grid">
@@ -335,12 +339,12 @@ module.exports = function home(posts) {
   </div></section>`;
   const body = [hero(), intro(), care(), species(), diagnostics(), surgery(), doctors(), journey(), words(), onCamera(), blog(posts), visit(), book(), quick].join('\n');
   const faqSchema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) };
-  const webSite = { '@context': 'https://schema.org', '@type': 'WebSite', name: clinic.name, url: clinic.site + '/', publisher: { '@id': `${clinic.site}/#clinic` } };
+  const webSite = { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${clinic.site}/#website`, name: clinic.name, alternateName: clinic.alt, url: clinic.site + '/', inLanguage: 'en-IN', publisher: { '@id': `${clinic.site}/#clinic` } };
   const p = photo(HERO_MAIN);
   return {
     path: '/',
-    title: 'Shivraj Pet Clinic & Lab | Multispecies & Exotic Vet in Pimple Nilakh, Wakad, Pune',
-    description: 'Two-generation multispecies vet in Pimple Nilakh, Pune since 2013. Dogs, cats, birds, rabbits, turtles & exotic pets. In-house lab (15–20 min results), digital X-ray, sonography, surgery. Call +91 77569 65169.',
+    title: 'Shivraj Pet Clinic & Lab | Exotic & Pet Vet, Pimple Nilakh',
+    description: 'Multispecies vet in Pimple Nilakh, Pune since 2013 for dogs, cats, birds, rabbits and turtles. In-house lab (15–20 min), digital X-ray, sonography, surgery.',
     schema: [webSite, faqSchema, ...videosFor('home').map(videoSchema)],
     preload: { href: `/images/p/${HERO_MAIN}-shivraj-pet-clinic-960.avif`, srcset: p.widths.map((w) => `/images/p/${HERO_MAIN}-shivraj-pet-clinic-${w}.avif ${w}w`).join(', '), sizes: '(min-width:1024px) 56vw, 100vw' },
     body,

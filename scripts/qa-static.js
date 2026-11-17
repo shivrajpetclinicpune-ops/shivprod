@@ -8,7 +8,7 @@ const files = [];
 (function walk(d) {
   for (const f of fs.readdirSync(d)) {
     const p = path.join(d, f);
-    if (['node_modules', '_original', 'admin', '.gstack', 'docs', 'src', 'data', 'scripts', 'media', 'images', 'assets'].includes(f)) continue;
+    if (['node_modules', '_original', 'admin', '.gstack', '.geo-work', '.claude', '.omc', 'docs', 'src', 'data', 'scripts', 'media', 'images', 'assets'].includes(f)) continue;
     if (fs.statSync(p).isDirectory()) walk(p); else if (f.endsWith('.html')) files.push(p);
   }
 })(ROOT);
